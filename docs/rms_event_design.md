@@ -15,7 +15,7 @@ According to the WHO's technical package, RMS requires 1) a source of rapidly an
 
 Unlike cause-based mortality surveillance systems and death certification systems, the intent of RMS is to capture *total* mortality for the purpose of epidemic impact monitoring. Data are intended to be collected both in the facility and in the community, to capture all deaths. This approach can overcome known shortfalls to achieving completeness and coverage of cause-based mortality systems in many countries, such as poor linkages between health facility death reporting and national CRVS systems as well as high proportions of deaths that occur in the community and may go unreported. 
 
-For cause-based mortality surveillance, please reference the [DHIS2 Cause of Death metadata package](https://docs.dhis2.org/en/topics/metadata/crvs/cause-of-death-tracker-and-events/design.html) designed to support the WHO recommended medical certification of cause of death and International Classification of Disease (ICD) standards.
+For cause-based mortality surveillance, please reference the [DHIS2 Cause of Death metadata package](#cod-design) designed to support the WHO recommended medical certification of cause of death and International Classification of Disease (ICD) standards.
 
 ### 2.2 Intended users
 
@@ -31,13 +31,13 @@ The package is designed with the following end users in mind:
 
 RMS seeks to pull data from multiple reporting sources to gather a complete picture of total mortality. 
 
-![rms_system_graphic_who_2020](https://user-images.githubusercontent.com/21032705/140823731-99665476-6a7f-4945-ac91-230b9c46729e.PNG)
+![rms_system_graphic_who_2020](resources/images/rms_system_graphic_en.png)
 
 Ideally, the identification and reporting of deaths as part of RMS is also used as a notification for the civil registration system where possible. Careful consideration of existing community-based and facility-based death reporting protocols, completeness and coverage of vital events reporting, and the extent to which cause-based mortality and death certification systems can be sustained at adequate completeness & pace during an epidemic should be considered during the design of national RMS. 
 
 A typical business process for facility-based reporting is as follows: 
 
-![rms-community-reporting-who-2020](https://user-images.githubusercontent.com/21032705/140823509-0110ed77-c7c9-4c7b-8b53-0ba679db84fb.PNG)
+![rms-community-reporting-who-2020](resources/images/rms_community_reporting_en.png)
 
 ## Program configuration 
 
