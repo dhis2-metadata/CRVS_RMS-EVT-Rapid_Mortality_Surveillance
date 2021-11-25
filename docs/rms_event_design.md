@@ -1,5 +1,6 @@
 # RMS - Rapid Mortality Surveillance System Design { #rms-event-design }
-## 1. Introduction
+
+## Introduction
 
 While the number of COVID-19 deaths is a key indicator for measuring the impact of the pandemic across the world, this metric is not easy to collect in all contexts. Rapid mortality surveillance (RMS) is a system for generating daily or weekly counts of deaths mortality by age, sex, date of death, place of death, and place of usual residence (WHO, 2020). Combined with pre-pandemic data on mortality, RMS enables countries to calculate excess deaths during an epidemic, defined as the degree to which currently measured mortality exceeds historically established levels.
 
@@ -7,9 +8,9 @@ The purpose of this package is to provide practical guidance and a core set of m
 
 Reporting of total mortality from facilities, communities and midolegal personnel (as appropriate to country context) with basic data such as age, sex, date of death, place of death and place of residence enables a more complete picture of impact, particularly for deaths that may occur in the home/the community or may be indirectly linked to COVID-19. In addition, analyses of year-over year trends pre- and post-epidemic can reveal indirect impact related to disruptions in access to health services and products. 
 
-## 2. System Design Overview
+## System Design Overview
 
-### 2.1 Use case summary
+### Use Case Summary
 
 According to the WHO's technical package, RMS requires 1) a source of rapidly and routinely reported deaths by age, sex and location; and 2) some means to establish a baseline of pre-epidemic mortality levels by age and sex against which to compare the current reports. The metadata package corresponds to these components with an event program for line-listed data collection of deaths optimized for facility and community reporting; and a reference dashboard that enables year-over-year trend analysis to examine excess deaths compared to pre-pandemic levels. 
 
@@ -17,7 +18,7 @@ Unlike cause-based mortality surveillance systems and death certification system
 
 For cause-based mortality surveillance, please reference the [DHIS2 Cause of Death metadata package](#cod-design) designed to support the WHO recommended medical certification of cause of death and International Classification of Disease (ICD) standards.
 
-### 2.2 Intended users
+### Intended Users
 
 The package is designed with the following end users in mind:
 
@@ -27,26 +28,86 @@ The package is designed with the following end users in mind:
 3. Medicolegal personnel (i.e. coroners, medical examiners) in countries where a high proportion of deaths are captured by these workers
 4. Epidemic response teams, national COVID-19 task forces, and policy makers responsible for analyzing the data and directing epidemic response measures
 
-### 2.3 Data flow
-
-RMS seeks to pull data from multiple reporting sources to gather a complete picture of total mortality. 
+### 2.3 Data Flow
+FRMS seeks to pull data from multiple reporting sources to gather a complete picture of total mortality. 
 
 ![rms_system_graphic_who_2020](resources/images/rms_system_graphic_en.png)
 
-Ideally, the identification and reporting of deaths as part of RMS is also used as a notification for the civil registration system where possible. Careful consideration of existing community-based and facility-based death reporting protocols, completeness and coverage of vital events reporting, and the extent to which cause-based mortality and death certification systems can be sustained at adequate completeness & pace during an epidemic should be considered during the design of national RMS. 
+Ideally, the identification and reporting of deaths as part of RMS is also used as a notification for the civil registration system where possible. Careful consideration of existing community-based and facility-based death reporting protocols, completeness and coverage of vital events reporting, and the extent to which cause-based mortality and death certification systems can be sustained at adequate completeness & pace during an epidemic should be considered during the design of national RMS.
 
-A typical business process for facility-based reporting is as follows: 
+A typical business process for facility-based reporting is as follows:
 
 ![rms-community-reporting-who-2020](resources/images/rms_community_reporting_en.png)
 
-## Program configuration 
+## Program Configuration
 
-This package uses the event data model in DHIS2 to record deaths. The event model was selected because: 1) it is flexible enough to report and analyze the key RMS variables age, sex, date of death, place of death, and place of usual residence; 2) data is reported for a given death at single point in time and does not require longitudinal tracking; and 3) no directly personally identifiable data are captured in this program. 
+This package uses the event data model in DHIS2 to record deaths. The event model was selected because:
+
+1. It is flexible enough to report and analyze the key RMS variables age, sex, date of death, place of death, and place of usual residence;
+2. Data is reported for a given death at single point in time and does not require longitudinal tracking;
+3. No directly personally identifiable data are captured in this program.
 
 ## User groups
 
+Three core user groups are included in the package.
+
+* RMS - access
+* RMS - admin
+* RMS - data capture
+
+By default the following permissions are assigned to these user groups:
+
+|Object                   |User Group                                     |                                                     |                                                     |
+|-------------------------|-----------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|
+|                         | _RMS - access_                                | _RMS - admin_                                       | _RMS - data capture_                                |
+| _*Program*_             | Metadata : can view <br> Data: can view       | Metadata : can edit and view <br> Data: no access   | Metadata : can view <br> Data: can capture and view |
+| _*Program Stages*_      | Metadata : can view <br> Data: can view       | Metadata : can view <br> Data: no access            | Metadata : can view <br> Data: can capture and view |
+| _*Dashboards*_          | Metadata : can view                           | Metadata : can view                                 | Metadata : can view                                 |
+
+The users are assigned to the appropriate user group based on their role within the system. Sharing for other objects in the package may be adjusted depending on the set up. Refer to the [DHIS2 Documentation on sharing](#sharing) for more information.
+
 ## Analytics
 
-### Dashboard
+The package contains four core program indicators used in visualizations, maps and report tables:
+
+| UID           | Name                          | Description                                    |
+|---------------|-------------------------------|------------------------------------------------|
+| `UMX5BHF0tJL` | RMS - Deaths (#)              | Total number of deaths in the reporting period |
+| `WqcliBMvwaf` | RMS - Deaths - cumulative (#) | Cumulative number of deaths                    |
+| `mNiLSRgYdAB` | RMS - Deaths - female (#)     | Number of deaths among females                 |
+| `CFaSySxD8TD` | RMS - Deaths - male (#)       | Number of deaths among males                   |
+
+Administrative area of residence (organisation unit) and place of death (coordinates) captured in the register are used to visualize mortality data on maps.
+
+## Dashboard
+
+The Rapid Mortality Surveillance packages includes a dashboard containing following dashboard items:
+
+| UID           | Name                                         | Type                  | Description                                                                                                       |
+|---------------|----------------------------------------------|-----------------------|-------------------------------------------------------------------------------------------------------------------|
+| `GLVdm5xK6lH` | RMS - Deaths by place, last 52 weeks         | Map                   | Mortality data by place of death (coordinates), last 52 weeks                                                     |
+| `mNiLSRgYdAB` | RMS - Deaths per region, by months this year | Map                   | Mortality data, regional, months this year, by reporting organisation unit                                        |
+| `CFaSySxD8TD` | RMS - Deaths by sex                          | Column                | Number of deaths by sex, last 52 weeks, user organisation unit                                                    |
+| `yIB5hqPsjf6` | RMS - Deaths by year                         | Year over year (line) | Number of deaths by weeks per year, this year and last 5 years                                                    |
+| `UMX5BHF0tJL` | RMS - Deaths by age, sex                     | Event report          | Number of deaths by age groups (0-4,5-14,15-44,45+) and sex (male, female, unknown)                               |
+| `iRodVwZ80kX` | RMS - Summary Line List                      | Event Report          | Line list: reporting date, reporting organisation unit, age, sex, date of death, Died in health facility (Yes/No) |
+
+![Deaths by place, last 52 weeks](resources/images/rms-dsh-deaths_by_place-en.png)
+
+![Deaths per region, by months this year](resources/images/rms-dsh-deaths_per_region-en.png)
+
+![Deaths by sex](resources/images/rms-dsh-deaths_by_sex-en.png)
+
+![Deaths by year](resources/images/rms-dsh-deaths_by_year-en.png)
+
+![Deaths by age, sex](resources/images/rms-dsh-deaths_by_age_sex-en.png)
+
+![Summary Line List](resources/images/rms-dsh-summary_line_list-en.png)
+
+### Considerations
+
+Current limitations of the Event Reports app may influence the import of pre-configured event reports. It is possible to recreate the 2 event reports described in the table above and add them to the RMS dashboard.
+
+More details here.
 
 ## Resources
