@@ -60,9 +60,9 @@ By default the following permissions are assigned to these user groups:
 |Object                   |User Group                                     |                                                     |                                                     |
 |-------------------------|-----------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|
 |                         | _RMS - access_                                | _RMS - admin_                                       | _RMS - data capture_                                |
-| _*Program*_             | Metadata : can view <br> Data: can view       | Metadata : can edit and view <br> Data: no access   | Metadata : can view <br> Data: can capture and view |
-| _*Program Stages*_      | Metadata : can view <br> Data: can view       | Metadata : can view <br> Data: no access            | Metadata : can view <br> Data: can capture and view |
-| _*Dashboards*_          | Metadata : can view                           | Metadata : can view                                 | Metadata : can view                                 |
+| _*Program*_             | Metadata: can view <br> Data: can view       | Metadata: can edit and view <br> Data: no access   | Metadata: can view <br> Data: can capture and view |
+| _*Program Stages*_      | Metadata: can view <br> Data: can view       | Metadata: can view <br> Data: no access            | Metadata: can view <br> Data: can capture and view |
+| _*Dashboards*_          | Metadata: can view                           | Metadata: can view                                 | Metadata: can view                                 |
 
 The users are assigned to the appropriate user group based on their role within the system. Sharing for other objects in the package may be adjusted depending on the set up. Refer to the [DHIS2 Documentation on sharing](#sharing) for more information.
 
