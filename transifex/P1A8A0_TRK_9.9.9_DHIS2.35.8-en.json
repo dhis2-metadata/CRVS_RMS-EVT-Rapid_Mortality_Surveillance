@@ -1,0 +1,3231 @@
+{
+    "attributes": [
+        {
+            "attributeValues": [],
+            "categoryAttribute": false,
+            "categoryOptionAttribute": false,
+            "categoryOptionComboAttribute": false,
+            "categoryOptionGroupAttribute": false,
+            "categoryOptionGroupSetAttribute": false,
+            "constantAttribute": false,
+            "dataElementAttribute": false,
+            "dataElementGroupAttribute": false,
+            "dataElementGroupSetAttribute": false,
+            "dataSetAttribute": false,
+            "description": "ICD-10 code",
+            "documentAttribute": false,
+            "externalAccess": false,
+            "favorite": false,
+            "id": "iehcXLBKVWM",
+            "indicatorAttribute": false,
+            "indicatorGroupAttribute": false,
+            "legendSetAttribute": false,
+            "mandatory": false,
+            "name": "Code (ICD-10)",
+            "optionAttribute": false,
+            "optionSetAttribute": false,
+            "organisationUnitAttribute": false,
+            "organisationUnitGroupAttribute": false,
+            "organisationUnitGroupSetAttribute": false,
+            "programAttribute": false,
+            "programIndicatorAttribute": false,
+            "programStageAttribute": false,
+            "publicAccess": "rw------",
+            "sectionAttribute": false,
+            "shortName": "ICD-10",
+            "sqlViewAttribute": false,
+            "trackedEntityAttributeAttribute": true,
+            "trackedEntityTypeAttribute": false,
+            "translations": [
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Código (ICD-10)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Code (CIM-10)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Kód (ICD-10)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "ICD-10"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DESCRIPTION",
+                    "value": "ICD-10 kód"
+                },
+                {
+                    "locale": "ru",
+                    "property": "DESCRIPTION",
+                    "value": "Код МКБ-10"
+                },
+                {
+                    "locale": "ru",
+                    "property": "SHORT_NAME",
+                    "value": "МКБ-10"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "CIM-10"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "CIE-10"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Code CIM-10"
+                },
+                {
+                    "locale": "es",
+                    "property": "DESCRIPTION",
+                    "value": "Código ICD-10"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "Код (МКБ-10)"
+                }
+            ],
+            "unique": true,
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userAttribute": false,
+            "userGroupAccesses": [],
+            "userGroupAttribute": false,
+            "validationRuleAttribute": false,
+            "validationRuleGroupAttribute": false,
+            "valueType": "TEXT"
+        },
+        {
+            "attributeValues": [],
+            "categoryAttribute": false,
+            "categoryOptionAttribute": false,
+            "categoryOptionComboAttribute": false,
+            "categoryOptionGroupAttribute": false,
+            "categoryOptionGroupSetAttribute": false,
+            "constantAttribute": false,
+            "dataElementAttribute": false,
+            "dataElementGroupAttribute": false,
+            "dataElementGroupSetAttribute": false,
+            "dataSetAttribute": false,
+            "description": "Loinc code",
+            "documentAttribute": false,
+            "externalAccess": false,
+            "favorite": false,
+            "id": "mpXON5igCG1",
+            "indicatorAttribute": false,
+            "indicatorGroupAttribute": false,
+            "legendSetAttribute": false,
+            "mandatory": false,
+            "name": "Code (Loinc)",
+            "optionAttribute": false,
+            "optionSetAttribute": false,
+            "organisationUnitAttribute": false,
+            "organisationUnitGroupAttribute": false,
+            "organisationUnitGroupSetAttribute": false,
+            "programAttribute": false,
+            "programIndicatorAttribute": false,
+            "programStageAttribute": false,
+            "publicAccess": "rw------",
+            "sectionAttribute": false,
+            "shortName": "Loinc",
+            "sqlViewAttribute": false,
+            "trackedEntityAttributeAttribute": true,
+            "trackedEntityTypeAttribute": false,
+            "translations": [
+                {
+                    "locale": "es",
+                    "property": "DESCRIPTION",
+                    "value": "Código Loinc"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Loinc"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "code Loinc"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Código (Loinc)"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "Код (Loinc)"
+                },
+                {
+                    "locale": "ru",
+                    "property": "SHORT_NAME",
+                    "value": "Loinc"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Kód (Loinc)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DESCRIPTION",
+                    "value": "Loinc kód"
+                },
+                {
+                    "locale": "ru",
+                    "property": "DESCRIPTION",
+                    "value": "Код Loinc"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "code (Loinc)"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Loinc"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Loinc"
+                }
+            ],
+            "unique": true,
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userAttribute": false,
+            "userGroupAccesses": [],
+            "userGroupAttribute": false,
+            "validationRuleAttribute": false,
+            "validationRuleGroupAttribute": false,
+            "valueType": "TEXT"
+        },
+        {
+            "attributeValues": [],
+            "categoryAttribute": false,
+            "categoryOptionAttribute": false,
+            "categoryOptionComboAttribute": false,
+            "categoryOptionGroupAttribute": false,
+            "categoryOptionGroupSetAttribute": false,
+            "constantAttribute": false,
+            "dataElementAttribute": false,
+            "dataElementGroupAttribute": false,
+            "dataElementGroupSetAttribute": false,
+            "dataSetAttribute": false,
+            "description": "SNOMED code",
+            "documentAttribute": false,
+            "externalAccess": false,
+            "favorite": false,
+            "id": "I6u65yRc0ct",
+            "indicatorAttribute": false,
+            "indicatorGroupAttribute": false,
+            "legendSetAttribute": false,
+            "mandatory": false,
+            "name": "Code (SNOMED)",
+            "optionAttribute": false,
+            "optionSetAttribute": false,
+            "organisationUnitAttribute": false,
+            "organisationUnitGroupAttribute": false,
+            "organisationUnitGroupSetAttribute": false,
+            "programAttribute": false,
+            "programIndicatorAttribute": false,
+            "programStageAttribute": false,
+            "publicAccess": "rw------",
+            "sectionAttribute": false,
+            "shortName": "SNOMED",
+            "sqlViewAttribute": false,
+            "trackedEntityAttributeAttribute": true,
+            "trackedEntityTypeAttribute": false,
+            "translations": [
+                {
+                    "locale": "es",
+                    "property": "DESCRIPTION",
+                    "value": "Código SNOMED"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DESCRIPTION",
+                    "value": "SNOMED kód"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Code (SNOMED)"
+                },
+                {
+                    "locale": "ru",
+                    "property": "SHORT_NAME",
+                    "value": "SNOMED"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "SNOMED"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "SNOMED"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Kód (SNOMED)"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Código (SNOMED)"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "Код (SNOMED)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "code SNOMED"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "SNOMED"
+                }
+            ],
+            "unique": true,
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userAttribute": false,
+            "userGroupAccesses": [],
+            "userGroupAttribute": false,
+            "validationRuleAttribute": false,
+            "validationRuleGroupAttribute": false,
+            "valueType": "TEXT"
+        },
+        {
+            "attributeValues": [],
+            "categoryAttribute": false,
+            "categoryOptionAttribute": false,
+            "categoryOptionComboAttribute": false,
+            "categoryOptionGroupAttribute": false,
+            "categoryOptionGroupSetAttribute": false,
+            "code": "DATA_ELEMENT_AGG",
+            "constantAttribute": false,
+            "dataElementAttribute": false,
+            "dataElementGroupAttribute": false,
+            "dataElementGroupSetAttribute": false,
+            "dataSetAttribute": false,
+            "description": "Data element for aggregate data export",
+            "documentAttribute": false,
+            "externalAccess": false,
+            "favorite": false,
+            "id": "vudyDP7jUy5",
+            "indicatorAttribute": false,
+            "indicatorGroupAttribute": false,
+            "legendSetAttribute": false,
+            "mandatory": false,
+            "name": "Data element for aggregate data export",
+            "optionAttribute": false,
+            "optionSetAttribute": false,
+            "organisationUnitAttribute": false,
+            "organisationUnitGroupAttribute": false,
+            "organisationUnitGroupSetAttribute": false,
+            "programAttribute": false,
+            "programIndicatorAttribute": true,
+            "programStageAttribute": false,
+            "publicAccess": "rw------",
+            "sectionAttribute": false,
+            "shortName": "Data element for aggregate data export",
+            "sqlViewAttribute": false,
+            "trackedEntityAttributeAttribute": false,
+            "trackedEntityTypeAttribute": false,
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "DESCRIPTION",
+                    "value": "Datový prvek pro export agregovaných dat"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Умумий маълумотларни экспорт қилиш учун маълумотлар элементи"
+                },
+                {
+                    "locale": "uz",
+                    "property": "DESCRIPTION",
+                    "value": "Умумий маълумотларни экспорт қилиш учун маълумотлар элементи"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Élément de données pour l'exportation de données agrégées"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "Элемент данных для экспорта агрегированных данных"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Élément de données pour l'exportation de données agrégées"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Elemento de datos para exportar datos agregados"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Datový prvek pro export agregovaných dat"
+                },
+                {
+                    "locale": "uz",
+                    "property": "SHORT_NAME",
+                    "value": "Умумий маълумотларни экспорт қилиш учун маълумотлар элементи"
+                },
+                {
+                    "locale": "ru",
+                    "property": "SHORT_NAME",
+                    "value": "Элемент данных для экспорта агрегированных данных"
+                },
+                {
+                    "locale": "ru",
+                    "property": "DESCRIPTION",
+                    "value": "Элемент данных для экспорта агрегированных данных"
+                },
+                {
+                    "locale": "es",
+                    "property": "DESCRIPTION",
+                    "value": "Elemento de datos para la exportación de datos agregados"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Elemento de datos para la exportación de datos agregados"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Datový prvek pro export agregovaných dat"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Élément de données pour l'exportation de données agrégées"
+                }
+            ],
+            "unique": false,
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userAttribute": false,
+            "userGroupAccesses": [],
+            "userGroupAttribute": false,
+            "validationRuleAttribute": false,
+            "validationRuleGroupAttribute": false,
+            "valueType": "TEXT"
+        }
+    ],
+    "categories": [
+        {
+            "attributeValues": [],
+            "categoryCombos": [
+                {
+                    "id": "bjDvmb4bfuf"
+                }
+            ],
+            "categoryOptions": [
+                {
+                    "id": "xYerKDKCefk"
+                }
+            ],
+            "code": "default",
+            "dataDimension": false,
+            "dataDimensionType": "DISAGGREGATION",
+            "dimension": "GLevLNI9wkl",
+            "dimensionType": "CATEGORY",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "GLevLNI9wkl",
+            "items": [
+                {
+                    "id": "xYerKDKCefk"
+                }
+            ],
+            "name": "default",
+            "publicAccess": "rw------",
+            "shortName": "default",
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "výchozí"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Стандарт"
+                },
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "standard"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "standart"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "по умолчанию"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "default"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "défaut"
+                },
+                {
+                    "locale": "id",
+                    "property": "NAME",
+                    "value": "Putus berobat/default"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Padrão"
+                },
+                {
+                    "locale": "ar",
+                    "property": "NAME",
+                    "value": "الافتراضي"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": []
+        }
+    ],
+    "categoryCombos": [
+        {
+            "attributeValues": [],
+            "categories": [
+                {
+                    "id": "GLevLNI9wkl"
+                }
+            ],
+            "categoryOptionCombos": [
+                {
+                    "id": "HllvX50cXC0"
+                }
+            ],
+            "code": "default",
+            "dataDimensionType": "DISAGGREGATION",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "bjDvmb4bfuf",
+            "isDefault": true,
+            "name": "default",
+            "publicAccess": "rw------",
+            "skipTotal": false,
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "výchozí"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Стандарт"
+                },
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "standard"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "standart"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "default"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "по умолчанию"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "défaut"
+                },
+                {
+                    "locale": "id",
+                    "property": "NAME",
+                    "value": "Putus berobat/default"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Padrão"
+                },
+                {
+                    "locale": "ar",
+                    "property": "NAME",
+                    "value": "الافتراضي"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": []
+        }
+    ],
+    "categoryOptionCombos": [
+        {
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "categoryOptions": [
+                {
+                    "id": "xYerKDKCefk"
+                }
+            ],
+            "code": "default",
+            "dimensionItem": "HllvX50cXC0",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "HllvX50cXC0",
+            "ignoreApproval": false,
+            "legendSets": [],
+            "name": "default",
+            "periodOffset": 0,
+            "shortName": "default",
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "výchozí"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Стандарт"
+                },
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "standard"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "standart"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "default"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "по умолчанию"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "défaut"
+                },
+                {
+                    "locale": "id",
+                    "property": "NAME",
+                    "value": "Putus berobat/default"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Padrão"
+                },
+                {
+                    "locale": "ar",
+                    "property": "NAME",
+                    "value": "الافتراضي"
+                }
+            ],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        }
+    ],
+    "categoryOptionGroupSets": [],
+    "categoryOptionGroups": [],
+    "categoryOptions": [
+        {
+            "attributeValues": [],
+            "categories": [
+                {
+                    "id": "GLevLNI9wkl"
+                }
+            ],
+            "categoryOptionCombos": [
+                {
+                    "id": "HllvX50cXC0"
+                }
+            ],
+            "categoryOptionGroups": [],
+            "code": "default",
+            "dimensionItem": "xYerKDKCefk",
+            "dimensionItemType": "CATEGORY_OPTION",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "xYerKDKCefk",
+            "isDefault": true,
+            "legendSets": [],
+            "name": "default",
+            "organisationUnits": [],
+            "periodOffset": 0,
+            "publicAccess": "rwrw----",
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "výchozí"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Стандарт"
+                },
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "standard"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "standart"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "default"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "по умолчанию"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "défaut"
+                },
+                {
+                    "locale": "id",
+                    "property": "NAME",
+                    "value": "Putus berobat/default"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Padrão"
+                },
+                {
+                    "locale": "ar",
+                    "property": "NAME",
+                    "value": "الافتراضي"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": []
+        }
+    ],
+    "constants": [],
+    "dashboards": [],
+    "dataElementGroups": [
+        {
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "code": "P1A8A0_RMS",
+            "dataElements": [
+                {
+                    "id": "aXv9OmsGYYa"
+                },
+                {
+                    "id": "MAqI45DkhPd"
+                },
+                {
+                    "id": "Fm6cUmmiY3d"
+                },
+                {
+                    "id": "FVVUSz8iUA9"
+                },
+                {
+                    "id": "XJd0bS8p5M0"
+                },
+                {
+                    "id": "cgYpqCgnVF2"
+                },
+                {
+                    "id": "JoSHHWqsFpa"
+                },
+                {
+                    "id": "tker4lvb0mX"
+                }
+            ],
+            "dimensionItem": "Rcm9x8HIDTj",
+            "dimensionItemType": "DATA_ELEMENT_GROUP",
+            "externalAccess": false,
+            "favorite": false,
+            "groupSets": [],
+            "id": "Rcm9x8HIDTj",
+            "legendSets": [],
+            "name": "RMS - Rapid Mortality Survellance",
+            "periodOffset": 0,
+            "publicAccess": "rw------",
+            "shortName": "RMS",
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "RMS"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "RMS - Rapid Mortality Survellance"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": []
+        }
+    ],
+    "dataElements": [
+        {
+            "aggregationLevels": [],
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "code": "P1A8A0_DEATH_FACILITY",
+            "dataElementGroups": [
+                {
+                    "id": "Rcm9x8HIDTj"
+                }
+            ],
+            "dataSetElements": [],
+            "dimensionItem": "XJd0bS8p5M0",
+            "dimensionItemType": "DATA_ELEMENT",
+            "domainType": "TRACKER",
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "Died in health facility",
+            "id": "XJd0bS8p5M0",
+            "legendSets": [],
+            "name": "Died in health facility",
+            "optionSet": {
+                "id": "ZH8H5hGkXww"
+            },
+            "optionSetValue": true,
+            "periodOffset": 0,
+            "publicAccess": "--------",
+            "shortName": "Died in health facility",
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "RMS - Zemřel ve zdravotnickém zařízení"
+                },
+                {
+                    "locale": "cs",
+                    "property": "FORM_NAME",
+                    "value": "Zemřel ve zdravotnickém zařízení"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Zemřel ve zdravotnickém zařízení"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "TEXT",
+            "zeroIsSignificant": false
+        },
+        {
+            "aggregationLevels": [],
+            "aggregationType": "DEFAULT",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "code": "GEN_ADM_RESIDENCE_AREA",
+            "dataElementGroups": [
+                {
+                    "id": "Rcm9x8HIDTj"
+                }
+            ],
+            "dataSetElements": [],
+            "description": "Administrative area of residence",
+            "dimensionItem": "tker4lvb0mX",
+            "dimensionItemType": "DATA_ELEMENT",
+            "domainType": "TRACKER",
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "Place of residence",
+            "id": "tker4lvb0mX",
+            "legendSets": [],
+            "name": "GEN - Administrative area of residence",
+            "optionSetValue": false,
+            "periodOffset": 0,
+            "publicAccess": "rw------",
+            "shortName": "Administrative area of residence",
+            "style": {},
+            "translations": [
+                {
+                    "locale": "uz",
+                    "property": "SHORT_NAME",
+                    "value": "Маъмурий яшаш манзили"
+                },
+                {
+                    "locale": "uz",
+                    "property": "DESCRIPTION",
+                    "value": "Маъмурий яшаш манзили"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Administrativní oblast bydliště"
+                },
+                {
+                    "locale": "cs",
+                    "property": "FORM_NAME",
+                    "value": "Bydliště"
+                },
+                {
+                    "locale": "ru",
+                    "property": "SHORT_NAME",
+                    "value": "Адрес прописки (город/район)"
+                },
+                {
+                    "locale": "es",
+                    "property": "DESCRIPTION",
+                    "value": "Área administrativa de residencia"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Zone administrative de résidence"
+                },
+                {
+                    "locale": "pt",
+                    "property": "SHORT_NAME",
+                    "value": "Área administrativa de residência"
+                },
+                {
+                    "locale": "ru",
+                    "property": "DESCRIPTION",
+                    "value": "Адрес прописки (город/район)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DESCRIPTION",
+                    "value": "Administrativní oblast bydliště"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DESCRIPTION",
+                    "value": "Área administrativa de residência"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "GEN - Administrativní oblast bydliště"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "GEN - Zone administrative de résidence"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Zone administrative de résidence"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Área administrativa de residencia"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "ORGANISATION_UNIT",
+            "zeroIsSignificant": false
+        },
+        {
+            "aggregationLevels": [],
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "code": "GEN_AGE_Y",
+            "dataElementGroups": [
+                {
+                    "id": "d3vHSfeqO0H"
+                },
+                {
+                    "id": "Rcm9x8HIDTj"
+                }
+            ],
+            "dataSetElements": [],
+            "description": "The person or case's age given in years. This data element is typically used for event programs.",
+            "dimensionItem": "Fm6cUmmiY3d",
+            "dimensionItemType": "DATA_ELEMENT",
+            "domainType": "TRACKER",
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "Age (yrs)",
+            "id": "Fm6cUmmiY3d",
+            "legendSet": {
+                "id": "kxf21emexhC"
+            },
+            "legendSets": [
+                {
+                    "id": "kxf21emexhC"
+                }
+            ],
+            "name": "GEN - Age in years",
+            "optionSetValue": false,
+            "periodOffset": 0,
+            "publicAccess": "--------",
+            "shortName": "Age in years",
+            "translations": [
+                {
+                    "locale": "km",
+                    "property": "SHORT_NAME",
+                    "value": "អាយុ"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "GEN - Věk v letech"
+                },
+                {
+                    "locale": "cs",
+                    "property": "FORM_NAME",
+                    "value": "Věk (roky)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Âge en années"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Age en années"
+                },
+                {
+                    "locale": "ar",
+                    "property": "FORM_NAME",
+                    "value": "العمر (سنوات)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Věk v letech"
+                },
+                {
+                    "locale": "ar",
+                    "property": "SHORT_NAME",
+                    "value": "العمر بالسنوات"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Age (années)"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "INTEGER_ZERO_OR_POSITIVE",
+            "zeroIsSignificant": true
+        },
+        {
+            "aggregationLevels": [],
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "code": "GEN_DEATH_DATE",
+            "dataElementGroups": [
+                {
+                    "id": "Rcm9x8HIDTj"
+                }
+            ],
+            "dataSetElements": [],
+            "description": "Date of death",
+            "dimensionItem": "aXv9OmsGYYa",
+            "dimensionItemType": "DATA_ELEMENT",
+            "domainType": "TRACKER",
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "Date of death",
+            "id": "aXv9OmsGYYa",
+            "legendSets": [],
+            "name": "GEN - Date of death",
+            "optionSetValue": false,
+            "periodOffset": 0,
+            "publicAccess": "rw------",
+            "shortName": "Date of death",
+            "translations": [
+                {
+                    "locale": "pt",
+                    "property": "FORM_NAME",
+                    "value": "Data da óbito"
+                },
+                {
+                    "locale": "nb",
+                    "property": "FORM_NAME",
+                    "value": "Dødsdato"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Date de décès"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "GEN - Date de décès"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "GEN - Datum úmrtí"
+                },
+                {
+                    "locale": "ru",
+                    "property": "FORM_NAME",
+                    "value": "Дата смерти"
+                },
+                {
+                    "locale": "cs",
+                    "property": "FORM_NAME",
+                    "value": "Datum úmrtí"
+                },
+                {
+                    "locale": "ar",
+                    "property": "FORM_NAME",
+                    "value": "تاريخ الوفاة"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "GEN - Datum úmrtí"
+                },
+                {
+                    "locale": "es",
+                    "property": "FORM_NAME",
+                    "value": "Fecha de la muerte"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "GEN - Date de décès"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "DATE",
+            "zeroIsSignificant": false
+        },
+        {
+            "aggregationLevels": [],
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "code": "GEN_FIRST_NAME",
+            "dataElementGroups": [
+                {
+                    "id": "yGp6dtojYFP"
+                },
+                {
+                    "id": "Rcm9x8HIDTj"
+                }
+            ],
+            "dataSetElements": [],
+            "description": "First name",
+            "dimensionItem": "FVVUSz8iUA9",
+            "dimensionItemType": "DATA_ELEMENT",
+            "domainType": "TRACKER",
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "First name(s)",
+            "id": "FVVUSz8iUA9",
+            "legendSets": [],
+            "name": "GEN - First Name",
+            "optionSetValue": false,
+            "periodOffset": 0,
+            "publicAccess": "rw------",
+            "shortName": "First name",
+            "translations": [
+                {
+                    "locale": "nb",
+                    "property": "SHORT_NAME",
+                    "value": "Fornavn"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "SHORT_NAME",
+                    "value": "Ismi"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Nombre"
+                },
+                {
+                    "locale": "nb",
+                    "property": "DESCRIPTION",
+                    "value": "Fornavn"
+                },
+                {
+                    "locale": "pt",
+                    "property": "FORM_NAME",
+                    "value": "Primeiro(s) Nome(s)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Prénom"
+                },
+                {
+                    "locale": "cs",
+                    "property": "FORM_NAME",
+                    "value": "Křestní jméno(a)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Prénom"
+                },
+                {
+                    "locale": "ar",
+                    "property": "DESCRIPTION",
+                    "value": "الاسم الاول"
+                },
+                {
+                    "locale": "nb",
+                    "property": "FORM_NAME",
+                    "value": "Fornavn"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "DESCRIPTION",
+                    "value": "Ismi"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Evénement COVID-19 - Prénom"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "GEN – Křestní jméno"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DESCRIPTION",
+                    "value": "Primeiro nome"
+                },
+                {
+                    "locale": "ru",
+                    "property": "FORM_NAME",
+                    "value": "Имя (я)"
+                },
+                {
+                    "locale": "uz",
+                    "property": "DESCRIPTION",
+                    "value": "Исми"
+                },
+                {
+                    "locale": "ru",
+                    "property": "DESCRIPTION",
+                    "value": "Имя"
+                },
+                {
+                    "locale": "ar",
+                    "property": "SHORT_NAME",
+                    "value": "الاسم الاول"
+                },
+                {
+                    "locale": "ar",
+                    "property": "FORM_NAME",
+                    "value": "الاسم الاول (الاسماء)"
+                },
+                {
+                    "locale": "uz",
+                    "property": "SHORT_NAME",
+                    "value": "Исми"
+                },
+                {
+                    "locale": "pt",
+                    "property": "SHORT_NAME",
+                    "value": "Primeiro nome"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Prénom(s)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Křestní jméno"
+                },
+                {
+                    "locale": "ru",
+                    "property": "SHORT_NAME",
+                    "value": "Имя"
+                },
+                {
+                    "locale": "es",
+                    "property": "FORM_NAME",
+                    "value": "Nombre"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DESCRIPTION",
+                    "value": "Křestní jméno"
+                },
+                {
+                    "locale": "es",
+                    "property": "DESCRIPTION",
+                    "value": "Nombre"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "TEXT",
+            "zeroIsSignificant": false
+        },
+        {
+            "aggregationLevels": [],
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "code": "GEN_LAST_NAME",
+            "dataElementGroups": [
+                {
+                    "id": "yGp6dtojYFP"
+                },
+                {
+                    "id": "Rcm9x8HIDTj"
+                }
+            ],
+            "dataSetElements": [],
+            "description": "Last name",
+            "dimensionItem": "JoSHHWqsFpa",
+            "dimensionItemType": "DATA_ELEMENT",
+            "domainType": "TRACKER",
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "Last name",
+            "id": "JoSHHWqsFpa",
+            "legendSets": [],
+            "name": "GEN - Last Name",
+            "optionSetValue": false,
+            "periodOffset": 0,
+            "publicAccess": "rw------",
+            "shortName": "Last name",
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Nom de famille"
+                },
+                {
+                    "locale": "nb",
+                    "property": "SHORT_NAME",
+                    "value": "Etternavn"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Evénement COVID-19 - Nom de famille"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "GEN – příjmení"
+                },
+                {
+                    "locale": "pt",
+                    "property": "FORM_NAME",
+                    "value": "Último nome"
+                },
+                {
+                    "locale": "pt",
+                    "property": "SHORT_NAME",
+                    "value": "Último nome"
+                },
+                {
+                    "locale": "nb",
+                    "property": "FORM_NAME",
+                    "value": "Etternavn"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Nom de famille"
+                },
+                {
+                    "locale": "ru",
+                    "property": "DESCRIPTION",
+                    "value": "Фамилия"
+                },
+                {
+                    "locale": "es",
+                    "property": "DESCRIPTION",
+                    "value": "Apellido"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DESCRIPTION",
+                    "value": "Příjmení"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Apellido"
+                },
+                {
+                    "locale": "uz",
+                    "property": "SHORT_NAME",
+                    "value": "Фамилияси"
+                },
+                {
+                    "locale": "ru",
+                    "property": "SHORT_NAME",
+                    "value": "Фамилия"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "DESCRIPTION",
+                    "value": "Familiyasi"
+                },
+                {
+                    "locale": "ar",
+                    "property": "DESCRIPTION",
+                    "value": "الكنية"
+                },
+                {
+                    "locale": "es",
+                    "property": "FORM_NAME",
+                    "value": "Apellido"
+                },
+                {
+                    "locale": "ru",
+                    "property": "FORM_NAME",
+                    "value": "Фамилия"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Nom de famille"
+                },
+                {
+                    "locale": "uz",
+                    "property": "FORM_NAME",
+                    "value": "Фамилияси"
+                },
+                {
+                    "locale": "uz",
+                    "property": "DESCRIPTION",
+                    "value": "Фамилияси"
+                },
+                {
+                    "locale": "ar",
+                    "property": "FORM_NAME",
+                    "value": "الكنية"
+                },
+                {
+                    "locale": "nb",
+                    "property": "DESCRIPTION",
+                    "value": "Etternavn"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Příjmení"
+                },
+                {
+                    "locale": "cs",
+                    "property": "FORM_NAME",
+                    "value": "Příjmení"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DESCRIPTION",
+                    "value": "Último nome"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "SHORT_NAME",
+                    "value": "Familiyasi"
+                },
+                {
+                    "locale": "ar",
+                    "property": "SHORT_NAME",
+                    "value": "الكنية"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "FORM_NAME",
+                    "value": "Familiyasi"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "TEXT",
+            "zeroIsSignificant": false
+        },
+        {
+            "aggregationLevels": [],
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "code": "GEN_MANNER_DEATH",
+            "dataElementGroups": [
+                {
+                    "id": "lUCrIQStWBC"
+                },
+                {
+                    "id": "Rcm9x8HIDTj"
+                }
+            ],
+            "dataSetElements": [],
+            "description": "Natural = Disease\nNon-natural = Accident, Intentional self- harm, Assault, Legal intervention, War\nUnknown/Undetermined= could not be determined, pending investigation, unknown",
+            "dimensionItem": "MAqI45DkhPd",
+            "dimensionItemType": "DATA_ELEMENT",
+            "domainType": "TRACKER",
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "Manner of Death",
+            "id": "MAqI45DkhPd",
+            "legendSets": [],
+            "name": "GEN - Manner of Death",
+            "optionSet": {
+                "id": "A7mNd2r3ZJe"
+            },
+            "optionSetValue": true,
+            "periodOffset": 0,
+            "publicAccess": "rw------",
+            "shortName": "Manner of Death",
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "DESCRIPTION",
+                    "value": "DataElement vytvořen pro důležité události.\nPřirozené = nemoc\nNepřirozené = nehoda, úmyslné sebepoškozování, útok, právní zásah, válka\nNeznámé / Neurčené = nelze určit, čeká na vyšetření, neznámé"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Circonstances du décès"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Eléments de données créés pour les événements vitaux.\nNaturel = Maladie\nNon-naturel = Accident, Automutilation intentionnelle, Agression, Intervention légale, Guerre\nInconnu/Indéterminé= n'a pas pu être déterminé, enquête en cours, inconnu"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Circonstance du décès"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "VE - Circonstances du décès"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "VE - Způsob smrti"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Způsob smrti"
+                },
+                {
+                    "locale": "cs",
+                    "property": "FORM_NAME",
+                    "value": "Způsob smrti"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "TEXT",
+            "zeroIsSignificant": false
+        },
+        {
+            "aggregationLevels": [],
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "code": "GEN_SEX_W_UNK",
+            "dataElementGroups": [
+                {
+                    "id": "d3vHSfeqO0H"
+                },
+                {
+                    "id": "Rcm9x8HIDTj"
+                }
+            ],
+            "dataSetElements": [],
+            "description": "Biological sex (male, female, unknown)",
+            "dimensionItem": "cgYpqCgnVF2",
+            "dimensionItemType": "DATA_ELEMENT",
+            "domainType": "TRACKER",
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "Sex",
+            "id": "cgYpqCgnVF2",
+            "legendSets": [],
+            "name": "GEN - Sex (with unknown)",
+            "optionSet": {
+                "id": "rlYDq7U043q"
+            },
+            "optionSetValue": true,
+            "periodOffset": 0,
+            "publicAccess": "rw------",
+            "shortName": "Sex",
+            "translations": [
+                {
+                    "locale": "ar",
+                    "property": "SHORT_NAME",
+                    "value": "الجنس"
+                },
+                {
+                    "locale": "cs",
+                    "property": "FORM_NAME",
+                    "value": "Pohlaví"
+                },
+                {
+                    "locale": "ru",
+                    "property": "SHORT_NAME",
+                    "value": "Пол"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Sexo"
+                },
+                {
+                    "locale": "pt",
+                    "property": "SHORT_NAME",
+                    "value": "Sexo"
+                },
+                {
+                    "locale": "pt",
+                    "property": "FORM_NAME",
+                    "value": "Sexo"
+                },
+                {
+                    "locale": "ar",
+                    "property": "FORM_NAME",
+                    "value": "الجنس"
+                },
+                {
+                    "locale": "ru",
+                    "property": "FORM_NAME",
+                    "value": "Пол"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Pohlaví"
+                },
+                {
+                    "locale": "es",
+                    "property": "FORM_NAME",
+                    "value": "Sexo"
+                },
+                {
+                    "locale": "de",
+                    "property": "FORM_NAME",
+                    "value": "Sexo"
+                },
+                {
+                    "locale": "de",
+                    "property": "SHORT_NAME",
+                    "value": "Sexo"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "SHORT_NAME",
+                    "value": "Jinsi"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "FORM_NAME",
+                    "value": "Jinsi"
+                },
+                {
+                    "locale": "uz",
+                    "property": "FORM_NAME",
+                    "value": "Жинси"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Sexe à la naissance"
+                },
+                {
+                    "locale": "nb",
+                    "property": "FORM_NAME",
+                    "value": "Kjønn"
+                },
+                {
+                    "locale": "nb",
+                    "property": "SHORT_NAME",
+                    "value": "Kjønn"
+                },
+                {
+                    "locale": "uz",
+                    "property": "SHORT_NAME",
+                    "value": "Жинси"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Sexe à la naissance"
+                },
+                {
+                    "locale": "id",
+                    "property": "FORM_NAME",
+                    "value": "Jenis Kelamin"
+                },
+                {
+                    "locale": "id",
+                    "property": "SHORT_NAME",
+                    "value": "Jenis Kelamin"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "GEN – Pohlaví (vč. neznámého)"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "TEXT",
+            "zeroIsSignificant": false
+        }
+    ],
+    "dataEntryForms": [],
+    "dataSets": [],
+    "documents": [],
+    "eventCharts": [],
+    "eventReports": [],
+    "indicatorGroups": [],
+    "indicatorTypes": [],
+    "indicators": [],
+    "legendSets": [
+        {
+            "attributeValues": [],
+            "code": "GEN_AGE_GROUP_BROAD",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "kxf21emexhC",
+            "legends": [
+                {
+                    "attributeValues": [],
+                    "color": "#DAEEFF",
+                    "endValue": 5.0,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "Cv95EZtSZnK",
+                    "name": "0-4 years",
+                    "startValue": 0.0,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "attributeValues": [],
+                    "color": "#6DBBFF",
+                    "endValue": 45.0,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "R8qvg31f793",
+                    "name": "15-44 years",
+                    "startValue": 15.0,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "attributeValues": [],
+                    "color": "#48AAFF",
+                    "endValue": 120.0,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "mEEVrJVRv1O",
+                    "name": "45+ years",
+                    "startValue": 45.0,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "attributeValues": [],
+                    "color": "#91CCFF",
+                    "endValue": 15.0,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "ChaWQjIqyYz",
+                    "name": "5-14 years",
+                    "startValue": 5.0,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "name": "Age group (broad)",
+            "publicAccess": "--------",
+            "symbolizer": "color",
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "CoD: Groupe d'âge (large)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "CoD: věková skupina (široká)"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": []
+        }
+    ],
+    "maps": [],
+    "optionGroups": [],
+    "optionSets": [
+        {
+            "attributeValues": [],
+            "code": "GEN_MANNER_DEATH",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "A7mNd2r3ZJe",
+            "name": "GEN - Manner of death",
+            "options": [
+                {
+                    "id": "lPqDp8nvFlb"
+                },
+                {
+                    "id": "J2tOBt6moGs"
+                },
+                {
+                    "id": "SaiYBRXy4xg"
+                }
+            ],
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "GEN - Způsob úmrtí"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "VE - Circonstances du décès"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "TEXT",
+            "version": 6
+        },
+        {
+            "attributeValues": [],
+            "code": "SEX_UNKNOWN",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "rlYDq7U043q",
+            "name": "Sex with unknown",
+            "options": [
+                {
+                    "id": "jA8gpBtrIf5"
+                },
+                {
+                    "id": "Javvv7usroS"
+                },
+                {
+                    "id": "J5PKRLzoeLW"
+                }
+            ],
+            "publicAccess": "--------",
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Pohlaví s neznámým"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Sexe avec inconnu"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "TEXT",
+            "version": 3
+        },
+        {
+            "attributeValues": [],
+            "code": "YES_NO",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "ZH8H5hGkXww",
+            "name": "Yes/No",
+            "options": [
+                {
+                    "id": "o6jrih59gbt"
+                },
+                {
+                    "id": "YWFCDkSCUy7"
+                }
+            ],
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "Ja/Nei"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Sim/Não"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "Да/Нет"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "TEXT",
+            "version": 8
+        }
+    ],
+    "options": [
+        {
+            "attributeValues": [],
+            "code": "FEMALE",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "jA8gpBtrIf5",
+            "name": "Female",
+            "optionSet": {
+                "id": "rlYDq7U043q"
+            },
+            "sortOrder": 1,
+            "style": {
+                "icon": "woman_positive"
+            },
+            "translations": [
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Аёл"
+                },
+                {
+                    "locale": "id",
+                    "property": "NAME",
+                    "value": "Wanita"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Feminino"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "Женский"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Féminin"
+                },
+                {
+                    "locale": "ar",
+                    "property": "NAME",
+                    "value": "إناث"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Femenino"
+                },
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "Kvinne"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "Аyol"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "ženský"
+                }
+            ],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "attributeValues": [],
+            "code": "MALE",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "Javvv7usroS",
+            "name": "Male",
+            "optionSet": {
+                "id": "rlYDq7U043q"
+            },
+            "sortOrder": 2,
+            "style": {
+                "icon": "man_positive"
+            },
+            "translations": [
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "Erkak"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Masculino"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Masculino"
+                },
+                {
+                    "locale": "id",
+                    "property": "NAME",
+                    "value": "Laki-laki"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Эркак"
+                },
+                {
+                    "locale": "ar",
+                    "property": "NAME",
+                    "value": "ذكور"
+                },
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "Mann"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "muž"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "мужской"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Masculin"
+                }
+            ],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "attributeValues": [],
+            "code": "NATURAL",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "lPqDp8nvFlb",
+            "name": "Natural",
+            "optionSet": {
+                "id": "A7mNd2r3ZJe"
+            },
+            "sortOrder": 1,
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Naturel"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Přirozený"
+                }
+            ],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "attributeValues": [],
+            "code": "NO",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "YWFCDkSCUy7",
+            "name": "No",
+            "optionSet": {
+                "id": "ZH8H5hGkXww"
+            },
+            "sortOrder": 2,
+            "translations": [
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Não"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Йўқ"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "нет"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "No"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "Yo`q"
+                },
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "Nei"
+                }
+            ],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "attributeValues": [],
+            "code": "NON_NATURAL",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "J2tOBt6moGs",
+            "name": "Non-natural",
+            "optionSet": {
+                "id": "A7mNd2r3ZJe"
+            },
+            "sortOrder": 2,
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Non naturel"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Nepřirozený"
+                }
+            ],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "attributeValues": [],
+            "code": "UNKNOWN",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "J5PKRLzoeLW",
+            "name": "Unknown",
+            "optionSet": {
+                "id": "rlYDq7U043q"
+            },
+            "sortOrder": 3,
+            "style": {
+                "icon": "question_positive"
+            },
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Inconnu(e)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Neznámý"
+                },
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "Ukjent"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "Noaniq"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "Неизвестно"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Desconocido"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Ноаниқ"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Desconhecido"
+                },
+                {
+                    "locale": "ar",
+                    "property": "NAME",
+                    "value": "غير معروف"
+                }
+            ],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "attributeValues": [],
+            "code": "UNKNOWN_CAUSE",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "SaiYBRXy4xg",
+            "name": "Unknown",
+            "optionSet": {
+                "id": "A7mNd2r3ZJe"
+            },
+            "sortOrder": 3,
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Inconnu(e)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Neznámý"
+                },
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "Ukjent"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "Noaniq"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "Неизвестно"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Desconocido"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Ноаниқ"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Desconhecido"
+                },
+                {
+                    "locale": "ar",
+                    "property": "NAME",
+                    "value": "غير معروف"
+                }
+            ],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "attributeValues": [],
+            "code": "YES",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "o6jrih59gbt",
+            "name": "Yes",
+            "optionSet": {
+                "id": "ZH8H5hGkXww"
+            },
+            "sortOrder": 1,
+            "translations": [
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Sí"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "Ha"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Ҳа"
+                }
+            ],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        }
+    ],
+    "organisationUnitGroups": [],
+    "package": {
+        "DHIS2Build": "834b25f",
+        "DHIS2Version": "2.35.8",
+        "code": "P1_A8A0",
+        "description": "",
+        "lastUpdated": "20211125T140148",
+        "locale": "en",
+        "name": "P1_A8A0_TRK_9.9.9_DHIS2.35.8-en",
+        "type": "TRK",
+        "version": "9.9.9"
+    },
+    "predictorGroups": [],
+    "predictors": [],
+    "programIndicatorGroups": [
+        {
+            "attributeValues": [],
+            "code": "P1A8A0_RMS",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "FjhNoR6f0Zd",
+            "name": "RMS - Rapid Mortality Surveillance",
+            "programIndicators": [
+                {
+                    "id": "mNiLSRgYdAB"
+                },
+                {
+                    "id": "WqcliBMvwaf"
+                },
+                {
+                    "id": "UMX5BHF0tJL"
+                },
+                {
+                    "id": "CFaSySxD8TD"
+                }
+            ],
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "RMS - Rapid Mortality Surveillance"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": []
+        }
+    ],
+    "programIndicators": [
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "fc8p5XJH4dB",
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "pIImqjRmdgu",
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "P1A8A0_DEATHS",
+            "dimensionItem": "UMX5BHF0tJL",
+            "dimensionItemType": "PROGRAM_INDICATOR",
+            "expression": "V{event_count}",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "UMX5BHF0tJL",
+            "legendSets": [],
+            "name": "RMS - Deaths (#)",
+            "periodOffset": 0,
+            "program": {
+                "id": "TP01C129Or9"
+            },
+            "programIndicatorGroups": [
+                {
+                    "id": "FjhNoR6f0Zd"
+                }
+            ],
+            "publicAccess": "rw------",
+            "shortName": "Deaths (#)",
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Úmrtí (#)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "RMS – úmrtí (#)"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "oGwC2kRN4NX",
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "P1A8A0_DEATHS_CUM",
+            "dimensionItem": "WqcliBMvwaf",
+            "dimensionItemType": "PROGRAM_INDICATOR",
+            "expression": "V{event_count}",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "WqcliBMvwaf",
+            "legendSets": [],
+            "name": "RMS - Deaths - cumulative (#)",
+            "periodOffset": 0,
+            "program": {
+                "id": "TP01C129Or9"
+            },
+            "programIndicatorGroups": [
+                {
+                    "id": "FjhNoR6f0Zd"
+                }
+            ],
+            "publicAccess": "rw------",
+            "shortName": "Deaths - cumulative (#)",
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "RMS – Úmrtí – kumulativní (#)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Úmrtí – kumulativní (#)"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "uG3ee77zJlR",
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "fPJLabpJmDc",
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "P1A8A0_DEATHS_F",
+            "dimensionItem": "mNiLSRgYdAB",
+            "dimensionItemType": "PROGRAM_INDICATOR",
+            "expression": "V{event_count}",
+            "externalAccess": false,
+            "favorite": false,
+            "filter": "#{lOslKyVm688.cgYpqCgnVF2} == \"FEMALE\"",
+            "id": "mNiLSRgYdAB",
+            "legendSets": [],
+            "name": "RMS - Deaths - female (#)",
+            "periodOffset": 0,
+            "program": {
+                "id": "TP01C129Or9"
+            },
+            "programIndicatorGroups": [
+                {
+                    "id": "FjhNoR6f0Zd"
+                }
+            ],
+            "publicAccess": "rw------",
+            "shortName": "Deaths - female (#)",
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Úmrtí – ženy (#)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "RMS – Úmrtí – žena (#)"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "oeIsyUty5Dh",
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "wgMQNMUVuc7",
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "P1A8A0_DEATHS_M",
+            "dimensionItem": "CFaSySxD8TD",
+            "dimensionItemType": "PROGRAM_INDICATOR",
+            "expression": "V{event_count}",
+            "externalAccess": false,
+            "favorite": false,
+            "filter": "#{lOslKyVm688.cgYpqCgnVF2} == \"MALE\"",
+            "id": "CFaSySxD8TD",
+            "legendSets": [],
+            "name": "RMS - Deaths - male (#)",
+            "periodOffset": 0,
+            "program": {
+                "id": "TP01C129Or9"
+            },
+            "programIndicatorGroups": [
+                {
+                    "id": "FjhNoR6f0Zd"
+                }
+            ],
+            "publicAccess": "rw------",
+            "shortName": "Deaths - male (#)",
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "RMS – Úmrtí – muži (#)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Úmrtí – muži (#)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Décès - masculin (#)"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": []
+        }
+    ],
+    "programNotificationTemplates": [],
+    "programRuleActions": [],
+    "programRuleVariables": [],
+    "programRules": [],
+    "programStageSections": [
+        {
+            "attributeValues": [],
+            "dataElements": [
+                {
+                    "id": "aXv9OmsGYYa"
+                },
+                {
+                    "id": "XJd0bS8p5M0"
+                },
+                {
+                    "id": "MAqI45DkhPd"
+                }
+            ],
+            "externalAccess": false,
+            "favorite": false,
+            "id": "fxArRsC99bN",
+            "name": "Death Details",
+            "programIndicators": [],
+            "programStage": {
+                "id": "lOslKyVm688"
+            },
+            "renderType": {
+                "DESKTOP": {
+                    "type": "LISTING"
+                },
+                "MOBILE": {
+                    "type": "LISTING"
+                }
+            },
+            "sortOrder": 1,
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Detaily o úmrtí"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Détails du décès"
+                }
+            ],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "attributeValues": [],
+            "dataElements": [
+                {
+                    "id": "FVVUSz8iUA9"
+                },
+                {
+                    "id": "JoSHHWqsFpa"
+                },
+                {
+                    "id": "cgYpqCgnVF2"
+                },
+                {
+                    "id": "Fm6cUmmiY3d"
+                },
+                {
+                    "id": "tker4lvb0mX"
+                }
+            ],
+            "externalAccess": false,
+            "favorite": false,
+            "id": "xjS0UbA9pzH",
+            "name": "Deceased's Personal Information",
+            "programIndicators": [],
+            "programStage": {
+                "id": "lOslKyVm688"
+            },
+            "renderType": {
+                "DESKTOP": {
+                    "type": "LISTING"
+                },
+                "MOBILE": {
+                    "type": "LISTING"
+                }
+            },
+            "sortOrder": 0,
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Osobní údaje zesnulého"
+                }
+            ],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        }
+    ],
+    "programStages": [
+        {
+            "allowGenerateNextVisit": false,
+            "attributeValues": [],
+            "autoGenerateEvent": true,
+            "blockEntryForm": false,
+            "displayGenerateEventBox": true,
+            "enableUserAssignment": false,
+            "executionDateLabel": "Reporting Date",
+            "externalAccess": false,
+            "favorite": false,
+            "featureType": "POINT",
+            "formType": "SECTION",
+            "generatedByEnrollmentDate": false,
+            "hideDueDate": false,
+            "id": "lOslKyVm688",
+            "minDaysFromStart": 0,
+            "name": "Rapid Mortality Surveillance",
+            "notificationTemplates": [],
+            "openAfterEnrollment": false,
+            "preGenerateUID": false,
+            "program": {
+                "id": "TP01C129Or9"
+            },
+            "programStageDataElements": [
+                {
+                    "allowFutureDate": false,
+                    "allowProvidedElsewhere": false,
+                    "attributeValues": [],
+                    "compulsory": false,
+                    "dataElement": {
+                        "id": "cgYpqCgnVF2"
+                    },
+                    "displayInReports": true,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "zI0HRmGqqP0",
+                    "programStage": {
+                        "id": "lOslKyVm688"
+                    },
+                    "renderOptionsAsRadio": false,
+                    "skipSynchronization": false,
+                    "sortOrder": 1,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "allowFutureDate": false,
+                    "allowProvidedElsewhere": false,
+                    "attributeValues": [],
+                    "compulsory": false,
+                    "dataElement": {
+                        "id": "Fm6cUmmiY3d"
+                    },
+                    "displayInReports": true,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "olC78qz8tFL",
+                    "programStage": {
+                        "id": "lOslKyVm688"
+                    },
+                    "renderOptionsAsRadio": false,
+                    "skipSynchronization": false,
+                    "sortOrder": 2,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "allowFutureDate": false,
+                    "allowProvidedElsewhere": false,
+                    "attributeValues": [],
+                    "compulsory": false,
+                    "dataElement": {
+                        "id": "aXv9OmsGYYa"
+                    },
+                    "displayInReports": true,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "yDHbSwwLP6V",
+                    "programStage": {
+                        "id": "lOslKyVm688"
+                    },
+                    "renderOptionsAsRadio": false,
+                    "skipSynchronization": false,
+                    "sortOrder": 3,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "allowFutureDate": false,
+                    "allowProvidedElsewhere": false,
+                    "attributeValues": [],
+                    "compulsory": false,
+                    "dataElement": {
+                        "id": "XJd0bS8p5M0"
+                    },
+                    "displayInReports": true,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "oAZH0iwmY27",
+                    "programStage": {
+                        "id": "lOslKyVm688"
+                    },
+                    "renderOptionsAsRadio": false,
+                    "skipSynchronization": false,
+                    "sortOrder": 4,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "allowFutureDate": false,
+                    "allowProvidedElsewhere": false,
+                    "attributeValues": [],
+                    "compulsory": false,
+                    "dataElement": {
+                        "id": "FVVUSz8iUA9"
+                    },
+                    "displayInReports": false,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "Bj0QTpEzEda",
+                    "programStage": {
+                        "id": "lOslKyVm688"
+                    },
+                    "renderOptionsAsRadio": false,
+                    "skipSynchronization": false,
+                    "sortOrder": 6,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "allowFutureDate": false,
+                    "allowProvidedElsewhere": false,
+                    "attributeValues": [],
+                    "compulsory": false,
+                    "dataElement": {
+                        "id": "JoSHHWqsFpa"
+                    },
+                    "displayInReports": false,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "fWT1mxjYakb",
+                    "programStage": {
+                        "id": "lOslKyVm688"
+                    },
+                    "renderOptionsAsRadio": false,
+                    "skipSynchronization": false,
+                    "sortOrder": 7,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "allowFutureDate": false,
+                    "allowProvidedElsewhere": false,
+                    "attributeValues": [],
+                    "compulsory": false,
+                    "dataElement": {
+                        "id": "tker4lvb0mX"
+                    },
+                    "displayInReports": false,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "m8G8LRrWGhC",
+                    "programStage": {
+                        "id": "lOslKyVm688"
+                    },
+                    "renderOptionsAsRadio": false,
+                    "skipSynchronization": false,
+                    "sortOrder": 8,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "allowFutureDate": false,
+                    "allowProvidedElsewhere": false,
+                    "attributeValues": [],
+                    "compulsory": false,
+                    "dataElement": {
+                        "id": "MAqI45DkhPd"
+                    },
+                    "displayInReports": false,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "HJS2xEzP4ob",
+                    "programStage": {
+                        "id": "lOslKyVm688"
+                    },
+                    "renderOptionsAsRadio": false,
+                    "skipSynchronization": false,
+                    "sortOrder": 8,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "programStageSections": [
+                {
+                    "id": "xjS0UbA9pzH"
+                },
+                {
+                    "id": "fxArRsC99bN"
+                }
+            ],
+            "publicAccess": "--------",
+            "remindCompleted": false,
+            "repeatable": false,
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "RMS - Rapid Mortality Surveillance"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "validationStrategy": "ON_COMPLETE"
+        }
+    ],
+    "programs": [
+        {
+            "accessLevel": "OPEN",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "code": "P1A8A0_RMS",
+            "completeEventsExpiryDays": 0,
+            "displayFrontPageList": false,
+            "displayIncidentDate": true,
+            "expiryDays": 0,
+            "externalAccess": false,
+            "favorite": false,
+            "id": "TP01C129Or9",
+            "ignoreOverdueEvents": false,
+            "lastUpdated": "2021-11-25T14:01:48.915",
+            "maxTeiCountToReturn": 0,
+            "minAttributesRequiredToSearch": 1,
+            "name": "Rapid Mortality Surveillance",
+            "notificationTemplates": [],
+            "onlyEnrollOnce": false,
+            "programIndicators": [
+                {
+                    "id": "mNiLSRgYdAB"
+                },
+                {
+                    "id": "WqcliBMvwaf"
+                },
+                {
+                    "id": "UMX5BHF0tJL"
+                },
+                {
+                    "id": "CFaSySxD8TD"
+                }
+            ],
+            "programRuleVariables": [],
+            "programSections": [],
+            "programStages": [
+                {
+                    "id": "lOslKyVm688"
+                }
+            ],
+            "programTrackedEntityAttributes": [],
+            "programType": "WITHOUT_REGISTRATION",
+            "publicAccess": "--------",
+            "registration": false,
+            "selectEnrollmentDatesInFuture": false,
+            "selectIncidentDatesInFuture": false,
+            "shortName": "RMS",
+            "skipOffline": false,
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "RMS - Rapid Mortality Surveillance"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "RMS"
+                }
+            ],
+            "useFirstStageDuringRegistration": false,
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "userRoles": [],
+            "version": 5,
+            "withoutRegistration": true
+        }
+    ],
+    "sections": [],
+    "trackedEntityAttributes": [],
+    "trackedEntityInstanceFilters": [],
+    "trackedEntityTypes": [],
+    "userGroups": [],
+    "users": [
+        {
+            "attributeValues": [],
+            "dataViewOrganisationUnits": [],
+            "externalAccess": false,
+            "favorite": false,
+            "firstName": "Admin",
+            "id": "vUeLeQMSwhN",
+            "name": "Admin WHO",
+            "organisationUnits": [],
+            "surname": "WHO",
+            "teiSearchOrganisationUnits": [],
+            "translations": [],
+            "userAccesses": [],
+            "userCredentials": {
+                "attributeValues": [],
+                "catDimensionConstraints": [],
+                "cogsDimensionConstraints": [],
+                "disabled": true,
+                "externalAccess": false,
+                "externalAuth": false,
+                "favorite": false,
+                "favorites": [],
+                "id": "MMRO6oP1HQg",
+                "invitation": false,
+                "lastLogin": "2018-07-13T12:28:39.168",
+                "name": "Admin WHO",
+                "passwordLastUpdated": "2018-07-13T12:28:39.168",
+                "selfRegistered": false,
+                "translations": [],
+                "twoFA": false,
+                "user": {
+                    "displayName": "Admin WHO",
+                    "id": "vUeLeQMSwhN",
+                    "username": "who"
+                },
+                "userAccesses": [],
+                "userGroupAccesses": [],
+                "userInfo": {
+                    "id": "vUeLeQMSwhN"
+                },
+                "userRoles": [],
+                "username": "who"
+            }
+        }
+    ],
+    "visualizations": []
+}
