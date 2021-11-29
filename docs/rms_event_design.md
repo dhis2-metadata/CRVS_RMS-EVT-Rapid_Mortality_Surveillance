@@ -6,15 +6,15 @@ While the number of COVID-19 deaths is a key indicator for measuring the impact 
 
 The purpose of this package is to provide practical guidance and a core set of metadata to implement rapid mortality surveillance in national DHIS2-based health information systems. This package is aligned to the [WHO's Technical Package for Rapid Mortality Surveillance and Epidemic Response](https://www.who.int/publications/i/item/revealing-the-toll-of-covid-19) (2020) for assessing the toll of COVID-19 in countries.  It is designed to be flexible and feasible for use in low-resource settings, including contexts where data collection largely remains paper-based.
 
-Reporting of total mortality from facilities, communities and midolegal personnel (as appropriate to country context) with basic data such as age, sex, date of death, place of death and place of residence enables a more complete picture of impact, particularly for deaths that may occur in the home/the community or may be indirectly linked to COVID-19. In addition, analyses of year-over year trends pre- and post-epidemic can reveal indirect impact related to disruptions in access to health services and products. 
+Reporting of total mortality from facilities, communities and midolegal personnel (as appropriate to country context) with basic data such as age, sex, date of death, place of death and place of residence enables a more complete picture of impact, particularly for deaths that may occur in the home/the community or may be indirectly linked to COVID-19. In addition, analyses of year-over year trends pre- and post-epidemic can reveal indirect impact related to disruptions in access to health services and products.
 
 ## System Design Overview
 
 ### Use Case Summary
 
-According to the WHO's technical package, RMS requires 1) a source of rapidly and routinely reported deaths by age, sex and location; and 2) some means to establish a baseline of pre-epidemic mortality levels by age and sex against which to compare the current reports. The metadata package corresponds to these components with an event program for line-listed data collection of deaths optimized for facility and community reporting; and a reference dashboard that enables year-over-year trend analysis to examine excess deaths compared to pre-pandemic levels. 
+According to the WHO's technical package, RMS requires 1) a source of rapidly and routinely reported deaths by age, sex and location; and 2) some means to establish a baseline of pre-epidemic mortality levels by age and sex against which to compare the current reports. The metadata package corresponds to these components with an event program for line-listed data collection of deaths optimized for facility and community reporting; and a reference dashboard that enables year-over-year trend analysis to examine excess deaths compared to pre-pandemic levels.
 
-Unlike cause-based mortality surveillance systems and death certification systems, the intent of RMS is to capture *total* mortality for the purpose of epidemic impact monitoring. Data are intended to be collected both in the facility and in the community, to capture all deaths. This approach can overcome known shortfalls to achieving completeness and coverage of cause-based mortality systems in many countries, such as poor linkages between health facility death reporting and national CRVS systems as well as high proportions of deaths that occur in the community and may go unreported. 
+Unlike cause-based mortality surveillance systems and death certification systems, the intent of RMS is to capture *total* mortality for the purpose of epidemic impact monitoring. Data are intended to be collected both in the facility and in the community, to capture all deaths. This approach can overcome known shortfalls to achieving completeness and coverage of cause-based mortality systems in many countries, such as poor linkages between health facility death reporting and national CRVS systems as well as high proportions of deaths that occur in the community and may go unreported.
 
 For cause-based mortality surveillance, please reference the [DHIS2 Cause of Death metadata package](#cod-design) designed to support the WHO recommended medical certification of cause of death and International Classification of Disease (ICD) standards.
 
@@ -29,7 +29,8 @@ The package is designed with the following end users in mind:
 4. Epidemic response teams, national COVID-19 task forces, and policy makers responsible for analyzing the data and directing epidemic response measures
 
 ### 2.3 Data Flow
-FRMS seeks to pull data from multiple reporting sources to gather a complete picture of total mortality. 
+
+FRMS seeks to pull data from multiple reporting sources to gather a complete picture of total mortality.
 
 ![rms_system_graphic_who_2020](resources/images/rms_system_graphic_en.png)
 
@@ -60,9 +61,9 @@ By default the following permissions are assigned to these user groups:
 |Object                   |User Group                                     |                                                     |                                                     |
 |-------------------------|-----------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|
 |                         | _RMS - access_                                | _RMS - admin_                                       | _RMS - data capture_                                |
-| _*Program*_             | Metadata: can view <br> Data: can view       | Metadata: can edit and view <br> Data: no access   | Metadata: can view <br> Data: can capture and view |
-| _*Program Stages*_      | Metadata: can view <br> Data: can view       | Metadata: can view <br> Data: no access            | Metadata: can view <br> Data: can capture and view |
-| _*Dashboards*_          | Metadata: can view                           | Metadata: can view                                 | Metadata: can view                                 |
+| _*Program*_             | Metadata : can view <br> Data: can view       | Metadata : can edit and view <br> Data: no access   | Metadata : can view <br> Data: can capture and view |
+| _*Program Stages*_      | Metadata : can view <br> Data: can view       | Metadata : can view <br> Data: no access            | Metadata : can view <br> Data: can capture and view |
+| _*Dashboards*_          | Metadata : can view                           | Metadata : can view                                 | Metadata : can view                                 |
 
 The users are assigned to the appropriate user group based on their role within the system. Sharing for other objects in the package may be adjusted depending on the set up. Refer to the [DHIS2 Documentation on sharing](#sharing) for more information.
 
