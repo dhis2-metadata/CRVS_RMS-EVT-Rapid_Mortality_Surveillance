@@ -91,7 +91,6 @@ The Rapid Mortality Surveillance packages includes a dashboard containing follow
 | `CFaSySxD8TD` | RMS - Deaths by sex                          | Column                | Number of deaths by sex, last 52 weeks, user organisation unit                                                    |
 | `yIB5hqPsjf6` | RMS - Deaths by year                         | Year over year (line) | Number of deaths by weeks per year, this year and last 5 years                                                    |
 | `UMX5BHF0tJL` | RMS - Deaths by age, sex                     | Event report          | Number of deaths by age groups (0-4,5-14,15-44,45+) and sex (male, female, unknown)                               |
-| `iRodVwZ80kX` | RMS - Summary Line List                      | Event Report          | Line list: reporting date, reporting organisation unit, age, sex, date of death, Died in health facility (Yes/No) |
 
 ![Deaths by place, last 52 weeks](resources/images/rms-dsh-deaths_by_place-en.png)
 
@@ -103,12 +102,9 @@ The Rapid Mortality Surveillance packages includes a dashboard containing follow
 
 ![Deaths by age, sex](resources/images/rms-dsh-deaths_by_age_sex-en.png)
 
-![Summary Line List](resources/images/rms-dsh-summary_line_list-en.png)
-
 ### Considerations
 
-Current limitations of the Event Reports app may influence the import of pre-configured event reports. It is possible to recreate the 2 event reports described in the table above and add them to the RMS dashboard.
-
-More details here.
+Event reports containing large amount of data may slow down the dashboard performance.
+If needed for implementation purposes, DHIS2 admins / implementers can create a line list of events in the Event Reports app and add it to the dashboard. Likewise, the existing event report may be removed from the dashboard.
 
 ## Resources
