@@ -1,4 +1,6 @@
-# Rapid Mortality Surveillance - Event Package Installation Guide v1.0.0 { #rms-event-installation }
+# Rapid Mortality Surveillance - Event Package Installation Guide { #rms-events-installation }
+
+Version: v1.0.0
 
 System default language: English
 
