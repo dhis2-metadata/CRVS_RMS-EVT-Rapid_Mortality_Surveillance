@@ -4,8 +4,6 @@ Version: v1.0.0
 
 System default language: English
 
-Available translations: French, Spanish, Portuguese
-
 ## Overview
 
 === "DHIS2.35"
