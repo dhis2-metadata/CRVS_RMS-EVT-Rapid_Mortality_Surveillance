@@ -32,13 +32,13 @@ The package is designed with the following end users in mind:
 
 Rapid mortality surveillance seeks to pull data from multiple reporting sources to gather a complete picture of total mortality.
 
-![rms_system_graphic_who_2020](resources/images/rms_system_graphic_en.png)
+![rms_system_graphic_who_2020](resources/images/rms_system_graphic.png)
 
 Ideally, the identification and reporting of deaths as part of RMS is also used as a notification for the civil registration system where possible. Careful consideration of existing community-based and facility-based death reporting protocols, completeness and coverage of vital events reporting, and the extent to which cause-based mortality and death certification systems can be sustained at adequate completeness & pace during an epidemic should be considered during the design of national RMS.
 
 A typical business process for facility-based reporting is as follows:
 
-![rms-community-reporting-who-2020](resources/images/rms_community_reporting_en.png)
+![rms-community-reporting-who-2020](resources/images/rms_community_reporting.png)
 
 ## Program Configuration
 
@@ -92,17 +92,16 @@ The Rapid Mortality Surveillance packages includes a dashboard containing follow
 | `yIB5hqPsjf6` | RMS - Deaths by year                         | Year over year (line) | Number of deaths by weeks per year, this year and last 5 years                                                    |
 | `UMX5BHF0tJL` | RMS - Deaths by age, sex                     | Event report          | Number of deaths by age groups (0-4,5-14,15-44,45+) and sex (male, female, unknown)                               |
 
-![Deaths by place, last 52 weeks](resources/images/rms-dsh-deaths_by_place-en.png)
+![Deaths by place, last 52 weeks](resources/images/rms-dsh-deaths_by_place.png)
 
-![Deaths per region, by months this year](resources/images/rms-dsh-deaths_per_region-en.png)
+![Deaths per region, by months this year](resources/images/rms-dsh-deaths_per_region.png)
 
-![Deaths by sex](resources/images/rms-dsh-deaths_by_sex-en.png)
+![Deaths by sex](resources/images/rms-dsh-deaths_by_sex.png)
 
-![Deaths by year](resources/images/rms-dsh-deaths_by_year-en.png)
+![Deaths by year](resources/images/rms-dsh-deaths_by_year.png)
 
-![Deaths by age, sex](resources/images/rms-dsh-deaths_by_age_sex-en.png)
+![Deaths by age, sex](resources/images/rms-dsh-deaths_by_age_sex.png)
 
 ## Implementation Considerations
 
-It is possible to implement the Rapid Mortality Surveillance side-by-side with the WHO Cause of Death package. Some generic data elements are shared between these packages. In many contexts, the Medical Certificate of the Cause of Death (MCCOD) is not completed in a timely manner for all deaths that occur, especially those deaths that may occur in the community. Rapid Mortality Surveillance enables users to quickly report on the fact of death using the event data model in DHIS2. The analytics are separated by program (COD vs RMS) so that these data can be analyzed without the risk of double-counting. Depending on country context, workflows, and completeness of Cause of Death surveillance, integrated analytics could also be considered to combine deaths reported through RMS as 'fact of death' vs deaths reported from the facility that have been assigned an underlying cause. 
-
+It is possible to implement the Rapid Mortality Surveillance side-by-side with the WHO Cause of Death package. Some generic data elements are shared between these packages. In many contexts, the Medical Certificate of the Cause of Death (MCCOD) is not completed in a timely manner for all deaths that occur, especially those deaths that may occur in the community. Rapid Mortality Surveillance enables users to quickly report on the fact of death using the event data model in DHIS2. The analytics are separated by program (COD vs RMS) so that these data can be analyzed without the risk of double-counting. Depending on country context, workflows, and completeness of Cause of Death surveillance, integrated analytics could also be considered to combine deaths reported through RMS as 'fact of death' vs deaths reported from the facility that have been assigned an underlying cause.
