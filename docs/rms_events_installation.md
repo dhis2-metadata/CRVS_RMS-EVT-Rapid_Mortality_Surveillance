@@ -10,13 +10,13 @@ System default language: English
 
     ```json
     "package": {
-        "DHIS2Build": "<PLACEHOLDER>",
+        "DHIS2Build": "834b25f",
         "DHIS2Version": "2.35.8",
-        "code": "<PLACEHOLDER>",
+        "code": "RMS0",
         "description": "",
-        "lastUpdated": "<PLACEHOLDER>",
+        "lastUpdated": "20211203T155049",
         "locale": "en",
-        "name": "<PLACEHOLDER>",
+        "name": "RMS0_1.0.0_DHIS2.35.8",
         "type": "EVT",
         "version": "1.0.0"
     }
