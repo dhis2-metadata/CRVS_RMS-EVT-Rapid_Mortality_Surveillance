@@ -28,9 +28,9 @@ The package is designed with the following end users in mind:
 3. Medicolegal personnel (i.e. coroners, medical examiners) in countries where a high proportion of deaths are captured by these workers
 4. Epidemic response teams, national COVID-19 task forces, and policy makers responsible for analyzing the data and directing epidemic response measures
 
-### 2.3 Data Flow
+### Data Flow
 
-FRMS seeks to pull data from multiple reporting sources to gather a complete picture of total mortality.
+Rapid mortality surveillance seeks to pull data from multiple reporting sources to gather a complete picture of total mortality.
 
 ![rms_system_graphic_who_2020](resources/images/rms_system_graphic_en.png)
 
@@ -52,9 +52,9 @@ This package uses the event data model in DHIS2 to record deaths. The event mode
 
 Three core user groups are included in the package.
 
-* RMS - access
-* RMS - admin
-* RMS - data capture
+* RMS - access (view data/view metadata)
+* RMS - admin (no access to data/edit metadata)
+* RMS - data capture (capture data/view metadata
 
 By default the following permissions are assigned to these user groups:
 
@@ -102,9 +102,7 @@ The Rapid Mortality Surveillance packages includes a dashboard containing follow
 
 ![Deaths by age, sex](resources/images/rms-dsh-deaths_by_age_sex-en.png)
 
-### Considerations
+## Implementation Considerations
 
-Event reports containing large amount of data may slow down the dashboard performance.
-If needed for implementation purposes, DHIS2 admins / implementers can create a line list of events in the Event Reports app and add it to the dashboard. Likewise, the existing event report may be removed from the dashboard.
+It is possible to implement the Rapid Mortality Surveillance can be implemented side-by-side with the WHO Cause of Death package. Some generic data elements are shared between these packages. In many contexts, the Medical Certificate of the Cause of Death (MCCOD) is not completed in a timely manner for all deaths that occur, especially those deaths that may occur in the community. Rapid Mortality Surveillance enables users to quickly report on the fact of death using the event data model in DHIS2. The analytics are separated by program (COD vs RMS) so that these data can be analyzed without the risk of double-counting. Depending on country context, workflows, and completeness of Cause of Death surveillance, integrated analytics could also be considered to combine deaths reported through RMS as 'fact of death' vs deaths reported from the facility that have been assigned an underlying cause. 
 
-## Resources
