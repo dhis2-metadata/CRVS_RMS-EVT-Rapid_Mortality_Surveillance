@@ -832,7 +832,7 @@
             "groupSets": [],
             "id": "Rcm9x8HIDTj",
             "legendSets": [],
-            "name": "RMS - Rapid Mortality Survellance",
+            "name": "RMS - Rapid Mortality Surveillance",
             "periodOffset": 0,
             "publicAccess": "rw------",
             "shortName": "RMS",
@@ -845,7 +845,7 @@
                 {
                     "locale": "cs",
                     "property": "NAME",
-                    "value": "RMS - Rapid Mortality Survellance"
+                    "value": "RMS - Rapid Mortality Surveillance"
                 }
             ],
             "user": {
