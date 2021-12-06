@@ -14,11 +14,11 @@ The package metadata json files contain a "package" component that provides tech
     "package": {
         "DHIS2Build": "834b25f",
         "DHIS2Version": "2.35.8",
-        "code": "RMS0",
+        "code": "RMS000",
         "description": "",
-        "lastUpdated": "20211203T155049",
+        "lastUpdated": "20211206T130217",
         "locale": "en",
-        "name": "RMS0_1.0.0_DHIS2.35.8",
+        "name": "RMS000_1.0.0_DHIS2.35.8",
         "type": "EVT",
         "version": "1.0.0"
     }
