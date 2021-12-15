@@ -12,9 +12,9 @@ The package metadata json files contain a "package" component that provides tech
         "DHIS2Version": "2.35.8",
         "code": "RMS000",
         "description": "",
-        "lastUpdated": "20211206T130217",
+        "lastUpdated": "20211211T003720",
         "locale": "en",
-        "name": "RMS000_1.0.0_DHIS2.35.8",
+        "name": "RMS000_1.0.0_DHIS2.35",
         "type": "EVT",
         "version": "1.0.0"
     }
@@ -24,13 +24,13 @@ The package metadata json files contain a "package" component that provides tech
 
     ```json
     "package": {
-        "DHIS2Build": "<PLACEHOLDER>",
+        "DHIS2Build": "2adf10b",
         "DHIS2Version": "2.36.4",
-        "code": "<PLACEHOLDER>",
+        "code": "RMS000",
         "description": "",
-        "lastUpdated": "<PLACEHOLDER>",
+        "lastUpdated": "20211210T233945",
         "locale": "en",
-        "name": "<PLACEHOLDER>",
+        "name": "RMS000_1.0.0_DHIS2.36",
         "type": "EVT",
         "version": "1.0.0"
     }
@@ -40,13 +40,13 @@ The package metadata json files contain a "package" component that provides tech
 
     ```json
     "package": {
-        "DHIS2Build": "<PLACEHOLDER>",
+        "DHIS2Build": "b8d4ef3",
         "DHIS2Version": "2.37.0",
-        "code": "<PLACEHOLDER>",
+        "code": "RMS000",
         "description": "",
-        "lastUpdated": "<PLACEHOLDER>",
+        "lastUpdated": "20211210T233946",
         "locale": "en",
-        "name": "<PLACEHOLDER>",
+        "name": "RMS000_1.0.0_DHIS2.37",
         "type": "EVT",
         "version": "1.0.0"
     }
