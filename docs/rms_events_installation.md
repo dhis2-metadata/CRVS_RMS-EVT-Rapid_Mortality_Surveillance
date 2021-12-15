@@ -80,6 +80,8 @@ While not always necessary, it can often be advantageous to make certain modific
 
 ## Preparing the metadata file
 
+It is required to apply some changes to the metadata file before it can be imported. The scope of work may vary from package to package.
+
 ### Default data dimension
 
 In early versions of DHIS2, the UIDs of the default data dimensions were auto-generated. Thus, while all DHIS2 instances have a default category option, data element category, category combination and category option combination, the UIDs of these defaults can be different. Later versions of DHIS2 have hardcoded UIDs for the default dimension, and these UIDs are used in the configuration packages.
@@ -178,11 +180,11 @@ Use [Import/Export](#import_export) DHIS2 app to import metadata packages. It is
 
 ### Handling import conflicts
 
+There are a number of different conflicts that may occur, though the most common is that there are metadata objects in the configuration package with a name, shortname and/or code that already exist in the target database. There are a couple of alternative solutions to these problems, with different advantages and disadvantages. Which one is more appropriate will depend, for example, on the type of object for which a conflict occurs.
+
 > **NOTE**
 >
-> If you are importing the package into a new DHIS2 instance, you will not experience import conflicts, as there is no metadata in the target database. After import the metadata, proceed to the “[Configuration](#configuration)” section.
-
-There are a number of different conflicts that may occur, though the most common is that there are metadata objects in the configuration package with a name, shortname and/or code that already exist in the target database. There are a couple of alternative solutions to these problems, with different advantages and disadvantages. Which one is more appropriate will depend, for example, on the type of object for which a conflict occurs.
+> If you are importing the package into a new DHIS2 instance, you will not experience import conflicts, as there is no metadata in the target database. After importing the metadata, proceed to the “[Configuration](#configuration)” section.
 
 #### Alternative 1
 
