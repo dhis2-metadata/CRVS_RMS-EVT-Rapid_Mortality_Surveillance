@@ -132,31 +132,31 @@ The table below contains metadata elements that use an affected option set:
 
 For data element values, use:
 
-```SQL
-UPDATE programstageinstance
-SET eventdatavalues = jsonb_set(eventdatavalues, '{"<affected data element uid>","value"}', '"<new value>"')
-WHERE eventdatavalues @> '{"<affected data element uid>":{"value": "<old value>"}}'::jsonb
-AND programstageid=<database_programsatgeid>;
-```
+     ```SQL
+     UPDATE programstageinstance
+     SET eventdatavalues = jsonb_set(eventdatavalues, '{"<affected data element uid>","value"}', '"<new value>"')
+     WHERE eventdatavalues @> '{"<affected data element uid>":{"value": "<old value>"}}'::jsonb
+     AND programstageid=<database_programsatgeid>;
+     ```
 
 For tracked entity attribute values, use:
 
-```SQL
-UPDATE trackedentityattributevalue
-SET value = <new value>
-WHERE trackedentityattributeid=<affected trackedentityattribute database_id> AND value=<old value>;
-```
+    ```SQL
+    UPDATE trackedentityattributevalue
+    SET value = <new value>
+    WHERE trackedentityattributeid=<affected trackedentityattribute database_id> AND value=<old value>;
+    ```
 
 > **Example**
 >
 > To replace the option code 'yes' with 'YES' for existing data values (data element RMS - Died in health facility `CBAs12YL4g7`) in the programstage with the id=1510410385 (example id), the command will be configured as follows:
 >
-> ```SQL
-> UPDATE programstageinstance
-> SET eventdatavalues = jsonb_set(eventdatavalues, '{"CBAs12YL4g7","value"}', '"YES"')
-> WHERE eventdatavalues @> '{"CBAs12YL4g7":{"value": "yes"}}'::jsonb
-> AND programstageid=1510410385;
-> ```
+>     ```SQL
+>     UPDATE programstageinstance
+>     SET eventdatavalues = jsonb_set(eventdatavalues, '{"CBAs12YL4g7","value"}', '"YES"')
+>     WHERE eventdatavalues @> '{"CBAs12YL4g7":{"value": "yes"}}'::jsonb
+>     AND programstageid=1510410385;
+>     ```
 
 Option codes are also used in program rule expressions, program indicators, etc. If you are updating code options in your system, make sure you update the codes in all affected metadata objects.
 
