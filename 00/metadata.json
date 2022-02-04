@@ -1130,20 +1130,7 @@
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "--------",
-                "userGroups": {
-                    "UGcRfaBepHK": {
-                        "access": "r-------",
-                        "id": "UGcRfaBepHK"
-                    },
-                    "WpOwDMRwNou": {
-                        "access": "r-------",
-                        "id": "WpOwDMRwNou"
-                    },
-                    "gtWIFdrPj74": {
-                        "access": "rw------",
-                        "id": "gtWIFdrPj74"
-                    }
-                },
+                "userGroups": {},
                 "users": {}
             },
             "translations": [
@@ -1159,23 +1146,7 @@
                 "username": "who"
             },
             "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "r-------",
-                    "id": "UGcRfaBepHK",
-                    "userGroupUid": "UGcRfaBepHK"
-                },
-                {
-                    "access": "rw------",
-                    "id": "gtWIFdrPj74",
-                    "userGroupUid": "gtWIFdrPj74"
-                },
-                {
-                    "access": "r-------",
-                    "id": "WpOwDMRwNou",
-                    "userGroupUid": "WpOwDMRwNou"
-                }
-            ]
+            "userGroupAccesses": []
         }
     ],
     "dataElementGroups": [
@@ -2420,20 +2391,7 @@
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "--------",
-                "userGroups": {
-                    "UGcRfaBepHK": {
-                        "access": "r-------",
-                        "id": "UGcRfaBepHK"
-                    },
-                    "WpOwDMRwNou": {
-                        "access": "r-------",
-                        "id": "WpOwDMRwNou"
-                    },
-                    "gtWIFdrPj74": {
-                        "access": "rw------",
-                        "id": "gtWIFdrPj74"
-                    }
-                },
+                "userGroups": {},
                 "users": {}
             },
             "shortName": "Died in health facility",
@@ -2490,23 +2448,7 @@
                 "username": "who"
             },
             "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "r-------",
-                    "id": "UGcRfaBepHK",
-                    "userGroupUid": "UGcRfaBepHK"
-                },
-                {
-                    "access": "rw------",
-                    "id": "gtWIFdrPj74",
-                    "userGroupUid": "gtWIFdrPj74"
-                },
-                {
-                    "access": "r-------",
-                    "id": "WpOwDMRwNou",
-                    "userGroupUid": "WpOwDMRwNou"
-                }
-            ],
+            "userGroupAccesses": [],
             "valueType": "TEXT",
             "zeroIsSignificant": false
         }
@@ -2643,20 +2585,7 @@
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "--------",
-                "userGroups": {
-                    "UGcRfaBepHK": {
-                        "access": "r-------",
-                        "id": "UGcRfaBepHK"
-                    },
-                    "WpOwDMRwNou": {
-                        "access": "r-------",
-                        "id": "WpOwDMRwNou"
-                    },
-                    "gtWIFdrPj74": {
-                        "access": "rw------",
-                        "id": "gtWIFdrPj74"
-                    }
-                },
+                "userGroups": {},
                 "users": {}
             },
             "showDimensionLabels": true,
@@ -2672,23 +2601,7 @@
                 "username": "who"
             },
             "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "r-------",
-                    "id": "UGcRfaBepHK",
-                    "userGroupUid": "UGcRfaBepHK"
-                },
-                {
-                    "access": "rw------",
-                    "id": "gtWIFdrPj74",
-                    "userGroupUid": "gtWIFdrPj74"
-                },
-                {
-                    "access": "r-------",
-                    "id": "WpOwDMRwNou",
-                    "userGroupUid": "WpOwDMRwNou"
-                }
-            ],
+            "userGroupAccesses": [],
             "userOrganisationUnit": false,
             "userOrganisationUnitChildren": false,
             "userOrganisationUnitGrandChildren": false
@@ -2707,25 +2620,6 @@
             "favorite": false,
             "id": "kxf21emexhC",
             "legends": [
-                {
-                    "attributeValues": [],
-                    "color": "#DAEEFF",
-                    "endValue": 5.0,
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "Cv95EZtSZnK",
-                    "name": "0-4 years",
-                    "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "startValue": 0.0,
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                },
                 {
                     "attributeValues": [],
                     "color": "#6DBBFF",
@@ -2779,6 +2673,25 @@
                         "users": {}
                     },
                     "startValue": 5.0,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "attributeValues": [],
+                    "color": "#DAEEFF",
+                    "endValue": 5.0,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "Cv95EZtSZnK",
+                    "name": "0-4 years",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "startValue": 0.0,
                     "translations": [],
                     "userAccesses": [],
                     "userGroupAccesses": []
@@ -3145,20 +3058,7 @@
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "--------",
-                "userGroups": {
-                    "UGcRfaBepHK": {
-                        "access": "r-------",
-                        "id": "UGcRfaBepHK"
-                    },
-                    "WpOwDMRwNou": {
-                        "access": "r-------",
-                        "id": "WpOwDMRwNou"
-                    },
-                    "gtWIFdrPj74": {
-                        "access": "rw------",
-                        "id": "gtWIFdrPj74"
-                    }
-                },
+                "userGroups": {},
                 "users": {}
             },
             "subscribed": false,
@@ -3170,23 +3070,7 @@
                 "username": "who"
             },
             "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "r-------",
-                    "id": "UGcRfaBepHK",
-                    "userGroupUid": "UGcRfaBepHK"
-                },
-                {
-                    "access": "rw------",
-                    "id": "gtWIFdrPj74",
-                    "userGroupUid": "gtWIFdrPj74"
-                },
-                {
-                    "access": "r-------",
-                    "id": "WpOwDMRwNou",
-                    "userGroupUid": "WpOwDMRwNou"
-                }
-            ]
+            "userGroupAccesses": []
         }
     ],
     "optionGroups": [],
@@ -3874,13 +3758,13 @@
     ],
     "organisationUnitGroups": [],
     "package": {
-        "DHIS2Build": "2adf10b",
-        "DHIS2Version": "2.36.4",
-        "code": "RMS000",
-        "description": "",
-        "lastUpdated": "20211210T233945",
+        "DHIS2Build": "5d136cb",
+        "DHIS2Version": "2.36.6",
+        "code": "CRVS_RMS",
+        "description": "Rapid Mortality Surveillance",
+        "lastUpdated": "20220120T140458",
         "locale": "en",
-        "name": "RMS000_1.0.0_DHIS2.36",
+        "name": "CRVS_RMS_EVT_1.0.0_DHIS2.36.6-en",
         "type": "EVT",
         "version": "1.0.0"
     },
@@ -3899,10 +3783,10 @@
                     "id": "mNiLSRgYdAB"
                 },
                 {
-                    "id": "WqcliBMvwaf"
+                    "id": "UMX5BHF0tJL"
                 },
                 {
-                    "id": "UMX5BHF0tJL"
+                    "id": "WqcliBMvwaf"
                 },
                 {
                     "id": "CFaSySxD8TD"
@@ -4144,13 +4028,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "uG3ee77zJlR",
+                    "id": "fPJLabpJmDc",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -4161,13 +4045,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "fPJLabpJmDc",
+                    "id": "uG3ee77zJlR",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -4186,7 +4070,6 @@
             "expression": "V{event_count}",
             "externalAccess": false,
             "favorite": false,
-            "filter": "#{lOslKyVm688.cgYpqCgnVF2} == \"FEMALE\"",
             "id": "mNiLSRgYdAB",
             "legendSets": [],
             "name": "RMS - Deaths - female (#)",
@@ -4252,13 +4135,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "oeIsyUty5Dh",
+                    "id": "wgMQNMUVuc7",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -4269,13 +4152,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "wgMQNMUVuc7",
+                    "id": "oeIsyUty5Dh",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -4294,7 +4177,6 @@
             "expression": "V{event_count}",
             "externalAccess": false,
             "favorite": false,
-            "filter": "#{lOslKyVm688.cgYpqCgnVF2} == \"MALE\"",
             "id": "CFaSySxD8TD",
             "legendSets": [],
             "name": "RMS - Deaths - male (#)",
@@ -4497,7 +4379,7 @@
             "hideDueDate": false,
             "id": "lOslKyVm688",
             "minDaysFromStart": 0,
-            "name": "RMS - Rapid Mortality Surveillance",
+            "name": "Rapid Mortality Surveillance",
             "notificationTemplates": [],
             "openAfterEnrollment": false,
             "preGenerateUID": false,
@@ -4509,7 +4391,7 @@
                     "allowFutureDate": false,
                     "allowProvidedElsewhere": false,
                     "attributeValues": [],
-                    "compulsory": false,
+                    "compulsory": true,
                     "dataElement": {
                         "id": "cgYpqCgnVF2"
                     },
@@ -4621,7 +4503,7 @@
                     "allowFutureDate": false,
                     "allowProvidedElsewhere": false,
                     "attributeValues": [],
-                    "compulsory": false,
+                    "compulsory": true,
                     "dataElement": {
                         "id": "FVVUSz8iUA9"
                     },
@@ -4679,13 +4561,13 @@
                     "attributeValues": [],
                     "compulsory": false,
                     "dataElement": {
-                        "id": "MAqI45DkhPd"
+                        "id": "tker4lvb0mX"
                     },
                     "displayInReports": false,
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "HJS2xEzP4ob",
+                    "id": "m8G8LRrWGhC",
                     "programStage": {
                         "id": "lOslKyVm688"
                     },
@@ -4707,13 +4589,13 @@
                     "attributeValues": [],
                     "compulsory": false,
                     "dataElement": {
-                        "id": "tker4lvb0mX"
+                        "id": "MAqI45DkhPd"
                     },
                     "displayInReports": false,
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "m8G8LRrWGhC",
+                    "id": "HJS2xEzP4ob",
                     "programStage": {
                         "id": "lOslKyVm688"
                     },
@@ -4745,20 +4627,7 @@
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "--------",
-                "userGroups": {
-                    "UGcRfaBepHK": {
-                        "access": "r-rw----",
-                        "id": "UGcRfaBepHK"
-                    },
-                    "WpOwDMRwNou": {
-                        "access": "r-r-----",
-                        "id": "WpOwDMRwNou"
-                    },
-                    "gtWIFdrPj74": {
-                        "access": "rw------",
-                        "id": "gtWIFdrPj74"
-                    }
-                },
+                "userGroups": {},
                 "users": {}
             },
             "translations": [
@@ -4768,14 +4637,14 @@
                     "value": "VRM - Vigilancia Rápida de la Mortalidad"
                 },
                 {
-                    "locale": "cs",
-                    "property": "NAME",
-                    "value": "RMS - Rapid Mortality Surveillance"
-                },
-                {
                     "locale": "fr",
                     "property": "NAME",
                     "value": "SRM - Surveillance Rapide de la Mortalité"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "RMS - Rapid Mortality Surveillance"
                 }
             ],
             "user": {
@@ -4784,23 +4653,7 @@
                 "username": "who"
             },
             "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "id": "gtWIFdrPj74",
-                    "userGroupUid": "gtWIFdrPj74"
-                },
-                {
-                    "access": "r-rw----",
-                    "id": "UGcRfaBepHK",
-                    "userGroupUid": "UGcRfaBepHK"
-                },
-                {
-                    "access": "r-r-----",
-                    "id": "WpOwDMRwNou",
-                    "userGroupUid": "WpOwDMRwNou"
-                }
-            ],
+            "userGroupAccesses": [],
             "validationStrategy": "ON_COMPLETE"
         }
     ],
@@ -4820,10 +4673,10 @@
             "favorite": false,
             "id": "TP01C129Or9",
             "ignoreOverdueEvents": false,
-            "lastUpdated": "2021-12-06T12:58:54.965",
+            "lastUpdated": "2022-01-12T14:09:24.331",
             "maxTeiCountToReturn": 0,
             "minAttributesRequiredToSearch": 1,
-            "name": "RMS - Rapid Mortality Surveillance",
+            "name": "Rapid Mortality Surveillance",
             "notificationTemplates": [],
             "onlyEnrollOnce": false,
             "programIndicators": [
@@ -4857,20 +4710,7 @@
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "--------",
-                "userGroups": {
-                    "UGcRfaBepHK": {
-                        "access": "r-rw----",
-                        "id": "UGcRfaBepHK"
-                    },
-                    "WpOwDMRwNou": {
-                        "access": "r-r-----",
-                        "id": "WpOwDMRwNou"
-                    },
-                    "gtWIFdrPj74": {
-                        "access": "rw------",
-                        "id": "gtWIFdrPj74"
-                    }
-                },
+                "userGroups": {},
                 "users": {}
             },
             "shortName": "RMS",
@@ -4892,14 +4732,14 @@
                     "value": "VRM - Vigilancia Rápida de la Mortalidad"
                 },
                 {
-                    "locale": "cs",
-                    "property": "NAME",
-                    "value": "RMS - Rapid Mortality Surveillance"
-                },
-                {
                     "locale": "fr",
                     "property": "NAME",
                     "value": "SRM - Surveillance Rapide de la Mortalité"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "RMS - Rapid Mortality Surveillance"
                 },
                 {
                     "locale": "es",
@@ -4914,160 +4754,14 @@
                 "username": "who"
             },
             "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "id": "gtWIFdrPj74",
-                    "userGroupUid": "gtWIFdrPj74"
-                },
-                {
-                    "access": "r-rw----",
-                    "id": "UGcRfaBepHK",
-                    "userGroupUid": "UGcRfaBepHK"
-                },
-                {
-                    "access": "r-r-----",
-                    "id": "WpOwDMRwNou",
-                    "userGroupUid": "WpOwDMRwNou"
-                }
-            ],
+            "userGroupAccesses": [],
             "userRoles": [],
-            "version": 5,
+            "version": 6,
             "withoutRegistration": true
         }
     ],
     "sections": [],
-    "userGroups": [
-        {
-            "attributeValues": [],
-            "code": "RMS0_ACCESS",
-            "externalAccess": false,
-            "favorite": false,
-            "id": "WpOwDMRwNou",
-            "managedByGroups": [],
-            "managedGroups": [],
-            "name": "RMS access",
-            "publicAccess": "rw------",
-            "sharing": {
-                "external": false,
-                "owner": "vUeLeQMSwhN",
-                "public": "rw------",
-                "userGroups": {},
-                "users": {}
-            },
-            "translations": [
-                {
-                    "locale": "fr",
-                    "property": "NAME",
-                    "value": "SRM Accès"
-                },
-                {
-                    "locale": "es",
-                    "property": "NAME",
-                    "value": "VRM Acceso "
-                },
-                {
-                    "locale": "cs",
-                    "property": "NAME",
-                    "value": "RMS přístup"
-                }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": [],
-            "users": []
-        },
-        {
-            "attributeValues": [],
-            "code": "RMS0_ADMIN",
-            "externalAccess": false,
-            "favorite": false,
-            "id": "gtWIFdrPj74",
-            "managedByGroups": [],
-            "managedGroups": [],
-            "name": "RMS admin",
-            "publicAccess": "rw------",
-            "sharing": {
-                "external": false,
-                "owner": "vUeLeQMSwhN",
-                "public": "rw------",
-                "userGroups": {},
-                "users": {}
-            },
-            "translations": [
-                {
-                    "locale": "cs",
-                    "property": "NAME",
-                    "value": "RMS Správce"
-                },
-                {
-                    "locale": "fr",
-                    "property": "NAME",
-                    "value": "SRM Administrateur"
-                },
-                {
-                    "locale": "es",
-                    "property": "NAME",
-                    "value": "VRM Administrador "
-                }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": [],
-            "users": []
-        },
-        {
-            "attributeValues": [],
-            "code": "RMS0_DATA_CAPTURE",
-            "externalAccess": false,
-            "favorite": false,
-            "id": "UGcRfaBepHK",
-            "managedByGroups": [],
-            "managedGroups": [],
-            "name": "RMS data capture",
-            "publicAccess": "rw------",
-            "sharing": {
-                "external": false,
-                "owner": "vUeLeQMSwhN",
-                "public": "rw------",
-                "userGroups": {},
-                "users": {}
-            },
-            "translations": [
-                {
-                    "locale": "cs",
-                    "property": "NAME",
-                    "value": "RMS sběr dat"
-                },
-                {
-                    "locale": "es",
-                    "property": "NAME",
-                    "value": "VRM Captura de datos "
-                },
-                {
-                    "locale": "fr",
-                    "property": "NAME",
-                    "value": "SRM Saisie des données"
-                }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": [],
-            "users": []
-        }
-    ],
+    "userGroups": [],
     "users": [
         {
             "attributeValues": [],
@@ -5280,20 +4974,7 @@
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "--------",
-                "userGroups": {
-                    "UGcRfaBepHK": {
-                        "access": "r-rw----",
-                        "id": "UGcRfaBepHK"
-                    },
-                    "WpOwDMRwNou": {
-                        "access": "r-r-----",
-                        "id": "WpOwDMRwNou"
-                    },
-                    "gtWIFdrPj74": {
-                        "access": "rw------",
-                        "id": "gtWIFdrPj74"
-                    }
-                },
+                "userGroups": {},
                 "users": {}
             },
             "showData": true,
@@ -5320,23 +5001,7 @@
                 "username": "who"
             },
             "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "id": "gtWIFdrPj74",
-                    "userGroupUid": "gtWIFdrPj74"
-                },
-                {
-                    "access": "r-rw----",
-                    "id": "UGcRfaBepHK",
-                    "userGroupUid": "UGcRfaBepHK"
-                },
-                {
-                    "access": "r-r-----",
-                    "id": "WpOwDMRwNou",
-                    "userGroupUid": "WpOwDMRwNou"
-                }
-            ],
+            "userGroupAccesses": [],
             "userOrganisationUnit": true,
             "userOrganisationUnitChildren": false,
             "userOrganisationUnitGrandChildren": false,
@@ -5479,20 +5144,7 @@
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "--------",
-                "userGroups": {
-                    "UGcRfaBepHK": {
-                        "access": "r-rw----",
-                        "id": "UGcRfaBepHK"
-                    },
-                    "WpOwDMRwNou": {
-                        "access": "r-r-----",
-                        "id": "WpOwDMRwNou"
-                    },
-                    "gtWIFdrPj74": {
-                        "access": "rw------",
-                        "id": "gtWIFdrPj74"
-                    }
-                },
+                "userGroups": {},
                 "users": {}
             },
             "showData": true,
@@ -5519,23 +5171,7 @@
                 "username": "who"
             },
             "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "id": "gtWIFdrPj74",
-                    "userGroupUid": "gtWIFdrPj74"
-                },
-                {
-                    "access": "r-rw----",
-                    "id": "UGcRfaBepHK",
-                    "userGroupUid": "UGcRfaBepHK"
-                },
-                {
-                    "access": "r-r-----",
-                    "id": "WpOwDMRwNou",
-                    "userGroupUid": "WpOwDMRwNou"
-                }
-            ],
+            "userGroupAccesses": [],
             "userOrganisationUnit": true,
             "userOrganisationUnitChildren": false,
             "userOrganisationUnitGrandChildren": false,
