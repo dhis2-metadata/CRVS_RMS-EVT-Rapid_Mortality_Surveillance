@@ -2622,25 +2622,6 @@
             "legends": [
                 {
                     "attributeValues": [],
-                    "color": "#DAEEFF",
-                    "endValue": 5.0,
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "Cv95EZtSZnK",
-                    "name": "0-4 years",
-                    "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "startValue": 0.0,
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                },
-                {
-                    "attributeValues": [],
                     "color": "#6DBBFF",
                     "endValue": 45.0,
                     "externalAccess": false,
@@ -2692,6 +2673,25 @@
                         "users": {}
                     },
                     "startValue": 5.0,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "attributeValues": [],
+                    "color": "#DAEEFF",
+                    "endValue": 5.0,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "Cv95EZtSZnK",
+                    "name": "0-4 years",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "startValue": 0.0,
                     "translations": [],
                     "userAccesses": [],
                     "userGroupAccesses": []
@@ -3783,10 +3783,10 @@
                     "id": "mNiLSRgYdAB"
                 },
                 {
-                    "id": "WqcliBMvwaf"
+                    "id": "UMX5BHF0tJL"
                 },
                 {
-                    "id": "UMX5BHF0tJL"
+                    "id": "WqcliBMvwaf"
                 },
                 {
                     "id": "CFaSySxD8TD"
