@@ -1,57 +1,5 @@
 # Rapid Mortality Surveillance - Event Package Installation Guide { #rms-events-installation }
 
-## Overview
-
-The package metadata json files contain a "package" component that provides technical details on package version and content. The files available in the current version of the package are listed below.
-
-=== "DHIS2.35"
-
-    ```json
-    "package": {
-        "DHIS2Build": "834b25f",
-        "DHIS2Version": "2.35.8",
-        "code": "RMS000",
-        "description": "",
-        "lastUpdated": "20211211T003720",
-        "locale": "en",
-        "name": "RMS000_1.0.0_DHIS2.35",
-        "type": "EVT",
-        "version": "1.0.0"
-    }
-    ```
-
-=== "DHIS2.36"
-
-    ```json
-    "package": {
-        "DHIS2Build": "2adf10b",
-        "DHIS2Version": "2.36.4",
-        "code": "RMS000",
-        "description": "",
-        "lastUpdated": "20211210T233945",
-        "locale": "en",
-        "name": "RMS000_1.0.0_DHIS2.36",
-        "type": "EVT",
-        "version": "1.0.0"
-    }
-    ```
-
-=== "DHIS2.37"
-
-    ```json
-    "package": {
-        "DHIS2Build": "b8d4ef3",
-        "DHIS2Version": "2.37.0",
-        "code": "RMS000",
-        "description": "",
-        "lastUpdated": "20211210T233946",
-        "locale": "en",
-        "name": "RMS000_1.0.0_DHIS2.37",
-        "type": "EVT",
-        "version": "1.0.0"
-    }
-    ```
-
 ## Installation
 
 Installation of the module consists of several steps:
