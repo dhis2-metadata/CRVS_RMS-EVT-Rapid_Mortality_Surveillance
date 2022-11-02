@@ -1,4 +1,4 @@
-# RMS - Rapid Mortality Surveillance System Design { #rms-event-design }
+# RMS - Rapid Mortality Surveillance System Design { #crvs-rmse-design }
 
 ## Introduction
 
