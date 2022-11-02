@@ -1,1 +1,1 @@
-# Rapid Mortality Surveillance - EventS
+# Rapid Mortality Surveillance - Events
