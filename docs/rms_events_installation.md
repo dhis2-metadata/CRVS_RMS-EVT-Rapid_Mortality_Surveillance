@@ -1,4 +1,4 @@
-# Rapid Mortality Surveillance - Event Package Installation Guide { #rms-events-installation }
+# Rapid Mortality Surveillance - Event Package Installation Guide { #crvs-rmse-installation }
 
 ## Installation
 
