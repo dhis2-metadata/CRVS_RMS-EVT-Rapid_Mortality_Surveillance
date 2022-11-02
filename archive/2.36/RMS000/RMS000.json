@@ -1,0 +1,5548 @@
+{
+    "attributes": [
+        {
+            "attributeValues": [],
+            "categoryAttribute": false,
+            "categoryOptionAttribute": false,
+            "categoryOptionComboAttribute": false,
+            "categoryOptionGroupAttribute": false,
+            "categoryOptionGroupSetAttribute": false,
+            "constantAttribute": false,
+            "dataElementAttribute": false,
+            "dataElementGroupAttribute": false,
+            "dataElementGroupSetAttribute": false,
+            "dataSetAttribute": false,
+            "description": "ICD-10 code",
+            "documentAttribute": false,
+            "externalAccess": false,
+            "favorite": false,
+            "id": "iehcXLBKVWM",
+            "indicatorAttribute": false,
+            "indicatorGroupAttribute": false,
+            "legendSetAttribute": false,
+            "mandatory": false,
+            "name": "Code (ICD-10)",
+            "optionAttribute": false,
+            "optionSetAttribute": false,
+            "organisationUnitAttribute": false,
+            "organisationUnitGroupAttribute": false,
+            "organisationUnitGroupSetAttribute": false,
+            "programAttribute": false,
+            "programIndicatorAttribute": false,
+            "programStageAttribute": false,
+            "publicAccess": "rw------",
+            "sectionAttribute": false,
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "ICD-10",
+            "sqlViewAttribute": false,
+            "trackedEntityAttributeAttribute": true,
+            "trackedEntityTypeAttribute": false,
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Kód (ICD-10)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Code (CIM-10)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Code CIM-10"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Código (ICD-10)"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "Код (МКБ-10)"
+                },
+                {
+                    "locale": "ru",
+                    "property": "SHORT_NAME",
+                    "value": "МКБ-10"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "CIM-10"
+                },
+                {
+                    "locale": "es",
+                    "property": "DESCRIPTION",
+                    "value": "Código ICD-10"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DESCRIPTION",
+                    "value": "ICD-10 kód"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "ICD-10"
+                },
+                {
+                    "locale": "ru",
+                    "property": "DESCRIPTION",
+                    "value": "Код МКБ-10"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "ICD-10"
+                }
+            ],
+            "unique": true,
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userAttribute": false,
+            "userGroupAccesses": [],
+            "userGroupAttribute": false,
+            "validationRuleAttribute": false,
+            "validationRuleGroupAttribute": false,
+            "valueType": "TEXT"
+        },
+        {
+            "attributeValues": [],
+            "categoryAttribute": false,
+            "categoryOptionAttribute": false,
+            "categoryOptionComboAttribute": false,
+            "categoryOptionGroupAttribute": false,
+            "categoryOptionGroupSetAttribute": false,
+            "constantAttribute": false,
+            "dataElementAttribute": false,
+            "dataElementGroupAttribute": false,
+            "dataElementGroupSetAttribute": false,
+            "dataSetAttribute": false,
+            "description": "Loinc code",
+            "documentAttribute": false,
+            "externalAccess": false,
+            "favorite": false,
+            "id": "mpXON5igCG1",
+            "indicatorAttribute": false,
+            "indicatorGroupAttribute": false,
+            "legendSetAttribute": false,
+            "mandatory": false,
+            "name": "Code (Loinc)",
+            "optionAttribute": false,
+            "optionSetAttribute": false,
+            "organisationUnitAttribute": false,
+            "organisationUnitGroupAttribute": false,
+            "organisationUnitGroupSetAttribute": false,
+            "programAttribute": false,
+            "programIndicatorAttribute": false,
+            "programStageAttribute": false,
+            "publicAccess": "rw------",
+            "sectionAttribute": false,
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "Loinc",
+            "sqlViewAttribute": false,
+            "trackedEntityAttributeAttribute": true,
+            "trackedEntityTypeAttribute": false,
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "code (Loinc)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Kód (Loinc)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "code Loinc"
+                },
+                {
+                    "locale": "es",
+                    "property": "DESCRIPTION",
+                    "value": "Código Loinc"
+                },
+                {
+                    "locale": "ru",
+                    "property": "SHORT_NAME",
+                    "value": "Loinc"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Código (Loinc)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DESCRIPTION",
+                    "value": "Loinc kód"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Loinc"
+                },
+                {
+                    "locale": "ru",
+                    "property": "DESCRIPTION",
+                    "value": "Код Loinc"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Loinc"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Loinc"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "Код (Loinc)"
+                }
+            ],
+            "unique": true,
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userAttribute": false,
+            "userGroupAccesses": [],
+            "userGroupAttribute": false,
+            "validationRuleAttribute": false,
+            "validationRuleGroupAttribute": false,
+            "valueType": "TEXT"
+        },
+        {
+            "attributeValues": [],
+            "categoryAttribute": false,
+            "categoryOptionAttribute": false,
+            "categoryOptionComboAttribute": false,
+            "categoryOptionGroupAttribute": false,
+            "categoryOptionGroupSetAttribute": false,
+            "constantAttribute": false,
+            "dataElementAttribute": false,
+            "dataElementGroupAttribute": false,
+            "dataElementGroupSetAttribute": false,
+            "dataSetAttribute": false,
+            "description": "SNOMED code",
+            "documentAttribute": false,
+            "externalAccess": false,
+            "favorite": false,
+            "id": "I6u65yRc0ct",
+            "indicatorAttribute": false,
+            "indicatorGroupAttribute": false,
+            "legendSetAttribute": false,
+            "mandatory": false,
+            "name": "Code (SNOMED)",
+            "optionAttribute": false,
+            "optionSetAttribute": false,
+            "organisationUnitAttribute": false,
+            "organisationUnitGroupAttribute": false,
+            "organisationUnitGroupSetAttribute": false,
+            "programAttribute": false,
+            "programIndicatorAttribute": false,
+            "programStageAttribute": false,
+            "publicAccess": "rw------",
+            "sectionAttribute": false,
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "SNOMED",
+            "sqlViewAttribute": false,
+            "trackedEntityAttributeAttribute": true,
+            "trackedEntityTypeAttribute": false,
+            "translations": [
+                {
+                    "locale": "es",
+                    "property": "DESCRIPTION",
+                    "value": "Código SNOMED"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Kód (SNOMED)"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Código (SNOMED)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "SNOMED"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "code SNOMED"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "SNOMED"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "Код (SNOMED)"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "SNOMED"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Code (SNOMED)"
+                },
+                {
+                    "locale": "ru",
+                    "property": "SHORT_NAME",
+                    "value": "SNOMED"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DESCRIPTION",
+                    "value": "SNOMED kód"
+                }
+            ],
+            "unique": true,
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userAttribute": false,
+            "userGroupAccesses": [],
+            "userGroupAttribute": false,
+            "validationRuleAttribute": false,
+            "validationRuleGroupAttribute": false,
+            "valueType": "TEXT"
+        },
+        {
+            "attributeValues": [],
+            "categoryAttribute": false,
+            "categoryOptionAttribute": false,
+            "categoryOptionComboAttribute": false,
+            "categoryOptionGroupAttribute": false,
+            "categoryOptionGroupSetAttribute": false,
+            "code": "DATA_ELEMENT_AGG",
+            "constantAttribute": false,
+            "dataElementAttribute": false,
+            "dataElementGroupAttribute": false,
+            "dataElementGroupSetAttribute": false,
+            "dataSetAttribute": false,
+            "description": "Data element for aggregate data export",
+            "documentAttribute": false,
+            "externalAccess": false,
+            "favorite": false,
+            "id": "vudyDP7jUy5",
+            "indicatorAttribute": false,
+            "indicatorGroupAttribute": false,
+            "legendSetAttribute": false,
+            "mandatory": false,
+            "name": "Data element for aggregate data export",
+            "optionAttribute": false,
+            "optionSetAttribute": false,
+            "organisationUnitAttribute": false,
+            "organisationUnitGroupAttribute": false,
+            "organisationUnitGroupSetAttribute": false,
+            "programAttribute": false,
+            "programIndicatorAttribute": true,
+            "programStageAttribute": false,
+            "publicAccess": "rw------",
+            "sectionAttribute": false,
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "Data element for aggregate data export",
+            "sqlViewAttribute": false,
+            "trackedEntityAttributeAttribute": false,
+            "trackedEntityTypeAttribute": false,
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Datový prvek pro agregovaný export dat"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DESCRIPTION",
+                    "value": "Datový prvek pro agregovaný export dat"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Elemento de datos para la exportación de datos agregados"
+                },
+                {
+                    "locale": "ru",
+                    "property": "SHORT_NAME",
+                    "value": "Элемент данных для экспорта агрегированных данных"
+                },
+                {
+                    "locale": "es",
+                    "property": "DESCRIPTION",
+                    "value": "Elemento de datos para la exportación de datos agregados"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Élément de données pour l'exportation de données agrégées"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Умумий маълумотларни экспорт қилиш учун маълумотлар элементи"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Élément de données pour l'exportation de données agrégées"
+                },
+                {
+                    "locale": "uz",
+                    "property": "DESCRIPTION",
+                    "value": "Умумий маълумотларни экспорт қилиш учун маълумотлар элементи"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Élément de données pour l'exportation de données agrégées"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Datový prvek pro agregovaný export dat"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Elemento de datos para la exportación de datos agregados"
+                },
+                {
+                    "locale": "ru",
+                    "property": "DESCRIPTION",
+                    "value": "Элемент данных для экспорта агрегированных данных"
+                },
+                {
+                    "locale": "uz",
+                    "property": "SHORT_NAME",
+                    "value": "Умумий маълумотларни экспорт қилиш учун маълумотлар элементи"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "Элемент данных для экспорта агрегированных данных"
+                }
+            ],
+            "unique": false,
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userAttribute": false,
+            "userGroupAccesses": [],
+            "userGroupAttribute": false,
+            "validationRuleAttribute": false,
+            "validationRuleGroupAttribute": false,
+            "valueType": "TEXT"
+        }
+    ],
+    "categories": [
+        {
+            "attributeValues": [],
+            "categoryCombos": [
+                {
+                    "id": "bjDvmb4bfuf"
+                }
+            ],
+            "categoryOptions": [
+                {
+                    "id": "xYerKDKCefk"
+                }
+            ],
+            "code": "default",
+            "dataDimension": false,
+            "dataDimensionType": "DISAGGREGATION",
+            "dimension": "GLevLNI9wkl",
+            "dimensionType": "CATEGORY",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "GLevLNI9wkl",
+            "items": [
+                {
+                    "id": "xYerKDKCefk"
+                }
+            ],
+            "name": "default",
+            "publicAccess": "rw------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "default",
+            "translations": [
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "standart"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Стандарт"
+                },
+                {
+                    "locale": "ar",
+                    "property": "NAME",
+                    "value": "الافتراضي"
+                },
+                {
+                    "locale": "id",
+                    "property": "NAME",
+                    "value": "Putus berobat/default"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Padrão"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "по умолчанию"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "výchozí"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "défaut"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "default"
+                },
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "standard"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": []
+        }
+    ],
+    "categoryCombos": [
+        {
+            "attributeValues": [],
+            "categories": [
+                {
+                    "id": "GLevLNI9wkl"
+                }
+            ],
+            "categoryOptionCombos": [
+                {
+                    "id": "HllvX50cXC0"
+                }
+            ],
+            "code": "default",
+            "dataDimensionType": "DISAGGREGATION",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "bjDvmb4bfuf",
+            "isDefault": true,
+            "name": "default",
+            "publicAccess": "rw------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "skipTotal": false,
+            "translations": [
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "standart"
+                },
+                {
+                    "locale": "ar",
+                    "property": "NAME",
+                    "value": "الافتراضي"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Стандарт"
+                },
+                {
+                    "locale": "id",
+                    "property": "NAME",
+                    "value": "Putus berobat/default"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Padrão"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "výchozí"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "по умолчанию"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "défaut"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "default"
+                },
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "standard"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": []
+        }
+    ],
+    "categoryOptionCombos": [
+        {
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "categoryOptions": [
+                {
+                    "id": "xYerKDKCefk"
+                }
+            ],
+            "code": "default",
+            "dimensionItem": "HllvX50cXC0",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "HllvX50cXC0",
+            "ignoreApproval": false,
+            "legendSets": [],
+            "name": "default",
+            "periodOffset": 0,
+            "sharing": {
+                "external": false,
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "default",
+            "translations": [
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "standart"
+                },
+                {
+                    "locale": "ar",
+                    "property": "NAME",
+                    "value": "الافتراضي"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Стандарт"
+                },
+                {
+                    "locale": "id",
+                    "property": "NAME",
+                    "value": "Putus berobat/default"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Padrão"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "výchozí"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "по умолчанию"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "défaut"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "default"
+                },
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "standard"
+                }
+            ],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        }
+    ],
+    "categoryOptionGroupSets": [],
+    "categoryOptionGroups": [],
+    "categoryOptions": [
+        {
+            "attributeValues": [],
+            "categories": [
+                {
+                    "id": "GLevLNI9wkl"
+                }
+            ],
+            "categoryOptionCombos": [
+                {
+                    "id": "HllvX50cXC0"
+                }
+            ],
+            "categoryOptionGroups": [],
+            "code": "default",
+            "dimensionItem": "xYerKDKCefk",
+            "dimensionItemType": "CATEGORY_OPTION",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "xYerKDKCefk",
+            "isDefault": true,
+            "legendSets": [],
+            "name": "default",
+            "organisationUnits": [],
+            "periodOffset": 0,
+            "publicAccess": "rwrw----",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rwrw----",
+                "userGroups": {},
+                "users": {}
+            },
+            "translations": [
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "standart"
+                },
+                {
+                    "locale": "ar",
+                    "property": "NAME",
+                    "value": "الافتراضي"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Стандарт"
+                },
+                {
+                    "locale": "id",
+                    "property": "NAME",
+                    "value": "Putus berobat/default"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Padrão"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "výchozí"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "по умолчанию"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "défaut"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "default"
+                },
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "standard"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": []
+        }
+    ],
+    "constants": [],
+    "dashboards": [
+        {
+            "attributeValues": [],
+            "code": "RMS000",
+            "dashboardItems": [
+                {
+                    "attributeValues": [],
+                    "contentCount": 1,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "height": 4,
+                    "id": "niHAVUCNRTf",
+                    "interpretationCount": 0,
+                    "interpretationLikeCount": 0,
+                    "reports": [],
+                    "resources": [],
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "text": "SPACER_ITEM_FOR_DASHBOARD_LAYOUT_CONVENIENCE",
+                    "translations": [],
+                    "type": "TEXT",
+                    "userAccesses": [],
+                    "userGroupAccesses": [],
+                    "users": [],
+                    "width": 59,
+                    "x": 0,
+                    "y": 89
+                },
+                {
+                    "attributeValues": [],
+                    "contentCount": 1,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "height": 4,
+                    "id": "tv2JteqiqAa",
+                    "interpretationCount": 0,
+                    "interpretationLikeCount": 0,
+                    "reports": [],
+                    "resources": [],
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "text": "SPACER_ITEM_FOR_DASHBOARD_LAYOUT_CONVENIENCE",
+                    "translations": [],
+                    "type": "TEXT",
+                    "userAccesses": [],
+                    "userGroupAccesses": [],
+                    "users": [],
+                    "width": 59,
+                    "x": 0,
+                    "y": 162
+                },
+                {
+                    "attributeValues": [],
+                    "contentCount": 1,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "height": 4,
+                    "id": "YWiois5HxzX",
+                    "interpretationCount": 0,
+                    "interpretationLikeCount": 0,
+                    "reports": [],
+                    "resources": [],
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "text": "SPACER_ITEM_FOR_DASHBOARD_LAYOUT_CONVENIENCE",
+                    "translations": [],
+                    "type": "TEXT",
+                    "userAccesses": [],
+                    "userGroupAccesses": [],
+                    "users": [],
+                    "width": 59,
+                    "x": 0,
+                    "y": 59
+                },
+                {
+                    "attributeValues": [],
+                    "contentCount": 1,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "height": 4,
+                    "id": "QaGrpgf0s48",
+                    "interpretationCount": 0,
+                    "interpretationLikeCount": 0,
+                    "reports": [],
+                    "resources": [],
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "text": "SPACER_ITEM_FOR_DASHBOARD_LAYOUT_CONVENIENCE",
+                    "translations": [],
+                    "type": "TEXT",
+                    "userAccesses": [],
+                    "userGroupAccesses": [],
+                    "users": [],
+                    "width": 39,
+                    "x": 0,
+                    "y": 30
+                },
+                {
+                    "attributeValues": [],
+                    "contentCount": 1,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "height": 59,
+                    "id": "OjynjdsZCTB",
+                    "interpretationCount": 0,
+                    "interpretationLikeCount": 0,
+                    "map": {
+                        "id": "FzNXon8Gp45"
+                    },
+                    "reports": [],
+                    "resources": [],
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "type": "MAP",
+                    "userAccesses": [],
+                    "userGroupAccesses": [],
+                    "users": [],
+                    "width": 19,
+                    "x": 40,
+                    "y": 0
+                },
+                {
+                    "attributeValues": [],
+                    "chart": {
+                        "id": "qxcU1qJuH8s"
+                    },
+                    "contentCount": 2,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "height": 25,
+                    "id": "aFwrtUBlvoh",
+                    "interpretationCount": 0,
+                    "interpretationLikeCount": 0,
+                    "reports": [],
+                    "resources": [],
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "type": "CHART",
+                    "userAccesses": [],
+                    "userGroupAccesses": [],
+                    "users": [],
+                    "visualization": {
+                        "id": "qxcU1qJuH8s"
+                    },
+                    "width": 39,
+                    "x": 0,
+                    "y": 34
+                },
+                {
+                    "attributeValues": [],
+                    "contentCount": 1,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "height": 30,
+                    "id": "dQjiFS32RXk",
+                    "interpretationCount": 0,
+                    "interpretationLikeCount": 0,
+                    "map": {
+                        "id": "GLVdm5xK6lH"
+                    },
+                    "reports": [],
+                    "resources": [],
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "type": "MAP",
+                    "userAccesses": [],
+                    "userGroupAccesses": [],
+                    "users": [],
+                    "width": 39,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "attributeValues": [],
+                    "contentCount": 1,
+                    "eventReport": {
+                        "id": "Y9G4tIu7Hzu"
+                    },
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "height": 69,
+                    "id": "ESLawAIIUcw",
+                    "interpretationCount": 0,
+                    "interpretationLikeCount": 0,
+                    "reports": [],
+                    "resources": [],
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "type": "EVENT_REPORT",
+                    "userAccesses": [],
+                    "userGroupAccesses": [],
+                    "users": [],
+                    "width": 30,
+                    "x": 0,
+                    "y": 93
+                },
+                {
+                    "attributeValues": [],
+                    "chart": {
+                        "id": "yIB5hqPsjf6"
+                    },
+                    "contentCount": 2,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "height": 26,
+                    "id": "GdUy1Cee8r0",
+                    "interpretationCount": 0,
+                    "interpretationLikeCount": 0,
+                    "reports": [],
+                    "resources": [],
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "type": "CHART",
+                    "userAccesses": [],
+                    "userGroupAccesses": [],
+                    "users": [],
+                    "visualization": {
+                        "id": "yIB5hqPsjf6"
+                    },
+                    "width": 59,
+                    "x": 0,
+                    "y": 63
+                }
+            ],
+            "externalAccess": false,
+            "favorite": false,
+            "id": "P23UrjbdDkG",
+            "itemCount": 9,
+            "name": "RMS - Rapid Mortality Surveillance",
+            "publicAccess": "--------",
+            "restrictFilters": false,
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "--------",
+                "userGroups": {
+                    "UGcRfaBepHK": {
+                        "access": "r-------",
+                        "id": "UGcRfaBepHK"
+                    },
+                    "WpOwDMRwNou": {
+                        "access": "r-------",
+                        "id": "WpOwDMRwNou"
+                    },
+                    "gtWIFdrPj74": {
+                        "access": "rw------",
+                        "id": "gtWIFdrPj74"
+                    }
+                },
+                "users": {}
+            },
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "RMS - Rapid Mortality Surveillance"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [
+                {
+                    "access": "r-------",
+                    "id": "UGcRfaBepHK",
+                    "userGroupUid": "UGcRfaBepHK"
+                },
+                {
+                    "access": "rw------",
+                    "id": "gtWIFdrPj74",
+                    "userGroupUid": "gtWIFdrPj74"
+                },
+                {
+                    "access": "r-------",
+                    "id": "WpOwDMRwNou",
+                    "userGroupUid": "WpOwDMRwNou"
+                }
+            ]
+        }
+    ],
+    "dataElementGroups": [
+        {
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "code": "RMS000",
+            "dataElements": [
+                {
+                    "id": "aXv9OmsGYYa"
+                },
+                {
+                    "id": "MAqI45DkhPd"
+                },
+                {
+                    "id": "Fm6cUmmiY3d"
+                },
+                {
+                    "id": "FVVUSz8iUA9"
+                },
+                {
+                    "id": "XJd0bS8p5M0"
+                },
+                {
+                    "id": "cgYpqCgnVF2"
+                },
+                {
+                    "id": "tker4lvb0mX"
+                },
+                {
+                    "id": "JoSHHWqsFpa"
+                }
+            ],
+            "dimensionItem": "Rcm9x8HIDTj",
+            "dimensionItemType": "DATA_ELEMENT_GROUP",
+            "externalAccess": false,
+            "favorite": false,
+            "groupSets": [],
+            "id": "Rcm9x8HIDTj",
+            "legendSets": [],
+            "name": "RMS - Rapid Mortality Surveillance",
+            "periodOffset": 0,
+            "publicAccess": "rw------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "RMS",
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "SRM"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "RMS"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "VRM - Vigilancia Rápida de la Mortalidad"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "RMS - Rapid Mortality Surveillance"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "SRM - Surveillance Rapide de la Mortalité"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "VRM"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": []
+        }
+    ],
+    "dataElements": [
+        {
+            "aggregationLevels": [],
+            "aggregationType": "DEFAULT",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "code": "GEN_ADM_RESIDENCE_AREA",
+            "dataElementGroups": [
+                {
+                    "id": "Rcm9x8HIDTj"
+                }
+            ],
+            "dataSetElements": [],
+            "description": "Administrative area of residence",
+            "dimensionItem": "tker4lvb0mX",
+            "dimensionItemType": "DATA_ELEMENT",
+            "domainType": "TRACKER",
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "Place of residence",
+            "id": "tker4lvb0mX",
+            "legendSets": [],
+            "name": "GEN - Administrative area of residence",
+            "optionSetValue": false,
+            "periodOffset": 0,
+            "publicAccess": "rw------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "Administrative area of residence",
+            "style": {},
+            "translations": [
+                {
+                    "locale": "ru",
+                    "property": "DESCRIPTION",
+                    "value": "Адрес прописки (город/район)"
+                },
+                {
+                    "locale": "pt",
+                    "property": "SHORT_NAME",
+                    "value": "Área administrativa de residência"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Área administrativa de residencia"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Lieu de résidence"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "GEN - Zone administrative de résidence"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Administrativní oblast bydliště"
+                },
+                {
+                    "locale": "uz",
+                    "property": "DESCRIPTION",
+                    "value": "Маъмурий яшаш манзили"
+                },
+                {
+                    "locale": "es",
+                    "property": "FORM_NAME",
+                    "value": "Lugar de residencia"
+                },
+                {
+                    "locale": "uz",
+                    "property": "SHORT_NAME",
+                    "value": "Маъмурий яшаш манзили"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "GEN - Administrativní oblast bydliště"
+                },
+                {
+                    "locale": "cs",
+                    "property": "FORM_NAME",
+                    "value": "Bydliště"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Zone administrative de résidence"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DESCRIPTION",
+                    "value": "Área administrativa de residência"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "GEN - Área administrativa de residencia"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Zone administrative de résidence"
+                },
+                {
+                    "locale": "es",
+                    "property": "DESCRIPTION",
+                    "value": "Área administrativa de residencia"
+                },
+                {
+                    "locale": "ru",
+                    "property": "SHORT_NAME",
+                    "value": "Адрес прописки (город/район)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DESCRIPTION",
+                    "value": "Administrativní oblast bydliště"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "ORGANISATION_UNIT",
+            "zeroIsSignificant": false
+        },
+        {
+            "aggregationLevels": [],
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "code": "GEN_AGE_Y",
+            "dataElementGroups": [
+                {
+                    "id": "Rcm9x8HIDTj"
+                }
+            ],
+            "dataSetElements": [],
+            "description": "The person or case's age given in years. This data element is typically used for event programs.",
+            "dimensionItem": "Fm6cUmmiY3d",
+            "dimensionItemType": "DATA_ELEMENT",
+            "domainType": "TRACKER",
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "Age (yrs)",
+            "id": "Fm6cUmmiY3d",
+            "legendSet": {
+                "id": "kxf21emexhC"
+            },
+            "legendSets": [
+                {
+                    "id": "kxf21emexhC"
+                }
+            ],
+            "name": "GEN - Age in years",
+            "optionSetValue": false,
+            "periodOffset": 0,
+            "publicAccess": "--------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "--------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "Age in years",
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "DESCRIPTION",
+                    "value": "Věk osoby nebo případu uvedený v letech. Tento datový prvek se obvykle používá pro programy událostí."
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "L'âge de la personne ou du cas en années. Cet élément de données est généralement utilisé pour les programmes d'événements."
+                },
+                {
+                    "locale": "ar",
+                    "property": "FORM_NAME",
+                    "value": "العمر (سنوات)"
+                },
+                {
+                    "locale": "km",
+                    "property": "SHORT_NAME",
+                    "value": "អាយុ"
+                },
+                {
+                    "locale": "es",
+                    "property": "FORM_NAME",
+                    "value": "Edad (años)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "FORM_NAME",
+                    "value": "Věk (roky)"
+                },
+                {
+                    "locale": "ar",
+                    "property": "SHORT_NAME",
+                    "value": "العمر بالسنوات"
+                },
+                {
+                    "locale": "es",
+                    "property": "DESCRIPTION",
+                    "value": "La edad de la persona o del caso expresada en años. Este elemento de datos se utiliza normalmente para programas de eventos."
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "GEN - Věk v letech"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Age en années"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "GEN - Edad en años"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Age (années)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Věk v letech"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Edad en años"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "GEN - Âge en années"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "INTEGER_ZERO_OR_POSITIVE",
+            "zeroIsSignificant": true
+        },
+        {
+            "aggregationLevels": [],
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "code": "GEN_DEATH_DATE",
+            "dataElementGroups": [
+                {
+                    "id": "Rcm9x8HIDTj"
+                }
+            ],
+            "dataSetElements": [],
+            "description": "Date of death",
+            "dimensionItem": "aXv9OmsGYYa",
+            "dimensionItemType": "DATA_ELEMENT",
+            "domainType": "TRACKER",
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "Date of death",
+            "id": "aXv9OmsGYYa",
+            "legendSets": [],
+            "name": "GEN - Date of death",
+            "optionSetValue": false,
+            "periodOffset": 0,
+            "publicAccess": "rw------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "Date of death",
+            "translations": [
+                {
+                    "locale": "ar",
+                    "property": "DESCRIPTION",
+                    "value": "تاريخ الوفاة"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Date du décès"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "GEN - Fecha del deceso"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DESCRIPTION",
+                    "value": "Data da óbito"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Fecha de la muerte"
+                },
+                {
+                    "locale": "nb",
+                    "property": "FORM_NAME",
+                    "value": "Dødsdato"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "GEN - Datum úmrtí"
+                },
+                {
+                    "locale": "ru",
+                    "property": "FORM_NAME",
+                    "value": "Дата смерти"
+                },
+                {
+                    "locale": "es",
+                    "property": "DESCRIPTION",
+                    "value": "Fecha de la muerte"
+                },
+                {
+                    "locale": "ru",
+                    "property": "SHORT_NAME",
+                    "value": "Дата смерти"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Datum úmrtí"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "GEN - Date d décès"
+                },
+                {
+                    "locale": "pt",
+                    "property": "FORM_NAME",
+                    "value": "Data da óbito"
+                },
+                {
+                    "locale": "cs",
+                    "property": "FORM_NAME",
+                    "value": "Datum úmrtí"
+                },
+                {
+                    "locale": "ru",
+                    "property": "DESCRIPTION",
+                    "value": "Дата смерти"
+                },
+                {
+                    "locale": "es",
+                    "property": "FORM_NAME",
+                    "value": "Fecha de la muerte"
+                },
+                {
+                    "locale": "nb",
+                    "property": "SHORT_NAME",
+                    "value": "Dødsdato"
+                },
+                {
+                    "locale": "pt",
+                    "property": "SHORT_NAME",
+                    "value": "Data da óbito"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Date du décès"
+                },
+                {
+                    "locale": "ar",
+                    "property": "SHORT_NAME",
+                    "value": "تاريخ الوفاة"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DESCRIPTION",
+                    "value": "Datum úmrtí"
+                },
+                {
+                    "locale": "ar",
+                    "property": "FORM_NAME",
+                    "value": "تاريخ الوفاة"
+                },
+                {
+                    "locale": "nb",
+                    "property": "DESCRIPTION",
+                    "value": "Dødsdato"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Date du décès"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "DATE",
+            "zeroIsSignificant": false
+        },
+        {
+            "aggregationLevels": [],
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "code": "GEN_FIRST_NAME",
+            "dataElementGroups": [
+                {
+                    "id": "Rcm9x8HIDTj"
+                }
+            ],
+            "dataSetElements": [],
+            "description": "First name",
+            "dimensionItem": "FVVUSz8iUA9",
+            "dimensionItemType": "DATA_ELEMENT",
+            "domainType": "TRACKER",
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "First name(s)",
+            "id": "FVVUSz8iUA9",
+            "legendSets": [],
+            "name": "GEN - First Name",
+            "optionSetValue": false,
+            "periodOffset": 0,
+            "publicAccess": "rw------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "First name",
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Prénom"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DESCRIPTION",
+                    "value": "Primeiro nome"
+                },
+                {
+                    "locale": "ar",
+                    "property": "DESCRIPTION",
+                    "value": "الاسم الاول"
+                },
+                {
+                    "locale": "uz",
+                    "property": "SHORT_NAME",
+                    "value": "Исми"
+                },
+                {
+                    "locale": "ru",
+                    "property": "SHORT_NAME",
+                    "value": "Имя"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Nombre"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "DESCRIPTION",
+                    "value": "Ismi"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "GEN – Křestní jméno"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Křestní jméno"
+                },
+                {
+                    "locale": "es",
+                    "property": "FORM_NAME",
+                    "value": "Nombre"
+                },
+                {
+                    "locale": "nb",
+                    "property": "FORM_NAME",
+                    "value": "Fornavn"
+                },
+                {
+                    "locale": "es",
+                    "property": "DESCRIPTION",
+                    "value": "Nombre"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DESCRIPTION",
+                    "value": "Křestní jméno"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "GEN - Prénom"
+                },
+                {
+                    "locale": "nb",
+                    "property": "DESCRIPTION",
+                    "value": "Fornavn"
+                },
+                {
+                    "locale": "ru",
+                    "property": "DESCRIPTION",
+                    "value": "Имя"
+                },
+                {
+                    "locale": "pt",
+                    "property": "SHORT_NAME",
+                    "value": "Primeiro nome"
+                },
+                {
+                    "locale": "nb",
+                    "property": "SHORT_NAME",
+                    "value": "Fornavn"
+                },
+                {
+                    "locale": "uz",
+                    "property": "DESCRIPTION",
+                    "value": "Исми"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Prénom"
+                },
+                {
+                    "locale": "ar",
+                    "property": "FORM_NAME",
+                    "value": "الاسم الاول (الاسماء)"
+                },
+                {
+                    "locale": "ru",
+                    "property": "FORM_NAME",
+                    "value": "Имя (я)"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "GEN - Nombre"
+                },
+                {
+                    "locale": "ar",
+                    "property": "SHORT_NAME",
+                    "value": "الاسم الاول"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "SHORT_NAME",
+                    "value": "Ismi"
+                },
+                {
+                    "locale": "cs",
+                    "property": "FORM_NAME",
+                    "value": "Křestní jméno(a)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Prénom(s)"
+                },
+                {
+                    "locale": "pt",
+                    "property": "FORM_NAME",
+                    "value": "Primeiro(s) Nome(s)"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "TEXT",
+            "zeroIsSignificant": false
+        },
+        {
+            "aggregationLevels": [],
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "code": "GEN_LAST_NAME",
+            "dataElementGroups": [
+                {
+                    "id": "Rcm9x8HIDTj"
+                }
+            ],
+            "dataSetElements": [],
+            "description": "Last name",
+            "dimensionItem": "JoSHHWqsFpa",
+            "dimensionItemType": "DATA_ELEMENT",
+            "domainType": "TRACKER",
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "Last name",
+            "id": "JoSHHWqsFpa",
+            "legendSets": [],
+            "name": "GEN - Last Name",
+            "optionSetValue": false,
+            "periodOffset": 0,
+            "publicAccess": "rw------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "Last name",
+            "translations": [
+                {
+                    "locale": "es",
+                    "property": "DESCRIPTION",
+                    "value": "Apellido"
+                },
+                {
+                    "locale": "cs",
+                    "property": "FORM_NAME",
+                    "value": "Příjmení"
+                },
+                {
+                    "locale": "ru",
+                    "property": "FORM_NAME",
+                    "value": "Фамилия"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "GEN - Nom de famille"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "FORM_NAME",
+                    "value": "Familiyasi"
+                },
+                {
+                    "locale": "es",
+                    "property": "FORM_NAME",
+                    "value": "Apellido"
+                },
+                {
+                    "locale": "ar",
+                    "property": "FORM_NAME",
+                    "value": "الكنية"
+                },
+                {
+                    "locale": "ru",
+                    "property": "SHORT_NAME",
+                    "value": "Фамилия"
+                },
+                {
+                    "locale": "uz",
+                    "property": "DESCRIPTION",
+                    "value": "Фамилияси"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Apellido"
+                },
+                {
+                    "locale": "nb",
+                    "property": "SHORT_NAME",
+                    "value": "Etternavn"
+                },
+                {
+                    "locale": "pt",
+                    "property": "SHORT_NAME",
+                    "value": "Último nome"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DESCRIPTION",
+                    "value": "Příjmení"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Nom de famille"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "DESCRIPTION",
+                    "value": "Familiyasi"
+                },
+                {
+                    "locale": "ar",
+                    "property": "DESCRIPTION",
+                    "value": "الكنية"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Příjmení"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "GEN – příjmení"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "GEN - Apellido"
+                },
+                {
+                    "locale": "uz",
+                    "property": "SHORT_NAME",
+                    "value": "Фамилияси"
+                },
+                {
+                    "locale": "ru",
+                    "property": "DESCRIPTION",
+                    "value": "Фамилия"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Nom de famille"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "SHORT_NAME",
+                    "value": "Familiyasi"
+                },
+                {
+                    "locale": "nb",
+                    "property": "FORM_NAME",
+                    "value": "Etternavn"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DESCRIPTION",
+                    "value": "Último nome"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Nom de famille"
+                },
+                {
+                    "locale": "ar",
+                    "property": "SHORT_NAME",
+                    "value": "الكنية"
+                },
+                {
+                    "locale": "uz",
+                    "property": "FORM_NAME",
+                    "value": "Фамилияси"
+                },
+                {
+                    "locale": "nb",
+                    "property": "DESCRIPTION",
+                    "value": "Etternavn"
+                },
+                {
+                    "locale": "pt",
+                    "property": "FORM_NAME",
+                    "value": "Último nome"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "TEXT",
+            "zeroIsSignificant": false
+        },
+        {
+            "aggregationLevels": [],
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "code": "GEN_MANNER_DEATH",
+            "dataElementGroups": [
+                {
+                    "id": "Rcm9x8HIDTj"
+                }
+            ],
+            "dataSetElements": [],
+            "description": "Natural = Disease\nNon-natural = Accident, Intentional self- harm, Assault, Legal intervention, War\nUnknown/Undetermined= could not be determined, pending investigation, unknown",
+            "dimensionItem": "MAqI45DkhPd",
+            "dimensionItemType": "DATA_ELEMENT",
+            "domainType": "TRACKER",
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "Manner of Death",
+            "id": "MAqI45DkhPd",
+            "legendSets": [],
+            "name": "GEN - Manner of Death",
+            "optionSet": {
+                "id": "A7mNd2r3ZJe"
+            },
+            "optionSetValue": true,
+            "periodOffset": 0,
+            "publicAccess": "rw------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "Manner of Death",
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Circonstances du décès"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Forma de muerte"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DESCRIPTION",
+                    "value": "DataElement vytvořen pro důležité události.\nPřirozené = nemoc\nNepřirozené = nehoda, úmyslné sebepoškozování, útok, právní zásah, válka\nNeznámé / Neurčené = nelze určit, čeká na vyšetření, neznámé"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "VE - Způsob smrti"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Způsob smrti"
+                },
+                {
+                    "locale": "es",
+                    "property": "FORM_NAME",
+                    "value": "Forma de muerte"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Naturel = Maladie\nNon-naturel = Accident, Automutilation intentionnelle, Agression, Intervention légale, Guerre\nInconnu/Indéterminé= n'a pas pu être déterminé, enquête en cours, inconnu"
+                },
+                {
+                    "locale": "cs",
+                    "property": "FORM_NAME",
+                    "value": "Způsob smrti"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "GEN - Forma de muerte"
+                },
+                {
+                    "locale": "es",
+                    "property": "DESCRIPTION",
+                    "value": "Natural = Enfermedad\nNo natural = accidente, autolesión intencional, asalto, intervención legal, guerra\nDesconocido / Indeterminado = no se pudo determinar, pendiente de investigación, desconocido"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Circonstance du décès"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "GEN - Circonstances du décès"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "TEXT",
+            "zeroIsSignificant": false
+        },
+        {
+            "aggregationLevels": [],
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "code": "GEN_SEX_W_UNK",
+            "dataElementGroups": [
+                {
+                    "id": "Rcm9x8HIDTj"
+                }
+            ],
+            "dataSetElements": [],
+            "description": "Biological sex (male, female, unknown)",
+            "dimensionItem": "cgYpqCgnVF2",
+            "dimensionItemType": "DATA_ELEMENT",
+            "domainType": "TRACKER",
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "Sex",
+            "id": "cgYpqCgnVF2",
+            "legendSets": [],
+            "name": "GEN - Sex (with unknown)",
+            "optionSet": {
+                "id": "rlYDq7U043q"
+            },
+            "optionSetValue": true,
+            "periodOffset": 0,
+            "publicAccess": "rw------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "Sex",
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "GEN - Sexe (avec inconnu)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Pohlaví"
+                },
+                {
+                    "locale": "pt",
+                    "property": "SHORT_NAME",
+                    "value": "Sexo"
+                },
+                {
+                    "locale": "ru",
+                    "property": "FORM_NAME",
+                    "value": "Пол"
+                },
+                {
+                    "locale": "uz",
+                    "property": "SHORT_NAME",
+                    "value": "Жинси"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Sexe à la naissance"
+                },
+                {
+                    "locale": "ar",
+                    "property": "FORM_NAME",
+                    "value": "الجنس"
+                },
+                {
+                    "locale": "ar",
+                    "property": "SHORT_NAME",
+                    "value": "الجنس"
+                },
+                {
+                    "locale": "de",
+                    "property": "SHORT_NAME",
+                    "value": "Sexo"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Sexe à la naissance"
+                },
+                {
+                    "locale": "de",
+                    "property": "FORM_NAME",
+                    "value": "Sexo"
+                },
+                {
+                    "locale": "pt",
+                    "property": "FORM_NAME",
+                    "value": "Sexo"
+                },
+                {
+                    "locale": "ru",
+                    "property": "SHORT_NAME",
+                    "value": "Пол"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "FORM_NAME",
+                    "value": "Jinsi"
+                },
+                {
+                    "locale": "id",
+                    "property": "SHORT_NAME",
+                    "value": "Jenis Kelamin"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Sexo"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Sexe biologique (masculin, féminin, inconnu)"
+                },
+                {
+                    "locale": "es",
+                    "property": "FORM_NAME",
+                    "value": "Sexo"
+                },
+                {
+                    "locale": "id",
+                    "property": "FORM_NAME",
+                    "value": "Jenis Kelamin"
+                },
+                {
+                    "locale": "nb",
+                    "property": "FORM_NAME",
+                    "value": "Kjønn"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "GEN - Sexo (con desconocido)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DESCRIPTION",
+                    "value": "Biologické pohlaví (muž, žena, neznámé)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "FORM_NAME",
+                    "value": "Pohlaví"
+                },
+                {
+                    "locale": "uz",
+                    "property": "FORM_NAME",
+                    "value": "Жинси"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "GEN – Pohlaví (vč. neznámého)"
+                },
+                {
+                    "locale": "nb",
+                    "property": "SHORT_NAME",
+                    "value": "Kjønn"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "SHORT_NAME",
+                    "value": "Jinsi"
+                },
+                {
+                    "locale": "es",
+                    "property": "DESCRIPTION",
+                    "value": "Sexo biológico (masculino, femenino, desconocido)"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "TEXT",
+            "zeroIsSignificant": false
+        },
+        {
+            "aggregationLevels": [],
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "code": "RMS_DEATH_FACILITY",
+            "dataElementGroups": [
+                {
+                    "id": "Rcm9x8HIDTj"
+                }
+            ],
+            "dataSetElements": [],
+            "dimensionItem": "XJd0bS8p5M0",
+            "dimensionItemType": "DATA_ELEMENT",
+            "domainType": "TRACKER",
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "Died in health facility",
+            "id": "XJd0bS8p5M0",
+            "legendSets": [],
+            "name": "RMS - Died in health facility",
+            "optionSet": {
+                "id": "ZH8H5hGkXww"
+            },
+            "optionSetValue": true,
+            "periodOffset": 0,
+            "publicAccess": "--------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "--------",
+                "userGroups": {
+                    "UGcRfaBepHK": {
+                        "access": "r-------",
+                        "id": "UGcRfaBepHK"
+                    },
+                    "WpOwDMRwNou": {
+                        "access": "r-------",
+                        "id": "WpOwDMRwNou"
+                    },
+                    "gtWIFdrPj74": {
+                        "access": "rw------",
+                        "id": "gtWIFdrPj74"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Died in health facility",
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "RMS - Zemřel ve zdravotnickém zařízení"
+                },
+                {
+                    "locale": "cs",
+                    "property": "FORM_NAME",
+                    "value": "Zemřel ve zdravotnickém zařízení"
+                },
+                {
+                    "locale": "es",
+                    "property": "FORM_NAME",
+                    "value": "Murió en un centro de salud"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Zemřel ve zdravotnickém zařízení"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Décédé dans un établissement de santé"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "VRM - Murió en un centro de salud"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Murió en un centro de salud"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Décédé dans un établissement de santé"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "SRM - Décédé dans un établissement de santé"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [
+                {
+                    "access": "r-------",
+                    "id": "UGcRfaBepHK",
+                    "userGroupUid": "UGcRfaBepHK"
+                },
+                {
+                    "access": "rw------",
+                    "id": "gtWIFdrPj74",
+                    "userGroupUid": "gtWIFdrPj74"
+                },
+                {
+                    "access": "r-------",
+                    "id": "WpOwDMRwNou",
+                    "userGroupUid": "WpOwDMRwNou"
+                }
+            ],
+            "valueType": "TEXT",
+            "zeroIsSignificant": false
+        }
+    ],
+    "dataEntryForms": [],
+    "dataSets": [],
+    "documents": [],
+    "eventCharts": [],
+    "eventReports": [
+        {
+            "attributeDimensions": [],
+            "attributeValues": [],
+            "categoryDimensions": [],
+            "categoryOptionGroupSetDimensions": [],
+            "colSubTotals": true,
+            "colTotals": true,
+            "collapseDataDimensions": false,
+            "columnDimensions": [
+                "ou",
+                "Fm6cUmmiY3d",
+                "cgYpqCgnVF2"
+            ],
+            "columns": [],
+            "completedOnly": false,
+            "dataDimensionItems": [],
+            "dataElementDimensions": [
+                {
+                    "dataElement": {
+                        "id": "Fm6cUmmiY3d"
+                    },
+                    "legendSet": {
+                        "id": "kxf21emexhC"
+                    },
+                    "programStage": {
+                        "id": "lOslKyVm688"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "cgYpqCgnVF2"
+                    },
+                    "programStage": {
+                        "id": "lOslKyVm688"
+                    }
+                }
+            ],
+            "dataElementGroupSetDimensions": [],
+            "dataType": "AGGREGATED_VALUES",
+            "digitGroupSeparator": "SPACE",
+            "displayDensity": "NORMAL",
+            "externalAccess": false,
+            "favorite": false,
+            "filterDimensions": [],
+            "filters": [],
+            "fontSize": "NORMAL",
+            "hideEmptyRows": false,
+            "hideNaData": false,
+            "hideSubtitle": false,
+            "hideTitle": false,
+            "id": "Y9G4tIu7Hzu",
+            "interpretations": [],
+            "itemOrganisationUnitGroups": [],
+            "name": "RMS - Deaths by age, sex",
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "organisationUnits": [
+                {
+                    "id": "<OU_ROOT_UID>"
+                }
+            ],
+            "outputType": "EVENT",
+            "parentGraphMap": {},
+            "periods": [],
+            "program": {
+                "id": "TP01C129Or9"
+            },
+            "programIndicatorDimensions": [],
+            "programStage": {
+                "id": "lOslKyVm688"
+            },
+            "publicAccess": "--------",
+            "relativePeriods": {
+                "biMonthsThisYear": false,
+                "last12Months": false,
+                "last12Weeks": false,
+                "last14Days": false,
+                "last180Days": false,
+                "last2SixMonths": false,
+                "last30Days": false,
+                "last3Days": false,
+                "last3Months": false,
+                "last4BiWeeks": false,
+                "last4Quarters": false,
+                "last4Weeks": false,
+                "last52Weeks": true,
+                "last5FinancialYears": false,
+                "last5Years": false,
+                "last60Days": false,
+                "last6BiMonths": false,
+                "last6Months": false,
+                "last7Days": false,
+                "last90Days": false,
+                "lastBiWeek": false,
+                "lastBimonth": false,
+                "lastFinancialYear": false,
+                "lastMonth": false,
+                "lastQuarter": false,
+                "lastSixMonth": false,
+                "lastWeek": false,
+                "lastYear": false,
+                "monthsLastYear": false,
+                "monthsThisYear": false,
+                "quartersLastYear": false,
+                "quartersThisYear": false,
+                "thisBiWeek": false,
+                "thisBimonth": false,
+                "thisDay": false,
+                "thisFinancialYear": false,
+                "thisMonth": false,
+                "thisQuarter": false,
+                "thisSixMonth": false,
+                "thisWeek": false,
+                "thisYear": false,
+                "weeksThisYear": false,
+                "yesterday": false
+            },
+            "rowDimensions": [
+                "pe"
+            ],
+            "rowSubTotals": false,
+            "rowTotals": false,
+            "rows": [],
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "--------",
+                "userGroups": {
+                    "UGcRfaBepHK": {
+                        "access": "r-------",
+                        "id": "UGcRfaBepHK"
+                    },
+                    "WpOwDMRwNou": {
+                        "access": "r-------",
+                        "id": "WpOwDMRwNou"
+                    },
+                    "gtWIFdrPj74": {
+                        "access": "rw------",
+                        "id": "gtWIFdrPj74"
+                    }
+                },
+                "users": {}
+            },
+            "showDimensionLabels": true,
+            "showHierarchy": false,
+            "sortOrder": 0,
+            "subscribed": false,
+            "subscribers": [],
+            "topLimit": 0,
+            "translations": [],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [
+                {
+                    "access": "r-------",
+                    "id": "UGcRfaBepHK",
+                    "userGroupUid": "UGcRfaBepHK"
+                },
+                {
+                    "access": "rw------",
+                    "id": "gtWIFdrPj74",
+                    "userGroupUid": "gtWIFdrPj74"
+                },
+                {
+                    "access": "r-------",
+                    "id": "WpOwDMRwNou",
+                    "userGroupUid": "WpOwDMRwNou"
+                }
+            ],
+            "userOrganisationUnit": false,
+            "userOrganisationUnitChildren": false,
+            "userOrganisationUnitGrandChildren": false
+        }
+    ],
+    "indicatorGroupSets": [],
+    "indicatorGroups": [],
+    "indicatorTypes": [],
+    "indicators": [],
+    "jobConfigurations": [],
+    "legendSets": [
+        {
+            "attributeValues": [],
+            "code": "AGE_GROUP_BROAD",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "kxf21emexhC",
+            "legends": [
+                {
+                    "attributeValues": [],
+                    "color": "#DAEEFF",
+                    "endValue": 5.0,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "Cv95EZtSZnK",
+                    "name": "0-4 years",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "startValue": 0.0,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "attributeValues": [],
+                    "color": "#6DBBFF",
+                    "endValue": 45.0,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "R8qvg31f793",
+                    "name": "15-44 years",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "startValue": 15.0,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "attributeValues": [],
+                    "color": "#48AAFF",
+                    "endValue": 120.0,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "mEEVrJVRv1O",
+                    "name": "45+ years",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "startValue": 45.0,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "attributeValues": [],
+                    "color": "#91CCFF",
+                    "endValue": 15.0,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "ChaWQjIqyYz",
+                    "name": "5-14 years",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "startValue": 5.0,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "name": "Age group (broad)",
+            "publicAccess": "--------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "--------",
+                "userGroups": {},
+                "users": {}
+            },
+            "symbolizer": "color",
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Věková skupina (široká)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Groupe d'âge (large)"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Grupo de edad (amplio)"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": []
+        }
+    ],
+    "maps": [
+        {
+            "attributeValues": [],
+            "basemap": "osmLight",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "GLVdm5xK6lH",
+            "interpretations": [],
+            "mapViews": [
+                {
+                    "attributeDimensions": [],
+                    "attributeValues": [],
+                    "categoryDimensions": [],
+                    "categoryOptionGroupSetDimensions": [],
+                    "columnDimensions": [],
+                    "columns": [],
+                    "completedOnly": false,
+                    "dataDimensionItems": [],
+                    "dataElementDimensions": [],
+                    "dataElementGroupSetDimensions": [],
+                    "digitGroupSeparator": "SPACE",
+                    "eventClustering": false,
+                    "eventPointRadius": 0,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "filterDimensions": [],
+                    "filters": [],
+                    "hideSubtitle": false,
+                    "hideTitle": false,
+                    "id": "xeqkBNPwBNa",
+                    "interpretations": [],
+                    "itemOrganisationUnitGroups": [],
+                    "layer": "boundary",
+                    "name": "xeqkBNPwBNa",
+                    "opacity": 1.0,
+                    "organisationUnitGroupSetDimensions": [],
+                    "organisationUnitLevels": [
+                        3
+                    ],
+                    "organisationUnits": [],
+                    "parentGraphMap": {},
+                    "parentLevel": 0,
+                    "periods": [],
+                    "programIndicatorDimensions": [],
+                    "renderingStrategy": "SINGLE",
+                    "rows": [],
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "sortOrder": 0,
+                    "subscribed": false,
+                    "subscribers": [],
+                    "topLimit": 0,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": [],
+                    "userOrganisationUnit": false,
+                    "userOrganisationUnitChildren": false,
+                    "userOrganisationUnitGrandChildren": false
+                },
+                {
+                    "attributeDimensions": [],
+                    "attributeValues": [],
+                    "categoryDimensions": [],
+                    "categoryOptionGroupSetDimensions": [],
+                    "columnDimensions": [],
+                    "columns": [],
+                    "completedOnly": false,
+                    "dataDimensionItems": [],
+                    "dataElementDimensions": [],
+                    "dataElementGroupSetDimensions": [],
+                    "digitGroupSeparator": "SPACE",
+                    "endDate": "2021-10-06T00:00:00.000",
+                    "eventClustering": true,
+                    "eventPointRadius": 0,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "filterDimensions": [
+                        "pe"
+                    ],
+                    "filters": [],
+                    "hideSubtitle": false,
+                    "hideTitle": false,
+                    "id": "klqNcZWx0QS",
+                    "interpretations": [],
+                    "itemOrganisationUnitGroups": [],
+                    "layer": "event",
+                    "name": "klqNcZWx0QS",
+                    "opacity": 0.8,
+                    "organisationUnitGroupSetDimensions": [],
+                    "organisationUnitLevels": [],
+                    "organisationUnits": [
+                        {
+                            "id": "IWp9dQGM0bS"
+                        }
+                    ],
+                    "parentGraphMap": {},
+                    "parentLevel": 0,
+                    "periods": [],
+                    "program": {
+                        "id": "TP01C129Or9"
+                    },
+                    "programIndicatorDimensions": [],
+                    "programStage": {
+                        "id": "lOslKyVm688"
+                    },
+                    "relativePeriods": {
+                        "biMonthsThisYear": false,
+                        "last12Months": false,
+                        "last12Weeks": false,
+                        "last14Days": false,
+                        "last180Days": false,
+                        "last2SixMonths": false,
+                        "last30Days": false,
+                        "last3Days": false,
+                        "last3Months": false,
+                        "last4BiWeeks": false,
+                        "last4Quarters": false,
+                        "last4Weeks": false,
+                        "last52Weeks": true,
+                        "last5FinancialYears": false,
+                        "last5Years": false,
+                        "last60Days": false,
+                        "last6BiMonths": false,
+                        "last6Months": false,
+                        "last7Days": false,
+                        "last90Days": false,
+                        "lastBiWeek": false,
+                        "lastBimonth": false,
+                        "lastFinancialYear": false,
+                        "lastMonth": false,
+                        "lastQuarter": false,
+                        "lastSixMonth": false,
+                        "lastWeek": false,
+                        "lastYear": false,
+                        "monthsLastYear": false,
+                        "monthsThisYear": false,
+                        "quartersLastYear": false,
+                        "quartersThisYear": false,
+                        "thisBiWeek": false,
+                        "thisBimonth": false,
+                        "thisDay": false,
+                        "thisFinancialYear": false,
+                        "thisMonth": false,
+                        "thisQuarter": false,
+                        "thisSixMonth": false,
+                        "thisWeek": false,
+                        "thisYear": false,
+                        "weeksThisYear": false,
+                        "yesterday": false
+                    },
+                    "renderingStrategy": "SINGLE",
+                    "rows": [],
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "sortOrder": 0,
+                    "startDate": "2020-10-06T00:00:00.000",
+                    "subscribed": false,
+                    "subscribers": [],
+                    "topLimit": 0,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": [],
+                    "userOrganisationUnit": true,
+                    "userOrganisationUnitChildren": false,
+                    "userOrganisationUnitGrandChildren": false
+                }
+            ],
+            "name": "RMS - Deaths by place, last 52 weeks",
+            "publicAccess": "--------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "--------",
+                "userGroups": {},
+                "users": {}
+            },
+            "subscribed": false,
+            "subscribers": [],
+            "translations": [],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "attributeValues": [],
+            "basemap": "osmLight",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "FzNXon8Gp45",
+            "interpretations": [],
+            "mapViews": [
+                {
+                    "attributeDimensions": [],
+                    "attributeValues": [],
+                    "categoryDimensions": [],
+                    "categoryOptionGroupSetDimensions": [],
+                    "columnDimensions": [
+                        "dx"
+                    ],
+                    "columns": [],
+                    "completedOnly": false,
+                    "dataDimensionItems": [
+                        {
+                            "dataDimensionItemType": "PROGRAM_INDICATOR",
+                            "programIndicator": {
+                                "id": "UMX5BHF0tJL"
+                            }
+                        }
+                    ],
+                    "dataElementDimensions": [],
+                    "dataElementGroupSetDimensions": [],
+                    "digitGroupSeparator": "SPACE",
+                    "eventClustering": false,
+                    "eventPointRadius": 0,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "filterDimensions": [
+                        "pe"
+                    ],
+                    "filters": [],
+                    "hideSubtitle": false,
+                    "hideTitle": false,
+                    "id": "EvGgWJApzPw",
+                    "interpretations": [],
+                    "itemOrganisationUnitGroups": [],
+                    "labels": true,
+                    "layer": "thematic",
+                    "method": 2,
+                    "name": "RMS - Deaths (#)",
+                    "opacity": 0.9,
+                    "organisationUnitGroupSetDimensions": [],
+                    "organisationUnitLevels": [
+                        2
+                    ],
+                    "organisationUnits": [],
+                    "parentGraphMap": {},
+                    "parentLevel": 0,
+                    "periods": [],
+                    "program": {
+                        "id": "TP01C129Or9"
+                    },
+                    "programIndicatorDimensions": [],
+                    "relativePeriods": {
+                        "biMonthsThisYear": false,
+                        "last12Months": false,
+                        "last12Weeks": false,
+                        "last14Days": false,
+                        "last180Days": false,
+                        "last2SixMonths": false,
+                        "last30Days": false,
+                        "last3Days": false,
+                        "last3Months": false,
+                        "last4BiWeeks": false,
+                        "last4Quarters": false,
+                        "last4Weeks": false,
+                        "last52Weeks": false,
+                        "last5FinancialYears": false,
+                        "last5Years": false,
+                        "last60Days": false,
+                        "last6BiMonths": false,
+                        "last6Months": false,
+                        "last7Days": false,
+                        "last90Days": false,
+                        "lastBiWeek": false,
+                        "lastBimonth": false,
+                        "lastFinancialYear": false,
+                        "lastMonth": false,
+                        "lastQuarter": false,
+                        "lastSixMonth": false,
+                        "lastWeek": false,
+                        "lastYear": false,
+                        "monthsLastYear": false,
+                        "monthsThisYear": true,
+                        "quartersLastYear": false,
+                        "quartersThisYear": false,
+                        "thisBiWeek": false,
+                        "thisBimonth": false,
+                        "thisDay": false,
+                        "thisFinancialYear": false,
+                        "thisMonth": false,
+                        "thisQuarter": false,
+                        "thisSixMonth": false,
+                        "thisWeek": false,
+                        "thisYear": false,
+                        "weeksThisYear": false,
+                        "yesterday": false
+                    },
+                    "renderingStrategy": "SPLIT_BY_PERIOD",
+                    "rows": [],
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "sortOrder": 0,
+                    "subscribed": false,
+                    "subscribers": [],
+                    "topLimit": 0,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": [],
+                    "userOrganisationUnit": false,
+                    "userOrganisationUnitChildren": false,
+                    "userOrganisationUnitGrandChildren": false
+                }
+            ],
+            "name": "RMS - Deaths per region, by months this year",
+            "publicAccess": "--------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "--------",
+                "userGroups": {
+                    "UGcRfaBepHK": {
+                        "access": "r-------",
+                        "id": "UGcRfaBepHK"
+                    },
+                    "WpOwDMRwNou": {
+                        "access": "r-------",
+                        "id": "WpOwDMRwNou"
+                    },
+                    "gtWIFdrPj74": {
+                        "access": "rw------",
+                        "id": "gtWIFdrPj74"
+                    }
+                },
+                "users": {}
+            },
+            "subscribed": false,
+            "subscribers": [],
+            "translations": [],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [
+                {
+                    "access": "r-------",
+                    "id": "UGcRfaBepHK",
+                    "userGroupUid": "UGcRfaBepHK"
+                },
+                {
+                    "access": "rw------",
+                    "id": "gtWIFdrPj74",
+                    "userGroupUid": "gtWIFdrPj74"
+                },
+                {
+                    "access": "r-------",
+                    "id": "WpOwDMRwNou",
+                    "userGroupUid": "WpOwDMRwNou"
+                }
+            ]
+        }
+    ],
+    "optionGroups": [],
+    "optionSets": [
+        {
+            "attributeValues": [],
+            "code": "GEN_MANNER_DEATH",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "A7mNd2r3ZJe",
+            "name": "GEN - Manner of death",
+            "options": [
+                {
+                    "id": "lPqDp8nvFlb"
+                },
+                {
+                    "id": "J2tOBt6moGs"
+                },
+                {
+                    "id": "SaiYBRXy4xg"
+                }
+            ],
+            "publicAccess": "rw------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "translations": [
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "GEN - Forma de muerte"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "GEN - Circonstances du décès"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "GEN - Způsob úmrtí"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "TEXT",
+            "version": 6
+        },
+        {
+            "attributeValues": [],
+            "code": "SEX_UNKNOWN",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "rlYDq7U043q",
+            "name": "GEN - Sex (with unknown)",
+            "options": [
+                {
+                    "id": "jA8gpBtrIf5"
+                },
+                {
+                    "id": "Javvv7usroS"
+                },
+                {
+                    "id": "J5PKRLzoeLW"
+                }
+            ],
+            "publicAccess": "--------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "--------",
+                "userGroups": {},
+                "users": {}
+            },
+            "translations": [
+                {
+                    "locale": "ar",
+                    "property": "NAME",
+                    "value": "الجنس (مع المجهول)"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "Пол (вкл. неизвестно)"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Sexo (con desconocido)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Pohlaví (s neznámým)"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Жинси (ноаниқ билан бирга)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Sexe (avec inconnu)"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Sexo (com desconhecido)"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "TEXT",
+            "version": 7
+        },
+        {
+            "attributeValues": [],
+            "code": "YES_NO",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "ZH8H5hGkXww",
+            "name": "Yes/No",
+            "options": [
+                {
+                    "id": "o6jrih59gbt"
+                },
+                {
+                    "id": "YWFCDkSCUy7"
+                }
+            ],
+            "publicAccess": "r-------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {},
+                "users": {}
+            },
+            "translations": [
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "Ja/Nei"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "Да/Нет"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Sí /No"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Sim/Não"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Oui / Non"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Ano / Ne"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "TEXT",
+            "version": 8
+        }
+    ],
+    "options": [
+        {
+            "attributeValues": [],
+            "code": "FEMALE",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "jA8gpBtrIf5",
+            "name": "Female",
+            "optionSet": {
+                "id": "rlYDq7U043q"
+            },
+            "sharing": {
+                "external": false,
+                "userGroups": {},
+                "users": {}
+            },
+            "sortOrder": 1,
+            "style": {
+                "icon": "woman_positive"
+            },
+            "translations": [
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Femenino"
+                },
+                {
+                    "locale": "ar",
+                    "property": "NAME",
+                    "value": "إناث"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Аёл"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "ženský"
+                },
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "Kvinne"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "Аyol"
+                },
+                {
+                    "locale": "id",
+                    "property": "NAME",
+                    "value": "Wanita"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Féminin"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Feminino"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "Женский"
+                }
+            ],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "attributeValues": [],
+            "code": "MALE",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "Javvv7usroS",
+            "name": "Male",
+            "optionSet": {
+                "id": "rlYDq7U043q"
+            },
+            "sharing": {
+                "external": false,
+                "userGroups": {},
+                "users": {}
+            },
+            "sortOrder": 2,
+            "style": {
+                "icon": "man_positive"
+            },
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "muž"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Masculino"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Masculino"
+                },
+                {
+                    "locale": "ar",
+                    "property": "NAME",
+                    "value": "ذكور"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Эркак"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Masculin"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "мужской"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "Erkak"
+                },
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "Mann"
+                },
+                {
+                    "locale": "id",
+                    "property": "NAME",
+                    "value": "Laki-laki"
+                }
+            ],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "attributeValues": [],
+            "code": "NATURAL",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "lPqDp8nvFlb",
+            "name": "Natural",
+            "optionSet": {
+                "id": "A7mNd2r3ZJe"
+            },
+            "sharing": {
+                "external": false,
+                "userGroups": {},
+                "users": {}
+            },
+            "sortOrder": 1,
+            "translations": [
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Natural"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Naturel"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Přirozený"
+                }
+            ],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "attributeValues": [],
+            "code": "NO",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "YWFCDkSCUy7",
+            "name": "No",
+            "optionSet": {
+                "id": "ZH8H5hGkXww"
+            },
+            "sharing": {
+                "external": false,
+                "userGroups": {},
+                "users": {}
+            },
+            "sortOrder": 2,
+            "translations": [
+                {
+                    "locale": "ar",
+                    "property": "NAME",
+                    "value": "لا"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "Yoʼq"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "нет"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Ne"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Não"
+                },
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "Nei"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Non"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "No"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Йўқ"
+                }
+            ],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "attributeValues": [],
+            "code": "NON_NATURAL",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "J2tOBt6moGs",
+            "name": "Non-natural",
+            "optionSet": {
+                "id": "A7mNd2r3ZJe"
+            },
+            "sharing": {
+                "external": false,
+                "userGroups": {},
+                "users": {}
+            },
+            "sortOrder": 2,
+            "translations": [
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "No natural"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Nepřirozený"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Non naturel"
+                }
+            ],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "attributeValues": [],
+            "code": "UNKNOWN",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "J5PKRLzoeLW",
+            "name": "Unknown",
+            "optionSet": {
+                "id": "rlYDq7U043q"
+            },
+            "sharing": {
+                "external": false,
+                "userGroups": {},
+                "users": {}
+            },
+            "sortOrder": 3,
+            "style": {
+                "icon": "question_positive"
+            },
+            "translations": [
+                {
+                    "locale": "ar",
+                    "property": "NAME",
+                    "value": "غير معروف"
+                },
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "Ukjent"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "Неизвестно"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "Noaniq"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Ноаниқ"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Desconhecido"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Desconocido"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Inconnu(e)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Neznámý"
+                }
+            ],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "attributeValues": [],
+            "code": "UNKNOWN_CAUSE",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "SaiYBRXy4xg",
+            "name": "Unknown",
+            "optionSet": {
+                "id": "A7mNd2r3ZJe"
+            },
+            "sharing": {
+                "external": false,
+                "userGroups": {},
+                "users": {}
+            },
+            "sortOrder": 3,
+            "translations": [
+                {
+                    "locale": "ar",
+                    "property": "NAME",
+                    "value": "غير معروف"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "Неизвестно"
+                },
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "Ukjent"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "Noaniq"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Ноаниқ"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Desconhecido"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Desconocido"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Inconnu(e)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Neznámý"
+                }
+            ],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "attributeValues": [],
+            "code": "YES",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "o6jrih59gbt",
+            "name": "Yes",
+            "optionSet": {
+                "id": "ZH8H5hGkXww"
+            },
+            "sharing": {
+                "external": false,
+                "userGroups": {},
+                "users": {}
+            },
+            "sortOrder": 1,
+            "translations": [
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "Ja"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "да"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Sí"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Ҳа"
+                },
+                {
+                    "locale": "ar",
+                    "property": "NAME",
+                    "value": "نعم"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Oui"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "Ha"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Ano"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Sim"
+                }
+            ],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        }
+    ],
+    "organisationUnitGroups": [],
+    "package": {
+        "DHIS2Build": "2adf10b",
+        "DHIS2Version": "2.36.4",
+        "code": "RMS000",
+        "description": "",
+        "lastUpdated": "20211210T233945",
+        "locale": "en",
+        "name": "RMS000_1.0.0_DHIS2.36",
+        "type": "EVT",
+        "version": "1.0.0"
+    },
+    "predictorGroups": [],
+    "predictors": [],
+    "programIndicatorGroups": [
+        {
+            "attributeValues": [],
+            "code": "RMS000",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "FjhNoR6f0Zd",
+            "name": "RMS - Rapid Mortality Surveillance",
+            "programIndicators": [
+                {
+                    "id": "mNiLSRgYdAB"
+                },
+                {
+                    "id": "WqcliBMvwaf"
+                },
+                {
+                    "id": "UMX5BHF0tJL"
+                },
+                {
+                    "id": "CFaSySxD8TD"
+                }
+            ],
+            "publicAccess": "rw------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "translations": [
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "VRM - Vigilancia Rápida de la Mortalidad"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "RMS - Rapid Mortality Surveillance"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "SRM - Surveillance Rapide de la Mortalité"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": []
+        }
+    ],
+    "programIndicators": [
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "fc8p5XJH4dB",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "pIImqjRmdgu",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "RMS_DEATHS",
+            "dimensionItem": "UMX5BHF0tJL",
+            "dimensionItemType": "PROGRAM_INDICATOR",
+            "expression": "V{event_count}",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "UMX5BHF0tJL",
+            "legendSets": [],
+            "name": "RMS - Deaths (#)",
+            "periodOffset": 0,
+            "program": {
+                "id": "TP01C129Or9"
+            },
+            "programIndicatorGroups": [
+                {
+                    "id": "FjhNoR6f0Zd"
+                }
+            ],
+            "publicAccess": "rw------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "Deaths (#)",
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Úmrtí (#)"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "VRM - Muertes (#)"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Muertes (#)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "SRM - Décès (#)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "RMS – úmrtí (#)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Décès (#)"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "oGwC2kRN4NX",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "RMS_DEATHS_CUM",
+            "dimensionItem": "WqcliBMvwaf",
+            "dimensionItemType": "PROGRAM_INDICATOR",
+            "expression": "V{event_count}",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "WqcliBMvwaf",
+            "legendSets": [],
+            "name": "RMS - Deaths - cumulative (#)",
+            "periodOffset": 0,
+            "program": {
+                "id": "TP01C129Or9"
+            },
+            "programIndicatorGroups": [
+                {
+                    "id": "FjhNoR6f0Zd"
+                }
+            ],
+            "publicAccess": "rw------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "Deaths - cumulative (#)",
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "RMS – Úmrtí – kumulativní (#)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Décès - cumulatifs (#)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Úmrtí – kumulativní (#)"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "VRM - Muertes - acumulativo (#)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "SRM - Décès - cumulés (#)"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Muertes - acumulativo (#)"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "uG3ee77zJlR",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "fPJLabpJmDc",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "RMS_DEATHS_F",
+            "dimensionItem": "mNiLSRgYdAB",
+            "dimensionItemType": "PROGRAM_INDICATOR",
+            "expression": "V{event_count}",
+            "externalAccess": false,
+            "favorite": false,
+            "filter": "#{lOslKyVm688.cgYpqCgnVF2} == \"FEMALE\"",
+            "id": "mNiLSRgYdAB",
+            "legendSets": [],
+            "name": "RMS - Deaths - female (#)",
+            "periodOffset": 0,
+            "program": {
+                "id": "TP01C129Or9"
+            },
+            "programIndicatorGroups": [
+                {
+                    "id": "FjhNoR6f0Zd"
+                }
+            ],
+            "publicAccess": "rw------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "Deaths - female (#)",
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "SRM - Décès - féminin (#)"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "VRM - Muertes - feminino (#)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "RMS – Úmrtí – žena (#)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Décès - féminin (#)"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Muertes - feminino (#)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Úmrtí – ženy (#)"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "oeIsyUty5Dh",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "wgMQNMUVuc7",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "RMS_DEATHS_M",
+            "dimensionItem": "CFaSySxD8TD",
+            "dimensionItemType": "PROGRAM_INDICATOR",
+            "expression": "V{event_count}",
+            "externalAccess": false,
+            "favorite": false,
+            "filter": "#{lOslKyVm688.cgYpqCgnVF2} == \"MALE\"",
+            "id": "CFaSySxD8TD",
+            "legendSets": [],
+            "name": "RMS - Deaths - male (#)",
+            "periodOffset": 0,
+            "program": {
+                "id": "TP01C129Or9"
+            },
+            "programIndicatorGroups": [
+                {
+                    "id": "FjhNoR6f0Zd"
+                }
+            ],
+            "publicAccess": "rw------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "Deaths - male (#)",
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "RMS – Úmrtí – muži (#)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Úmrtí – muži (#)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "SRM - Décès - masculin (#)"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "VRM - Muertes - masculino (#)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Décès - masculin (#)"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Muertes - masculino (#)"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": []
+        }
+    ],
+    "programNotificationTemplates": [],
+    "programRuleActions": [],
+    "programRuleVariables": [],
+    "programRules": [],
+    "programStageSections": [
+        {
+            "attributeValues": [],
+            "dataElements": [
+                {
+                    "id": "aXv9OmsGYYa"
+                },
+                {
+                    "id": "XJd0bS8p5M0"
+                },
+                {
+                    "id": "MAqI45DkhPd"
+                }
+            ],
+            "externalAccess": false,
+            "favorite": false,
+            "id": "fxArRsC99bN",
+            "name": "Death Details",
+            "programIndicators": [],
+            "programStage": {
+                "id": "lOslKyVm688"
+            },
+            "renderType": {
+                "DESKTOP": {
+                    "type": "LISTING"
+                },
+                "MOBILE": {
+                    "type": "LISTING"
+                }
+            },
+            "sharing": {
+                "external": false,
+                "userGroups": {},
+                "users": {}
+            },
+            "sortOrder": 1,
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Détails du décès"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Detalles del deceso"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Detaily o úmrtí"
+                }
+            ],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "attributeValues": [],
+            "dataElements": [
+                {
+                    "id": "FVVUSz8iUA9"
+                },
+                {
+                    "id": "JoSHHWqsFpa"
+                },
+                {
+                    "id": "cgYpqCgnVF2"
+                },
+                {
+                    "id": "Fm6cUmmiY3d"
+                },
+                {
+                    "id": "tker4lvb0mX"
+                }
+            ],
+            "externalAccess": false,
+            "favorite": false,
+            "id": "xjS0UbA9pzH",
+            "name": "Deceased's Personal Information",
+            "programIndicators": [],
+            "programStage": {
+                "id": "lOslKyVm688"
+            },
+            "renderType": {
+                "DESKTOP": {
+                    "type": "LISTING"
+                },
+                "MOBILE": {
+                    "type": "LISTING"
+                }
+            },
+            "sharing": {
+                "external": false,
+                "userGroups": {},
+                "users": {}
+            },
+            "sortOrder": 0,
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Informations personnelles du défunt"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Información personal del difunto"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Osobní údaje zesnulého"
+                }
+            ],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        }
+    ],
+    "programStages": [
+        {
+            "allowGenerateNextVisit": false,
+            "attributeValues": [],
+            "autoGenerateEvent": true,
+            "blockEntryForm": false,
+            "displayExecutionDateLabel": "Reporting Date",
+            "displayGenerateEventBox": true,
+            "enableUserAssignment": false,
+            "executionDateLabel": "Reporting Date",
+            "externalAccess": false,
+            "favorite": false,
+            "featureType": "POINT",
+            "formType": "SECTION",
+            "generatedByEnrollmentDate": false,
+            "hideDueDate": false,
+            "id": "lOslKyVm688",
+            "minDaysFromStart": 0,
+            "name": "RMS - Rapid Mortality Surveillance",
+            "notificationTemplates": [],
+            "openAfterEnrollment": false,
+            "preGenerateUID": false,
+            "program": {
+                "id": "TP01C129Or9"
+            },
+            "programStageDataElements": [
+                {
+                    "allowFutureDate": false,
+                    "allowProvidedElsewhere": false,
+                    "attributeValues": [],
+                    "compulsory": false,
+                    "dataElement": {
+                        "id": "cgYpqCgnVF2"
+                    },
+                    "displayInReports": true,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "zI0HRmGqqP0",
+                    "programStage": {
+                        "id": "lOslKyVm688"
+                    },
+                    "renderOptionsAsRadio": false,
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "skipSynchronization": false,
+                    "sortOrder": 1,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "allowFutureDate": false,
+                    "allowProvidedElsewhere": false,
+                    "attributeValues": [],
+                    "compulsory": false,
+                    "dataElement": {
+                        "id": "Fm6cUmmiY3d"
+                    },
+                    "displayInReports": true,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "olC78qz8tFL",
+                    "programStage": {
+                        "id": "lOslKyVm688"
+                    },
+                    "renderOptionsAsRadio": false,
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "skipSynchronization": false,
+                    "sortOrder": 2,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "allowFutureDate": false,
+                    "allowProvidedElsewhere": false,
+                    "attributeValues": [],
+                    "compulsory": false,
+                    "dataElement": {
+                        "id": "aXv9OmsGYYa"
+                    },
+                    "displayInReports": true,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "yDHbSwwLP6V",
+                    "programStage": {
+                        "id": "lOslKyVm688"
+                    },
+                    "renderOptionsAsRadio": false,
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "skipSynchronization": false,
+                    "sortOrder": 3,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "allowFutureDate": false,
+                    "allowProvidedElsewhere": false,
+                    "attributeValues": [],
+                    "compulsory": false,
+                    "dataElement": {
+                        "id": "XJd0bS8p5M0"
+                    },
+                    "displayInReports": true,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "oAZH0iwmY27",
+                    "programStage": {
+                        "id": "lOslKyVm688"
+                    },
+                    "renderOptionsAsRadio": false,
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "skipSynchronization": false,
+                    "sortOrder": 4,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "allowFutureDate": false,
+                    "allowProvidedElsewhere": false,
+                    "attributeValues": [],
+                    "compulsory": false,
+                    "dataElement": {
+                        "id": "FVVUSz8iUA9"
+                    },
+                    "displayInReports": false,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "Bj0QTpEzEda",
+                    "programStage": {
+                        "id": "lOslKyVm688"
+                    },
+                    "renderOptionsAsRadio": false,
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "skipSynchronization": false,
+                    "sortOrder": 6,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "allowFutureDate": false,
+                    "allowProvidedElsewhere": false,
+                    "attributeValues": [],
+                    "compulsory": false,
+                    "dataElement": {
+                        "id": "JoSHHWqsFpa"
+                    },
+                    "displayInReports": false,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "fWT1mxjYakb",
+                    "programStage": {
+                        "id": "lOslKyVm688"
+                    },
+                    "renderOptionsAsRadio": false,
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "skipSynchronization": false,
+                    "sortOrder": 7,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "allowFutureDate": false,
+                    "allowProvidedElsewhere": false,
+                    "attributeValues": [],
+                    "compulsory": false,
+                    "dataElement": {
+                        "id": "MAqI45DkhPd"
+                    },
+                    "displayInReports": false,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "HJS2xEzP4ob",
+                    "programStage": {
+                        "id": "lOslKyVm688"
+                    },
+                    "renderOptionsAsRadio": false,
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "skipSynchronization": false,
+                    "sortOrder": 8,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "allowFutureDate": false,
+                    "allowProvidedElsewhere": false,
+                    "attributeValues": [],
+                    "compulsory": false,
+                    "dataElement": {
+                        "id": "tker4lvb0mX"
+                    },
+                    "displayInReports": false,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "m8G8LRrWGhC",
+                    "programStage": {
+                        "id": "lOslKyVm688"
+                    },
+                    "renderOptionsAsRadio": false,
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "skipSynchronization": false,
+                    "sortOrder": 8,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "programStageSections": [
+                {
+                    "id": "xjS0UbA9pzH"
+                },
+                {
+                    "id": "fxArRsC99bN"
+                }
+            ],
+            "publicAccess": "--------",
+            "remindCompleted": false,
+            "repeatable": false,
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "--------",
+                "userGroups": {
+                    "UGcRfaBepHK": {
+                        "access": "r-rw----",
+                        "id": "UGcRfaBepHK"
+                    },
+                    "WpOwDMRwNou": {
+                        "access": "r-r-----",
+                        "id": "WpOwDMRwNou"
+                    },
+                    "gtWIFdrPj74": {
+                        "access": "rw------",
+                        "id": "gtWIFdrPj74"
+                    }
+                },
+                "users": {}
+            },
+            "translations": [
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "VRM - Vigilancia Rápida de la Mortalidad"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "RMS - Rapid Mortality Surveillance"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "SRM - Surveillance Rapide de la Mortalité"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "id": "gtWIFdrPj74",
+                    "userGroupUid": "gtWIFdrPj74"
+                },
+                {
+                    "access": "r-rw----",
+                    "id": "UGcRfaBepHK",
+                    "userGroupUid": "UGcRfaBepHK"
+                },
+                {
+                    "access": "r-r-----",
+                    "id": "WpOwDMRwNou",
+                    "userGroupUid": "WpOwDMRwNou"
+                }
+            ],
+            "validationStrategy": "ON_COMPLETE"
+        }
+    ],
+    "programs": [
+        {
+            "accessLevel": "OPEN",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "code": "RMS000",
+            "completeEventsExpiryDays": 0,
+            "displayFrontPageList": false,
+            "displayIncidentDate": true,
+            "expiryDays": 0,
+            "externalAccess": false,
+            "favorite": false,
+            "id": "TP01C129Or9",
+            "ignoreOverdueEvents": false,
+            "lastUpdated": "2021-12-06T12:58:54.965",
+            "maxTeiCountToReturn": 0,
+            "minAttributesRequiredToSearch": 1,
+            "name": "RMS - Rapid Mortality Surveillance",
+            "notificationTemplates": [],
+            "onlyEnrollOnce": false,
+            "programIndicators": [
+                {
+                    "id": "mNiLSRgYdAB"
+                },
+                {
+                    "id": "WqcliBMvwaf"
+                },
+                {
+                    "id": "UMX5BHF0tJL"
+                },
+                {
+                    "id": "CFaSySxD8TD"
+                }
+            ],
+            "programRuleVariables": [],
+            "programSections": [],
+            "programStages": [
+                {
+                    "id": "lOslKyVm688"
+                }
+            ],
+            "programTrackedEntityAttributes": [],
+            "programType": "WITHOUT_REGISTRATION",
+            "publicAccess": "--------",
+            "registration": false,
+            "selectEnrollmentDatesInFuture": false,
+            "selectIncidentDatesInFuture": false,
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "--------",
+                "userGroups": {
+                    "UGcRfaBepHK": {
+                        "access": "r-rw----",
+                        "id": "UGcRfaBepHK"
+                    },
+                    "WpOwDMRwNou": {
+                        "access": "r-r-----",
+                        "id": "WpOwDMRwNou"
+                    },
+                    "gtWIFdrPj74": {
+                        "access": "rw------",
+                        "id": "gtWIFdrPj74"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "RMS",
+            "skipOffline": false,
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "SRM"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "RMS"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "VRM - Vigilancia Rápida de la Mortalidad"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "RMS - Rapid Mortality Surveillance"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "SRM - Surveillance Rapide de la Mortalité"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "VRM"
+                }
+            ],
+            "useFirstStageDuringRegistration": false,
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "id": "gtWIFdrPj74",
+                    "userGroupUid": "gtWIFdrPj74"
+                },
+                {
+                    "access": "r-rw----",
+                    "id": "UGcRfaBepHK",
+                    "userGroupUid": "UGcRfaBepHK"
+                },
+                {
+                    "access": "r-r-----",
+                    "id": "WpOwDMRwNou",
+                    "userGroupUid": "WpOwDMRwNou"
+                }
+            ],
+            "userRoles": [],
+            "version": 5,
+            "withoutRegistration": true
+        }
+    ],
+    "sections": [],
+    "userGroups": [
+        {
+            "attributeValues": [],
+            "code": "RMS0_ACCESS",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "WpOwDMRwNou",
+            "managedByGroups": [],
+            "managedGroups": [],
+            "name": "RMS access",
+            "publicAccess": "rw------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "SRM Accès"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "VRM Acceso "
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "RMS přístup"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "users": []
+        },
+        {
+            "attributeValues": [],
+            "code": "RMS0_ADMIN",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "gtWIFdrPj74",
+            "managedByGroups": [],
+            "managedGroups": [],
+            "name": "RMS admin",
+            "publicAccess": "rw------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "RMS Správce"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "SRM Administrateur"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "VRM Administrador "
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "users": []
+        },
+        {
+            "attributeValues": [],
+            "code": "RMS0_DATA_CAPTURE",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "UGcRfaBepHK",
+            "managedByGroups": [],
+            "managedGroups": [],
+            "name": "RMS data capture",
+            "publicAccess": "rw------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "RMS sběr dat"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "VRM Captura de datos "
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "SRM Saisie des données"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "users": []
+        }
+    ],
+    "users": [
+        {
+            "attributeValues": [],
+            "dataViewOrganisationUnits": [],
+            "externalAccess": false,
+            "favorite": false,
+            "firstName": "Admin",
+            "id": "vUeLeQMSwhN",
+            "name": "Admin WHO",
+            "organisationUnits": [],
+            "sharing": {
+                "external": false,
+                "userGroups": {},
+                "users": {}
+            },
+            "surname": "WHO",
+            "teiSearchOrganisationUnits": [],
+            "translations": [],
+            "userAccesses": [],
+            "userCredentials": {
+                "attributeValues": [],
+                "catDimensionConstraints": [],
+                "cogsDimensionConstraints": [],
+                "disabled": true,
+                "externalAccess": false,
+                "externalAuth": false,
+                "favorite": false,
+                "favorites": [],
+                "id": "MMRO6oP1HQg",
+                "invitation": false,
+                "lastLogin": "2018-07-13T12:28:39.168",
+                "name": "Admin WHO",
+                "passwordLastUpdated": "2018-07-13T12:28:39.168",
+                "selfRegistered": false,
+                "sharing": {
+                    "external": false,
+                    "userGroups": {},
+                    "users": {}
+                },
+                "translations": [],
+                "twoFA": false,
+                "user": {
+                    "displayName": "Admin WHO",
+                    "id": "vUeLeQMSwhN",
+                    "name": "Admin WHO",
+                    "username": "who"
+                },
+                "userAccesses": [],
+                "userGroupAccesses": [],
+                "userInfo": {
+                    "id": "vUeLeQMSwhN"
+                },
+                "userRoles": [],
+                "username": "who"
+            }
+        }
+    ],
+    "visualizations": [
+        {
+            "aggregationType": "DEFAULT",
+            "attributeDimensions": [],
+            "attributeValues": [],
+            "categoryDimensions": [],
+            "categoryOptionGroupSetDimensions": [],
+            "colSubTotals": false,
+            "colTotals": false,
+            "colorSet": "DEFAULT",
+            "columnDimensions": [
+                "dx"
+            ],
+            "columns": [
+                {
+                    "id": "dx"
+                }
+            ],
+            "completedOnly": false,
+            "cumulativeValues": false,
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "PROGRAM_INDICATOR",
+                    "programIndicator": {
+                        "id": "mNiLSRgYdAB"
+                    }
+                },
+                {
+                    "dataDimensionItemType": "PROGRAM_INDICATOR",
+                    "programIndicator": {
+                        "id": "CFaSySxD8TD"
+                    }
+                }
+            ],
+            "dataElementDimensions": [],
+            "dataElementGroupSetDimensions": [],
+            "digitGroupSeparator": "SPACE",
+            "displayDensity": "NORMAL",
+            "displaySubtitle": "last 52 weeks",
+            "displayTitle": "Deaths by sex",
+            "externalAccess": false,
+            "favorite": false,
+            "filterDimensions": [
+                "ou"
+            ],
+            "filters": [
+                {
+                    "id": "ou"
+                }
+            ],
+            "fontSize": "NORMAL",
+            "fontStyle": {},
+            "hideEmptyColumns": false,
+            "hideEmptyRowItems": "NONE",
+            "hideEmptyRows": false,
+            "hideLegend": false,
+            "hideSubtitle": false,
+            "hideTitle": false,
+            "id": "qxcU1qJuH8s",
+            "interpretations": [],
+            "itemOrganisationUnitGroups": [],
+            "legend": {
+                "hidden": false
+            },
+            "legendDisplayStrategy": "FIXED",
+            "legendDisplayStyle": "FILL",
+            "name": "RMS - Deaths by sex",
+            "noSpaceBetweenColumns": false,
+            "numberType": "VALUE",
+            "optionalAxes": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "organisationUnits": [],
+            "parentGraphMap": {},
+            "percentStackedValues": false,
+            "periods": [],
+            "programIndicatorDimensions": [],
+            "publicAccess": "--------",
+            "regression": false,
+            "regressionType": "NONE",
+            "relativePeriods": {
+                "biMonthsThisYear": false,
+                "last12Months": false,
+                "last12Weeks": false,
+                "last14Days": false,
+                "last180Days": false,
+                "last2SixMonths": false,
+                "last30Days": false,
+                "last3Days": false,
+                "last3Months": false,
+                "last4BiWeeks": false,
+                "last4Quarters": false,
+                "last4Weeks": false,
+                "last52Weeks": true,
+                "last5FinancialYears": false,
+                "last5Years": false,
+                "last60Days": false,
+                "last6BiMonths": false,
+                "last6Months": false,
+                "last7Days": false,
+                "last90Days": false,
+                "lastBiWeek": false,
+                "lastBimonth": false,
+                "lastFinancialYear": false,
+                "lastMonth": false,
+                "lastQuarter": false,
+                "lastSixMonth": false,
+                "lastWeek": false,
+                "lastYear": false,
+                "monthsLastYear": false,
+                "monthsThisYear": false,
+                "quartersLastYear": false,
+                "quartersThisYear": false,
+                "thisBiWeek": false,
+                "thisBimonth": false,
+                "thisDay": false,
+                "thisFinancialYear": false,
+                "thisMonth": false,
+                "thisQuarter": false,
+                "thisSixMonth": false,
+                "thisWeek": false,
+                "thisYear": false,
+                "weeksThisYear": false,
+                "yesterday": false
+            },
+            "reportingParams": {
+                "grandParentOrganisationUnit": false,
+                "organisationUnit": false,
+                "parentOrganisationUnit": false,
+                "reportingPeriod": false
+            },
+            "rowDimensions": [
+                "pe"
+            ],
+            "rowSubTotals": false,
+            "rowTotals": false,
+            "rows": [
+                {
+                    "id": "pe"
+                }
+            ],
+            "series": [
+                {
+                    "axis": 0,
+                    "dimensionItem": "mNiLSRgYdAB"
+                },
+                {
+                    "axis": 0,
+                    "dimensionItem": "CFaSySxD8TD"
+                }
+            ],
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "--------",
+                "userGroups": {
+                    "UGcRfaBepHK": {
+                        "access": "r-rw----",
+                        "id": "UGcRfaBepHK"
+                    },
+                    "WpOwDMRwNou": {
+                        "access": "r-r-----",
+                        "id": "WpOwDMRwNou"
+                    },
+                    "gtWIFdrPj74": {
+                        "access": "rw------",
+                        "id": "gtWIFdrPj74"
+                    }
+                },
+                "users": {}
+            },
+            "showData": true,
+            "showDimensionLabels": false,
+            "showHierarchy": false,
+            "skipRounding": false,
+            "sortOrder": 0,
+            "subscribed": false,
+            "subscribers": [],
+            "subtitle": "last 52 weeks",
+            "title": "Deaths by sex",
+            "topLimit": 0,
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "RMS - Úmrtí podle pohlaví"
+                }
+            ],
+            "type": "COLUMN",
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "id": "gtWIFdrPj74",
+                    "userGroupUid": "gtWIFdrPj74"
+                },
+                {
+                    "access": "r-rw----",
+                    "id": "UGcRfaBepHK",
+                    "userGroupUid": "UGcRfaBepHK"
+                },
+                {
+                    "access": "r-r-----",
+                    "id": "WpOwDMRwNou",
+                    "userGroupUid": "WpOwDMRwNou"
+                }
+            ],
+            "userOrganisationUnit": true,
+            "userOrganisationUnitChildren": false,
+            "userOrganisationUnitGrandChildren": false,
+            "yearlySeries": []
+        },
+        {
+            "aggregationType": "DEFAULT",
+            "attributeDimensions": [],
+            "attributeValues": [],
+            "categoryDimensions": [],
+            "categoryOptionGroupSetDimensions": [],
+            "colSubTotals": false,
+            "colTotals": false,
+            "colorSet": "DEFAULT",
+            "columnDimensions": [],
+            "columns": [],
+            "completedOnly": false,
+            "cumulativeValues": false,
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "PROGRAM_INDICATOR",
+                    "programIndicator": {
+                        "id": "UMX5BHF0tJL"
+                    }
+                }
+            ],
+            "dataElementDimensions": [],
+            "dataElementGroupSetDimensions": [],
+            "digitGroupSeparator": "SPACE",
+            "displayDensity": "NORMAL",
+            "displaySubtitle": "this year and last 5 years",
+            "displayTitle": "Deaths by year",
+            "externalAccess": false,
+            "favorite": false,
+            "filterDimensions": [
+                "ou",
+                "dx"
+            ],
+            "filters": [
+                {
+                    "id": "ou"
+                },
+                {
+                    "id": "dx"
+                }
+            ],
+            "fontSize": "NORMAL",
+            "fontStyle": {},
+            "hideEmptyColumns": false,
+            "hideEmptyRowItems": "NONE",
+            "hideEmptyRows": false,
+            "hideLegend": false,
+            "hideSubtitle": false,
+            "hideTitle": false,
+            "id": "yIB5hqPsjf6",
+            "interpretations": [],
+            "itemOrganisationUnitGroups": [],
+            "legend": {
+                "hidden": false
+            },
+            "legendDisplayStrategy": "FIXED",
+            "legendDisplayStyle": "FILL",
+            "name": "RMS - Deaths by year",
+            "noSpaceBetweenColumns": false,
+            "numberType": "VALUE",
+            "optionalAxes": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "organisationUnits": [],
+            "parentGraphMap": {},
+            "percentStackedValues": false,
+            "periods": [],
+            "programIndicatorDimensions": [],
+            "publicAccess": "--------",
+            "regression": false,
+            "regressionType": "NONE",
+            "relativePeriods": {
+                "biMonthsThisYear": false,
+                "last12Months": false,
+                "last12Weeks": false,
+                "last14Days": false,
+                "last180Days": false,
+                "last2SixMonths": false,
+                "last30Days": false,
+                "last3Days": false,
+                "last3Months": false,
+                "last4BiWeeks": false,
+                "last4Quarters": false,
+                "last4Weeks": false,
+                "last52Weeks": false,
+                "last5FinancialYears": false,
+                "last5Years": false,
+                "last60Days": false,
+                "last6BiMonths": false,
+                "last6Months": false,
+                "last7Days": false,
+                "last90Days": false,
+                "lastBiWeek": false,
+                "lastBimonth": false,
+                "lastFinancialYear": false,
+                "lastMonth": false,
+                "lastQuarter": false,
+                "lastSixMonth": false,
+                "lastWeek": false,
+                "lastYear": false,
+                "monthsLastYear": false,
+                "monthsThisYear": false,
+                "quartersLastYear": false,
+                "quartersThisYear": false,
+                "thisBiWeek": false,
+                "thisBimonth": false,
+                "thisDay": false,
+                "thisFinancialYear": false,
+                "thisMonth": false,
+                "thisQuarter": false,
+                "thisSixMonth": false,
+                "thisWeek": false,
+                "thisYear": false,
+                "weeksThisYear": true,
+                "yesterday": false
+            },
+            "reportingParams": {
+                "grandParentOrganisationUnit": false,
+                "organisationUnit": false,
+                "parentOrganisationUnit": false,
+                "reportingPeriod": false
+            },
+            "rowDimensions": [
+                "pe"
+            ],
+            "rowSubTotals": false,
+            "rowTotals": false,
+            "rows": [
+                {
+                    "id": "pe"
+                }
+            ],
+            "series": [],
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "--------",
+                "userGroups": {
+                    "UGcRfaBepHK": {
+                        "access": "r-rw----",
+                        "id": "UGcRfaBepHK"
+                    },
+                    "WpOwDMRwNou": {
+                        "access": "r-r-----",
+                        "id": "WpOwDMRwNou"
+                    },
+                    "gtWIFdrPj74": {
+                        "access": "rw------",
+                        "id": "gtWIFdrPj74"
+                    }
+                },
+                "users": {}
+            },
+            "showData": true,
+            "showDimensionLabels": false,
+            "showHierarchy": false,
+            "skipRounding": false,
+            "sortOrder": 0,
+            "subscribed": false,
+            "subscribers": [],
+            "subtitle": "this year and last 5 years",
+            "title": "Deaths by year",
+            "topLimit": 0,
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "RMS - Úmrtí podle roku"
+                }
+            ],
+            "type": "YEAR_OVER_YEAR_LINE",
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "id": "gtWIFdrPj74",
+                    "userGroupUid": "gtWIFdrPj74"
+                },
+                {
+                    "access": "r-rw----",
+                    "id": "UGcRfaBepHK",
+                    "userGroupUid": "UGcRfaBepHK"
+                },
+                {
+                    "access": "r-r-----",
+                    "id": "WpOwDMRwNou",
+                    "userGroupUid": "WpOwDMRwNou"
+                }
+            ],
+            "userOrganisationUnit": true,
+            "userOrganisationUnitChildren": false,
+            "userOrganisationUnitGrandChildren": false,
+            "yearlySeries": [
+                "LAST_5_YEARS",
+                "THIS_YEAR"
+            ]
+        }
+    ]
+}
