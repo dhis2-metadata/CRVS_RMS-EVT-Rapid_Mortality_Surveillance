@@ -1,5 +1,9 @@
 # Rapid Mortality Surveillance Events
 
+## Release Note
+
+[Release Note](#crvs-rmse-release-note)
+
 ## Design
 
 [Version 1.0.0](#crvs-rmse-design)
@@ -7,10 +11,6 @@
 ## Installation
 
 [Installation Guide](#crvs-rmse-installation)
-
-## Release Note
-
-[Release Note](#crvs-rmse-release-note)
 
 ## Metadata Reference
 
