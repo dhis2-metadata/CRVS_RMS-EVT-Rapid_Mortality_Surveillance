@@ -1,5 +1,5 @@
 # RMS - Rapid Mortality Surveillance System Design { #rms-event-design }
-## 1. Introduction
+## Introduction
 
 While the number of COVID-19 deaths is a key indicator for measuring the impact of the pandemic across the world, this metric is not easy to collect in all contexts. Rapid mortality surveillance (RMS) is a system for generating daily or weekly counts of deaths mortality by age, sex, date of death, place of death, and place of usual residence (WHO, 2020). Combined with pre-pandemic data on mortality, RMS enables countries to calculate excess deaths during an epidemic, defined as the degree to which currently measured mortality exceeds historically established levels.
 
@@ -7,9 +7,9 @@ The purpose of this package is to provide practical guidance and a core set of m
 
 Reporting of total mortality from facilities, communities and midolegal personnel (as appropriate to country context) with basic data such as age, sex, date of death, place of death and place of residence enables a more complete picture of impact, particularly for deaths that may occur in the home/the community or may be indirectly linked to COVID-19. In addition, analyses of year-over year trends pre- and post-epidemic can reveal indirect impact related to disruptions in access to health services and products. 
 
-## 2. System Design Overview
+## System Design Overview
 
-### 2.1 Use case summary
+### Use case summary
 
 According to the WHO's technical package, RMS requires 1) a source of rapidly and routinely reported deaths by age, sex and location; and 2) some means to establish a baseline of pre-epidemic mortality levels by age and sex against which to compare the current reports. The metadata package corresponds to these components with an event program for line-listed data collection of deaths optimized for facility and community reporting; and a reference dashboard that enables year-over-year trend analysis to examine excess deaths compared to pre-pandemic levels. 
 
@@ -17,7 +17,7 @@ Unlike cause-based mortality surveillance systems and death certification system
 
 For cause-based mortality surveillance, please reference the [DHIS2 Cause of Death metadata package](#cod-design) designed to support the WHO recommended medical certification of cause of death and International Classification of Disease (ICD) standards.
 
-### 2.2 Intended users
+### Intended users
 
 The package is designed with the following end users in mind:
 
@@ -27,7 +27,7 @@ The package is designed with the following end users in mind:
 3. Medicolegal personnel (i.e. coroners, medical examiners) in countries where a high proportion of deaths are captured by these workers
 4. Epidemic response teams, national COVID-19 task forces, and policy makers responsible for analyzing the data and directing epidemic response measures
 
-### 2.3 Data flow
+### Data flow
 
 RMS seeks to pull data from multiple reporting sources to gather a complete picture of total mortality. 
 
